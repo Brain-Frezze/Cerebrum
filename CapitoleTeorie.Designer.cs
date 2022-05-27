@@ -91,9 +91,9 @@
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Gabriola", 12F);
-            this.button2.Location = new System.Drawing.Point(13, 505);
+            this.button2.Location = new System.Drawing.Point(13, 369);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(227, 72);
+            this.button2.Size = new System.Drawing.Size(471, 112);
             this.button2.TabIndex = 4;
             this.button2.Text = "         Celula şi ţesuturile";
             this.button2.UseVisualStyleBackColor = true;
