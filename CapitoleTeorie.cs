@@ -31,6 +31,8 @@ namespace Cerebrum
         private void button1_Click(object sender, EventArgs e)
         {
             loadform(new Topografie());
+            loadform(new Topografie());
+            loadform(new Topografie());
         }
 
         private void button2_Click(object sender, EventArgs e)
