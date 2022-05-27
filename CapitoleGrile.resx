@@ -1779,7 +1779,7 @@
   <data name="button5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAnYAAAC6CAYAAAAj4QAfAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vgAADr4B6kKxwAAA/7JJREFUeF7svQdgFEeat3/fd9//7rvwXdzbu9vsXa/XEZNBOZCzjb3eeBvu1nG9
+        vAAADrwBlbxySQAA/7JJREFUeF7svQdgFEeat3/fd9//7rvwXdzbu9vsXa/XEZNBOZCzjb3eeBvu1nG9
         6xywjQM2BpEkcs6ghJCEUE6Tk0RwzhgbG2MMmAzK7//3VnXN1LR6RgGJYKvth+6uro4z0/3ora6qv+gb
         Lt5ARP8L/CX4/9ra2v6awfT/ZdraDvyNDtHBv1Xo83L5e1hv1//HyOn92EYIfTv6unL9Q3+nIDr89/q8
         SlPpatqMeR0rrPcXOo7Q8vBj7Q7m89cx5+Hr1RmI3virSFjl7wz6cXXlWBSdPZZI+9DTdTqTJxJdWVf/
@@ -3183,7 +3183,7 @@
   <data name="button3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAnYAAAC6CAYAAAAj4QAfAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vgAADr4B6kKxwAAA/7JJREFUeF7svQdgFEeat3/fd9//7rvwXdzbu9vsXa/XEZNBOZCzjb3eeBvu1nG9
+        vAAADrwBlbxySQAA/7JJREFUeF7svQdgFEeat3/fd9//7rvwXdzbu9vsXa/XEZNBOZCzjb3eeBvu1nG9
         6xywjQM2BpEkcs6ghJCEUE6Tk0RwzhgbG2MMmAzK7//3VnXN1LR6RgGJYKvth+6uro4z0/3ora6qv+gb
         Lt5ARP8L/CX4/9ra2v6awfT/ZdraDvyNDtHBv1Xo83L5e1hv1//HyOn92EYIfTv6unL9Q3+nIDr89/q8
         SlPpatqMeR0rrPcXOo7Q8vBj7Q7m89cx5+Hr1RmI3virSFjl7wz6cXXlWBSdPZZI+9DTdTqTJxJdWVf/
@@ -4587,7 +4587,7 @@
   <data name="button2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAnYAAAC6CAYAAAAj4QAfAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vgAADr4B6kKxwAAA/7JJREFUeF7svQdgFEeat3/fd9//7rvwXdzbu9vsXa/XEZNBOZCzjb3eeBvu1nG9
+        vAAADrwBlbxySQAA/7JJREFUeF7svQdgFEeat3/fd9//7rvwXdzbu9vsXa/XEZNBOZCzjb3eeBvu1nG9
         6xywjQM2BpEkcs6ghJCEUE6Tk0RwzhgbG2MMmAzK7//3VnXN1LR6RgGJYKvth+6uro4z0/3ora6qv+gb
         Lt5ARP8L/CX4/9ra2v6awfT/ZdraDvyNDtHBv1Xo83L5e1hv1//HyOn92EYIfTv6unL9Q3+nIDr89/q8
         SlPpatqMeR0rrPcXOo7Q8vBj7Q7m89cx5+Hr1RmI3virSFjl7wz6cXXlWBSdPZZI+9DTdTqTJxJdWVf/
@@ -5991,7 +5991,7 @@
   <data name="button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAnYAAAC6CAYAAAAj4QAfAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vgAADr4B6kKxwAAA/7JJREFUeF7svQdgFEeat3/fd9//7rvwXdzbu9vsXa/XEZNBOZCzjb3eeBvu1nG9
+        vAAADrwBlbxySQAA/7JJREFUeF7svQdgFEeat3/fd9//7rvwXdzbu9vsXa/XEZNBOZCzjb3eeBvu1nG9
         6xywjQM2BpEkcs6ghJCEUE6Tk0RwzhgbG2MMmAzK7//3VnXN1LR6RgGJYKvth+6uro4z0/3ora6qv+gb
         Lt5ARP8L/CX4/9ra2v6awfT/ZdraDvyNDtHBv1Xo83L5e1hv1//HyOn92EYIfTv6unL9Q3+nIDr89/q8
         SlPpatqMeR0rrPcXOo7Q8vBj7Q7m89cx5+Hr1RmI3virSFjl7wz6cXXlWBSdPZZI+9DTdTqTJxJdWVf/
@@ -9309,6 +9309,9 @@
   </data>
   <metadata name="timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>62</value>
   </metadata>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
