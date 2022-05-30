@@ -17,12 +17,9 @@ namespace Cerebrum
             InitializeComponent();
 
         }
-        internal int nr = 0;
-        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
-        {
+        public int inr = 0;
 
-
-        }
+        
         private void label3_Click(object sender, EventArgs e)
         {
 
@@ -43,12 +40,12 @@ namespace Cerebrum
             if ((index == answer) && ok == false)
             {
                 ok = true;
-                nr+=10;
+                inr+=10;
             }
             else
                 if (index != answer && ok == true)
             {
-                nr-=10;
+                inr-=10;
                 ok = false;
             }
         }
@@ -68,12 +65,12 @@ namespace Cerebrum
             if ((index == answer) && ok == false)
             {
                 ok = true;
-                nr+=10;
+                inr+=10;
             }
             else
                 if (index != answer && ok == true)
             {
-                nr-=10;
+                inr-=10;
                 ok = false;
             }
         }
@@ -95,12 +92,12 @@ namespace Cerebrum
             if ((index == answer) && ok == false)
             {
                 ok = true;
-                nr+=10;
+                inr+=10;
             }
             else
                 if (index != answer && ok == true)
             {
-                nr-=10;
+                inr-=10;
                 ok = false;
             }
         }
@@ -121,12 +118,12 @@ namespace Cerebrum
             if ((index == answer) && ok == false)
             {
                 ok = true;
-                nr+=10;
+                inr+=10;
             }
             else
                 if (index != answer && ok == true)
             {
-                nr-=10;
+                inr-=10;
                 ok = false;
             }
         }
@@ -147,12 +144,12 @@ namespace Cerebrum
             if ((index == answer) && ok == false)
             {
                 ok = true;
-                nr+=10;
+                inr+=10;
             }
             else
                 if (index != answer && ok == true)
             {
-                nr-=10;
+                inr-=10;
                 ok = false;
             }
         }
@@ -173,12 +170,12 @@ namespace Cerebrum
             if ((index == answer) && ok == false)
             {
                 ok = true;
-                nr+=10;
+                inr+=10;
             }
             else
                 if (index != answer && ok == true)
             {
-                nr-=10;
+                inr-=10;
                 ok = false;
             }
         }
@@ -198,12 +195,12 @@ namespace Cerebrum
             if ((index == answer) && ok == false)
             {
                 ok = true;
-                nr+=10;
+                inr+=10;
             }
             else
                 if (index != answer && ok == true)
             {
-                nr-=10;
+                inr-=10;
                 ok = false;
             }
         }
@@ -223,12 +220,12 @@ namespace Cerebrum
             if ((index == answer) && ok == false)
             {
                 ok = true;
-                nr+=10;
+                inr+=10;
             }
             else
                 if (index != answer && ok == true)
             {
-                nr-=10;
+                inr-=10;
                 ok = false;
             }
         }
@@ -248,12 +245,12 @@ namespace Cerebrum
             if ((index == answer) && ok == false)
             {
                 ok = true;
-                nr+=10;
+                inr+=10;
             }
             else
                 if (index != answer && ok == true)
             {
-                nr-=10;
+                inr-=10;
                 ok = false;
             }
         }
@@ -273,18 +270,22 @@ namespace Cerebrum
             if ((index == answer) && ok == false)
             {
                 ok = true;
-                nr+=10;
+                inr+=10;
             }
             else
                 if (index != answer && ok == true)
             {
-                nr-=10;
+                inr-=10;
                 ok = false;
             }
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(nr.ToString(),"Punctajul obţinut:",MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            //MessageBox.Show(nr.ToString(),"Punctajul obţinut:",MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            Rezultate form = new Rezultate();
+            string snr = Convert.ToString(inr);
+            form.rez = snr;
+            form.ShowDialog();
         }
         private void label8_Click(object sender, EventArgs e)
         {
