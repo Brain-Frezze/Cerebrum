@@ -157,7 +157,7 @@ namespace Cerebrum
         private void checkedListBox6_SelectedIndexChanged(object sender, EventArgs e)
         {
             int answer = 1;
-            bool ok = false;
+            bool ok = 
             int index = checkedListBox6.SelectedIndex;
             int count = checkedListBox6.Items.Count;
             for (int i = 0; i < count; i++)
