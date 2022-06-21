@@ -28,15 +28,18 @@ namespace Cerebrum
         {
             if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "" || textBox4.Text == "" )
             {
-                MessageBox.Show("Nu au fost completate toate câmpurile!", "Creare cont eşuată!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Incomplet log = new Incomplet();
+                log.Show();
             }
             else if (checkBox2.Checked == false)
             {
-                MessageBox.Show("Trebuie să acceptaţi termenii şi condiţiile!", "Creare cont eşuată!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                TermANDCond log = new TermANDCond();
+                log.Show();
             }
             else if (textBox2.Text != textBox3.Text)
             {
-                MessageBox.Show("Parolele nu corespund!", "Înregistrare eşuată!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Parole log = new Parole();
+                log.Show();
                 textBox2.Text = "";
                 textBox3.Text = "";
                 textBox2.Focus();
@@ -54,7 +57,10 @@ namespace Cerebrum
                         exist = (int)cmd.ExecuteScalar() > 0;
                     }
                     if (exist == true)
-                        MessageBox.Show("Acest nume de utilizator a fost deja folosit!", "Înregistrare eşuată!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    {
+                        Folosit log = new Folosit();
+                        log.Show();
+                    }
                     else
                     {
                         using (OleDbCommand cmd = new OleDbCommand("INSERT INTO Utilizator VALUES (@Nume, @Parola, @Email)", con))
@@ -64,10 +70,11 @@ namespace Cerebrum
                         cmd.Parameters.AddWithValue("Email", textBox4.Text);
                         cmd.ExecuteNonQuery();
                         }
-                        MessageBox.Show("Contul dumneavoastră tocmai a fost creat!", "Cont creat!", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         Login log = new Login();
                         this.Hide();
                         log.Show();
+                        Creat c = new Creat();
+                        c.Show();
                     }
                 con.Close();
                 }

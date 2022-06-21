@@ -45,7 +45,8 @@ namespace Cerebrum
                 }
                 else
                 {
-                    MessageBox.Show("Nume de utilizator sau parolă greşită!", "Cont inexistent!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    ContInexistent log = new ContInexistent();
+                    log.Show();
                 }
                 con.Close();
             }

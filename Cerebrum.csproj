@@ -189,6 +189,12 @@
     <Compile Include="Circulaţia.Designer.cs">
       <DependentUpon>Circulaţia.cs</DependentUpon>
     </Compile>
+    <Compile Include="ContInexistent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContInexistent.Designer.cs">
+      <DependentUpon>ContInexistent.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConturiDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -206,11 +212,23 @@
     <Compile Include="CapitoleGrile.Designer.cs">
       <DependentUpon>CapitoleGrile.cs</DependentUpon>
     </Compile>
+    <Compile Include="Creat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Creat.Designer.cs">
+      <DependentUpon>Creat.cs</DependentUpon>
+    </Compile>
     <Compile Include="Digestia şi Excreţia.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Digestia şi Excreţia.Designer.cs">
       <DependentUpon>Digestia şi Excreţia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Folosit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Folosit.Designer.cs">
+      <DependentUpon>Folosit.cs</DependentUpon>
     </Compile>
     <Compile Include="Funcţia de nutriţie.cs">
       <SubType>Form</SubType>
@@ -236,6 +254,12 @@
     <Compile Include="Grile funcţia de relaţie.Designer.cs">
       <DependentUpon>Grile funcţia de relaţie.cs</DependentUpon>
     </Compile>
+    <Compile Include="Incomplet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Incomplet.Designer.cs">
+      <DependentUpon>Incomplet.cs</DependentUpon>
+    </Compile>
     <Compile Include="Metabolismul.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -247,6 +271,12 @@
     </Compile>
     <Compile Include="Mişcarea.Designer.cs">
       <DependentUpon>Mişcarea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parole.Designer.cs">
+      <DependentUpon>Parole.cs</DependentUpon>
     </Compile>
     <Compile Include="Reproducerea.cs">
       <SubType>Form</SubType>
@@ -271,6 +301,12 @@
     </Compile>
     <Compile Include="Sistem nervos.Designer.cs">
       <DependentUpon>Sistem nervos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TermANDCond.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TermANDCond.Designer.cs">
+      <DependentUpon>TermANDCond.cs</DependentUpon>
     </Compile>
     <Compile Include="Termenii şi condiţiile.cs">
       <SubType>Form</SubType>
@@ -337,11 +373,20 @@
     <EmbeddedResource Include="Circulaţia.resx">
       <DependentUpon>Circulaţia.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ContInexistent.resx">
+      <DependentUpon>ContInexistent.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CreareCont.resx">
       <DependentUpon>CreareCont.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Creat.resx">
+      <DependentUpon>Creat.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Digestia şi Excreţia.resx">
       <DependentUpon>Digestia şi Excreţia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Folosit.resx">
+      <DependentUpon>Folosit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Funcţia de nutriţie.resx">
       <DependentUpon>Funcţia de nutriţie.cs</DependentUpon>
@@ -358,11 +403,17 @@
     <EmbeddedResource Include="Grile.resx">
       <DependentUpon>Grile.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Incomplet.resx">
+      <DependentUpon>Incomplet.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Metabolismul.resx">
       <DependentUpon>Metabolismul.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Mişcarea.resx">
       <DependentUpon>Mişcarea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parole.resx">
+      <DependentUpon>Parole.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reproducerea.resx">
       <DependentUpon>Reproducerea.cs</DependentUpon>
@@ -399,6 +450,9 @@
     </Compile>
     <EmbeddedResource Include="StartView.resx">
       <DependentUpon>StartView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TermANDCond.resx">
+      <DependentUpon>TermANDCond.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Termenii şi condiţiile.resx">
       <DependentUpon>Termenii şi condiţiile.cs</DependentUpon>
