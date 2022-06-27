@@ -224,6 +224,12 @@
     <Compile Include="Incomplet.Designer.cs">
       <DependentUpon>Incomplet.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mecanisme generale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mecanisme generale.Designer.cs">
+      <DependentUpon>Mecanisme generale.cs</DependentUpon>
+    </Compile>
     <Compile Include="Parole.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -327,6 +333,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Incomplet.resx">
       <DependentUpon>Incomplet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mecanisme generale.resx">
+      <DependentUpon>Mecanisme generale.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Parole.resx">
       <DependentUpon>Parole.cs</DependentUpon>

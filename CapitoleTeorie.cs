@@ -41,6 +41,7 @@ namespace Cerebrum
         }
         private void button1_Click(object sender, EventArgs e)
         {
+            loadform(new Mecanisme_generale());
             loadform2(new Subcap_Notiuni_Generale());
         }
 
