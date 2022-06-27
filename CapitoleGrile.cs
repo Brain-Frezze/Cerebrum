@@ -46,7 +46,7 @@ namespace Cerebrum
 
         private void button3_Click(object sender, EventArgs e)
         {
-            loadform(new Funcţia_de_nutriţie());
+
         }
 
         private void button4_Click(object sender, EventArgs e)

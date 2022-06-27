@@ -165,29 +165,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Analizatori.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Analizatori.Designer.cs">
-      <DependentUpon>Analizatori.cs</DependentUpon>
-    </Compile>
     <Compile Include="CapitoleTeorie.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CapitoleTeorie.Designer.cs">
       <DependentUpon>CapitoleTeorie.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Celula şi ţesuturi.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Celula şi ţesuturi.Designer.cs">
-      <DependentUpon>Celula şi ţesuturi.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Circulaţia.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Circulaţia.Designer.cs">
-      <DependentUpon>Circulaţia.cs</DependentUpon>
     </Compile>
     <Compile Include="ContInexistent.cs">
       <SubType>Form</SubType>
@@ -218,29 +200,11 @@
     <Compile Include="Creat.Designer.cs">
       <DependentUpon>Creat.cs</DependentUpon>
     </Compile>
-    <Compile Include="Digestia şi Excreţia.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Digestia şi Excreţia.Designer.cs">
-      <DependentUpon>Digestia şi Excreţia.cs</DependentUpon>
-    </Compile>
     <Compile Include="Folosit.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Folosit.Designer.cs">
       <DependentUpon>Folosit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Funcţia de nutriţie.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Funcţia de nutriţie.Designer.cs">
-      <DependentUpon>Funcţia de nutriţie.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Glande endocrine.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Glande endocrine.Designer.cs">
-      <DependentUpon>Glande endocrine.cs</DependentUpon>
     </Compile>
     <Compile Include="Grile celula şi ţesuturi.cs">
       <SubType>Form</SubType>
@@ -260,35 +224,11 @@
     <Compile Include="Incomplet.Designer.cs">
       <DependentUpon>Incomplet.cs</DependentUpon>
     </Compile>
-    <Compile Include="Metabolismul.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Metabolismul.Designer.cs">
-      <DependentUpon>Metabolismul.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mişcarea.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mişcarea.Designer.cs">
-      <DependentUpon>Mişcarea.cs</DependentUpon>
-    </Compile>
     <Compile Include="Parole.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Parole.Designer.cs">
       <DependentUpon>Parole.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Reproducerea.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Reproducerea.Designer.cs">
-      <DependentUpon>Reproducerea.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Respiraţia.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Respiraţia.Designer.cs">
-      <DependentUpon>Respiraţia.cs</DependentUpon>
     </Compile>
     <Compile Include="Rezultate.cs">
       <SubType>Form</SubType>
@@ -301,6 +241,12 @@
     </Compile>
     <Compile Include="Sistem nervos.Designer.cs">
       <DependentUpon>Sistem nervos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Subcap Notiuni Generale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Subcap Notiuni Generale.Designer.cs">
+      <DependentUpon>Subcap Notiuni Generale.cs</DependentUpon>
     </Compile>
     <Compile Include="TermANDCond.cs">
       <SubType>Form</SubType>
@@ -319,12 +265,6 @@
     </Compile>
     <Compile Include="Test general.Designer.cs">
       <DependentUpon>Test general.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Topografie.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Topografie.Designer.cs">
-      <DependentUpon>Topografie.cs</DependentUpon>
     </Compile>
     <Compile Include="Grile.cs">
       <SubType>Form</SubType>
@@ -358,20 +298,11 @@
     <Compile Include="StartView.Designer.cs">
       <DependentUpon>StartView.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Analizatori.resx">
-      <DependentUpon>Analizatori.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="CapitoleGrile.resx">
       <DependentUpon>CapitoleGrile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CapitoleTeorie.resx">
       <DependentUpon>CapitoleTeorie.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Celula şi ţesuturi.resx">
-      <DependentUpon>Celula şi ţesuturi.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Circulaţia.resx">
-      <DependentUpon>Circulaţia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ContInexistent.resx">
       <DependentUpon>ContInexistent.cs</DependentUpon>
@@ -382,17 +313,8 @@
     <EmbeddedResource Include="Creat.resx">
       <DependentUpon>Creat.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Digestia şi Excreţia.resx">
-      <DependentUpon>Digestia şi Excreţia.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Folosit.resx">
       <DependentUpon>Folosit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Funcţia de nutriţie.resx">
-      <DependentUpon>Funcţia de nutriţie.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Glande endocrine.resx">
-      <DependentUpon>Glande endocrine.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Grile celula şi ţesuturi.resx">
       <DependentUpon>Grile celula şi ţesuturi.cs</DependentUpon>
@@ -406,26 +328,17 @@
     <EmbeddedResource Include="Incomplet.resx">
       <DependentUpon>Incomplet.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Metabolismul.resx">
-      <DependentUpon>Metabolismul.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mişcarea.resx">
-      <DependentUpon>Mişcarea.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Parole.resx">
       <DependentUpon>Parole.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Reproducerea.resx">
-      <DependentUpon>Reproducerea.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Respiraţia.resx">
-      <DependentUpon>Respiraţia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Rezultate.resx">
       <DependentUpon>Rezultate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sistem nervos.resx">
       <DependentUpon>Sistem nervos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subcap Notiuni Generale.resx">
+      <DependentUpon>Subcap Notiuni Generale.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Teorie.resx">
       <DependentUpon>Teorie.cs</DependentUpon>
@@ -459,9 +372,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Test general.resx">
       <DependentUpon>Test general.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Topografie.resx">
-      <DependentUpon>Topografie.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="ConturiDataSet.xsc">
       <DependentUpon>ConturiDataSet.xsd</DependentUpon>
