@@ -236,23 +236,23 @@
     <Compile Include="Parole.Designer.cs">
       <DependentUpon>Parole.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reflexul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reflexul.Designer.cs">
+      <DependentUpon>Reflexul.cs</DependentUpon>
+    </Compile>
     <Compile Include="Rezultate.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Rezultate.Designer.cs">
       <DependentUpon>Rezultate.cs</DependentUpon>
     </Compile>
-    <Compile Include="Sistem nervos.cs">
+    <Compile Include="subcapitole notiuni generale.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Sistem nervos.Designer.cs">
-      <DependentUpon>Sistem nervos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Subcap Notiuni Generale.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Subcap Notiuni Generale.Designer.cs">
-      <DependentUpon>Subcap Notiuni Generale.cs</DependentUpon>
+    <Compile Include="subcapitole notiuni generale.Designer.cs">
+      <DependentUpon>subcapitole notiuni generale.cs</DependentUpon>
     </Compile>
     <Compile Include="TermANDCond.cs">
       <SubType>Form</SubType>
@@ -340,14 +340,14 @@
     <EmbeddedResource Include="Parole.resx">
       <DependentUpon>Parole.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reflexul.resx">
+      <DependentUpon>Reflexul.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Rezultate.resx">
       <DependentUpon>Rezultate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sistem nervos.resx">
-      <DependentUpon>Sistem nervos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Subcap Notiuni Generale.resx">
-      <DependentUpon>Subcap Notiuni Generale.cs</DependentUpon>
+    <EmbeddedResource Include="subcapitole notiuni generale.resx">
+      <DependentUpon>subcapitole notiuni generale.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Teorie.resx">
       <DependentUpon>Teorie.cs</DependentUpon>

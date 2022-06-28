@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Mecanisme_generale));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,8 +41,18 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Location = new System.Drawing.Point(0, -1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1392, 1348);
+            this.panel1.Size = new System.Drawing.Size(1398, 1395);
             this.panel1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 20F);
+            this.label1.Location = new System.Drawing.Point(40, 151);
+            this.label1.Margin = new System.Windows.Forms.Padding(0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(1358, 1234);
+            this.label1.TabIndex = 6;
+            this.label1.Text = resources.GetString("label1.Text");
             // 
             // label2
             // 
@@ -56,15 +66,6 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Mecanisme generale";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label1
-            // 
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 20F);
-            this.label1.Location = new System.Drawing.Point(42, 151);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1340, 944);
-            this.label1.TabIndex = 6;
-            this.label1.Text = resources.GetString("label1.Text");
             // 
             // Mecanisme_generale
             // 

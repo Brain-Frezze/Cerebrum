@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Cerebrum
 {
-    public partial class Subcap_Notiuni_Generale : Form
+    public partial class Reflexul : Form
     {
-        public Subcap_Notiuni_Generale()
+        public Reflexul()
         {
             InitializeComponent();
         }
