@@ -44,6 +44,11 @@ namespace Cerebrum
                 textBox3.Text = "";
                 textBox2.Focus();
             }
+            else if (textBox4.Text.IndexOf("@gmail.com") == -1 && textBox4.Text.IndexOf("@email.com") == -1)
+            {
+                Email log = new Email();
+                log.Show();
+            }
             else if(checkBox2.Checked)
             {
 
