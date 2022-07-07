@@ -30,6 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reflexul));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -48,26 +60,16 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label28);
             this.panel1.Controls.Add(this.label27);
             this.panel1.Controls.Add(this.label23);
             this.panel1.Controls.Add(this.panel4);
@@ -90,8 +92,120 @@
             this.panel1.Font = new System.Drawing.Font("Times New Roman", 20F);
             this.panel1.Location = new System.Drawing.Point(12, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1379, 4851);
+            this.panel1.Size = new System.Drawing.Size(1379, 5040);
             this.panel1.TabIndex = 0;
+            // 
+            // label27
+            // 
+            this.label27.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold);
+            this.label27.Location = new System.Drawing.Point(-3, 4601);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(285, 41);
+            this.label27.TabIndex = 28;
+            this.label27.Text = "         Efectorii: \r\n";
+            // 
+            // label23
+            // 
+            this.label23.Location = new System.Drawing.Point(-3, 4498);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(1379, 86);
+            this.label23.TabIndex = 27;
+            this.label23.Text = "         De-a lungul căilor eferente, informația circulă spre efectori din nou pr" +
+    "in modulație în frecvență. ";
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.panel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel4.BackgroundImage")));
+            this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel4.Controls.Add(this.label26);
+            this.panel4.Controls.Add(this.label25);
+            this.panel4.Controls.Add(this.label24);
+            this.panel4.Location = new System.Drawing.Point(788, 4082);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(585, 402);
+            this.panel4.TabIndex = 26;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Times New Roman", 16F);
+            this.label26.Location = new System.Drawing.Point(33, 253);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(106, 31);
+            this.label26.TabIndex = 29;
+            this.label26.Text = "Răspuns";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Times New Roman", 16F);
+            this.label25.Location = new System.Drawing.Point(18, 54);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(86, 31);
+            this.label25.TabIndex = 28;
+            this.label25.Text = "Stimul";
+            // 
+            // label24
+            // 
+            this.label24.Location = new System.Drawing.Point(338, 262);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(228, 101);
+            this.label24.TabIndex = 0;
+            this.label24.Text = "Reflex monosinaptic";
+            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label22
+            // 
+            this.label22.Location = new System.Drawing.Point(0, 4071);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(770, 445);
+            this.label22.TabIndex = 25;
+            this.label22.Text = resources.GetString("label22.Text");
+            this.label22.Click += new System.EventHandler(this.label22_Click);
+            // 
+            // label21
+            // 
+            this.label21.Location = new System.Drawing.Point(-3, 3993);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(1399, 87);
+            this.label21.TabIndex = 24;
+            this.label21.Text = "         Reprezintă axonii neuronilor motori somatici şi vegetativi prin care se " +
+    "transmite comanda către organul efector. ";
+            // 
+            // label20
+            // 
+            this.label20.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold);
+            this.label20.Location = new System.Drawing.Point(-3, 3951);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(539, 41);
+            this.label20.TabIndex = 23;
+            this.label20.Text = "         Calea eferentă: \r\n";
+            // 
+            // label19
+            // 
+            this.label19.Location = new System.Drawing.Point(-3, 3293);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(1379, 742);
+            this.label19.TabIndex = 22;
+            this.label19.Text = resources.GetString("label19.Text");
+            // 
+            // label18
+            // 
+            this.label18.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold);
+            this.label18.Location = new System.Drawing.Point(-3, 3252);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(539, 41);
+            this.label18.TabIndex = 15;
+            this.label18.Text = "         Centrii nervoşi: \r\n";
+            // 
+            // label17
+            // 
+            this.label17.Location = new System.Drawing.Point(0, 2618);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(1379, 624);
+            this.label17.TabIndex = 21;
+            this.label17.Text = resources.GetString("label17.Text");
             // 
             // label16
             // 
@@ -276,117 +390,13 @@
             this.label2.Text = "Reflexul";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label17
+            // label28
             // 
-            this.label17.Location = new System.Drawing.Point(0, 2618);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(1379, 574);
-            this.label17.TabIndex = 21;
-            this.label17.Text = resources.GetString("label17.Text");
-            // 
-            // label18
-            // 
-            this.label18.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold);
-            this.label18.Location = new System.Drawing.Point(0, 3206);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(539, 41);
-            this.label18.TabIndex = 15;
-            this.label18.Text = "         Centrii nervoşi: \r\n";
-            // 
-            // label19
-            // 
-            this.label19.Location = new System.Drawing.Point(0, 3247);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(1379, 742);
-            this.label19.TabIndex = 22;
-            this.label19.Text = resources.GetString("label19.Text");
-            // 
-            // label20
-            // 
-            this.label20.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold);
-            this.label20.Location = new System.Drawing.Point(0, 3999);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(539, 41);
-            this.label20.TabIndex = 23;
-            this.label20.Text = "         Calea eferentă: \r\n";
-            // 
-            // label21
-            // 
-            this.label21.Location = new System.Drawing.Point(0, 4041);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(1399, 87);
-            this.label21.TabIndex = 24;
-            this.label21.Text = "         Reprezintă axonii neuronilor motori somatici şi vegetativi prin care se " +
-    "transmite comanda către organul efector. ";
-            // 
-            // label22
-            // 
-            this.label22.Location = new System.Drawing.Point(3, 4119);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(770, 445);
-            this.label22.TabIndex = 25;
-            this.label22.Text = resources.GetString("label22.Text");
-            this.label22.Click += new System.EventHandler(this.label22_Click);
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.panel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel4.BackgroundImage")));
-            this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel4.Controls.Add(this.label26);
-            this.panel4.Controls.Add(this.label25);
-            this.panel4.Controls.Add(this.label24);
-            this.panel4.Location = new System.Drawing.Point(791, 4130);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(585, 402);
-            this.panel4.TabIndex = 26;
-            // 
-            // label23
-            // 
-            this.label23.Location = new System.Drawing.Point(0, 4546);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(1379, 86);
-            this.label23.TabIndex = 27;
-            this.label23.Text = "         De-a lungul căilor eferente, informația circulă spre efectori din nou pr" +
-    "in modulație în frecvență. ";
-            // 
-            // label24
-            // 
-            this.label24.Location = new System.Drawing.Point(338, 262);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(228, 101);
-            this.label24.TabIndex = 0;
-            this.label24.Text = "Reflex monosinaptic";
-            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Times New Roman", 16F);
-            this.label25.Location = new System.Drawing.Point(18, 54);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(86, 31);
-            this.label25.TabIndex = 28;
-            this.label25.Text = "Stimul";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Times New Roman", 16F);
-            this.label26.Location = new System.Drawing.Point(33, 253);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(106, 31);
-            this.label26.TabIndex = 29;
-            this.label26.Text = "Răspuns";
-            // 
-            // label27
-            // 
-            this.label27.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold);
-            this.label27.Location = new System.Drawing.Point(0, 4649);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(285, 41);
-            this.label27.TabIndex = 28;
-            this.label27.Text = "         Efectorii: \r\n";
+            this.label28.Location = new System.Drawing.Point(0, 4650);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(1384, 358);
+            this.label28.TabIndex = 29;
+            this.label28.Text = resources.GetString("label28.Text");
             // 
             // Reflexul
             // 
@@ -401,11 +411,11 @@
             this.Text = "Reflexul";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel2.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -443,5 +453,6 @@
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label28;
     }
 }

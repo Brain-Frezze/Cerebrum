@@ -151,7 +151,7 @@
       <HintPath>packages\Bunifu.UI.WinForms.5.3.0\lib\net40\Bunifu.UI.WinForms.Deprecated.dll</HintPath>
     </Reference>
     <Reference Include="System">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll</HintPath>
     </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -170,6 +170,12 @@
     </Compile>
     <Compile Include="CapitoleTeorie.Designer.cs">
       <DependentUpon>CapitoleTeorie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Centrii.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Centrii.Designer.cs">
+      <DependentUpon>Centrii.cs</DependentUpon>
     </Compile>
     <Compile Include="ContInexistent.cs">
       <SubType>Form</SubType>
@@ -205,6 +211,18 @@
     </Compile>
     <Compile Include="Email.designer.cs">
       <DependentUpon>Email.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fiziologia neuronului.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fiziologia neuronului.Designer.cs">
+      <DependentUpon>Fiziologia neuronului.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fiziologia sinapsei.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fiziologia sinapsei.Designer.cs">
+      <DependentUpon>Fiziologia sinapsei.cs</DependentUpon>
     </Compile>
     <Compile Include="Folosit.cs">
       <SubType>Form</SubType>
@@ -260,11 +278,35 @@
     <Compile Include="Rezultate.Designer.cs">
       <DependentUpon>Rezultate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Subcapitole encefal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Subcapitole encefal.Designer.cs">
+      <DependentUpon>Subcapitole encefal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Subcapitole maduva spinarii.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Subcapitole maduva spinarii.Designer.cs">
+      <DependentUpon>Subcapitole maduva spinarii.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Subcapitole nervi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Subcapitole nervi.Designer.cs">
+      <DependentUpon>Subcapitole nervi.cs</DependentUpon>
+    </Compile>
     <Compile Include="subcapitole notiuni generale.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="subcapitole notiuni generale.Designer.cs">
       <DependentUpon>subcapitole notiuni generale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Subcapitole sistemul vegetativ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Subcapitole sistemul vegetativ.Designer.cs">
+      <DependentUpon>Subcapitole sistemul vegetativ.cs</DependentUpon>
     </Compile>
     <Compile Include="TermANDCond.cs">
       <SubType>Form</SubType>
@@ -322,6 +364,9 @@
     <EmbeddedResource Include="CapitoleTeorie.resx">
       <DependentUpon>CapitoleTeorie.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Centrii.resx">
+      <DependentUpon>Centrii.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ContInexistent.resx">
       <DependentUpon>ContInexistent.cs</DependentUpon>
     </EmbeddedResource>
@@ -333,6 +378,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Email.resx">
       <DependentUpon>Email.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fiziologia neuronului.resx">
+      <DependentUpon>Fiziologia neuronului.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fiziologia sinapsei.resx">
+      <DependentUpon>Fiziologia sinapsei.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Folosit.resx">
       <DependentUpon>Folosit.cs</DependentUpon>
@@ -364,8 +415,20 @@
     <EmbeddedResource Include="Rezultate.resx">
       <DependentUpon>Rezultate.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Subcapitole encefal.resx">
+      <DependentUpon>Subcapitole encefal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subcapitole maduva spinarii.resx">
+      <DependentUpon>Subcapitole maduva spinarii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subcapitole nervi.resx">
+      <DependentUpon>Subcapitole nervi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="subcapitole notiuni generale.resx">
       <DependentUpon>subcapitole notiuni generale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subcapitole sistemul vegetativ.resx">
+      <DependentUpon>Subcapitole sistemul vegetativ.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Teorie.resx">
       <DependentUpon>Teorie.cs</DependentUpon>
