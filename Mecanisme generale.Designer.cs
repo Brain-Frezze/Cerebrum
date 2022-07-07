@@ -41,7 +41,7 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Location = new System.Drawing.Point(0, -1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1398, 1395);
+            this.panel1.Size = new System.Drawing.Size(1398, 1536);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -50,7 +50,7 @@
             this.label1.Location = new System.Drawing.Point(40, 151);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1358, 1234);
+            this.label1.Size = new System.Drawing.Size(1358, 1345);
             this.label1.TabIndex = 6;
             this.label1.Text = resources.GetString("label1.Text");
             // 
