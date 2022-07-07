@@ -26,5 +26,10 @@ namespace Cerebrum
         {
             label1.Text = rez;
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
