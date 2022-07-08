@@ -49,7 +49,6 @@ namespace Cerebrum
         {
             loadform(new Subcapitole_sistemul_vegetativ());
         }
-        
         private void button3_Click(object sender, EventArgs e)
         {
             MainMenu log = new MainMenu();

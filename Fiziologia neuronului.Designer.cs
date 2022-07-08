@@ -30,15 +30,15 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Fiziologia_neuronului));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,48 +58,43 @@
             this.panel1.Size = new System.Drawing.Size(1419, 2098);
             this.panel1.TabIndex = 0;
             // 
-            // label2
+            // label8
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Gabriola", 50F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(414, -16);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(630, 155);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Fiziologia neuronului";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label8.Font = new System.Drawing.Font("Times New Roman", 20F);
+            this.label8.Location = new System.Drawing.Point(3, 1428);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(1428, 621);
+            this.label8.TabIndex = 30;
+            this.label8.Text = resources.GetString("label8.Text");
             // 
-            // label1
+            // panel2
             // 
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 20F);
-            this.label1.Location = new System.Drawing.Point(3, 130);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1428, 46);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "         Neuronul are două proprietăți fundamentale: excitabilitatea și conductib" +
-    "ilitatea. ";
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Location = new System.Drawing.Point(673, 967);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(692, 415);
+            this.panel2.TabIndex = 29;
             // 
-            // label4
+            // label7
             // 
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold);
-            this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(3, 187);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(448, 43);
-            this.label4.TabIndex = 24;
-            this.label4.Text = "         Excitabilitatea:";
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 20F);
+            this.label7.Location = new System.Drawing.Point(0, 959);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(624, 477);
+            this.label7.TabIndex = 28;
+            this.label7.Text = resources.GetString("label7.Text");
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
-            // label3
+            // label6
             // 
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 20F);
-            this.label3.Location = new System.Drawing.Point(3, 230);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(1428, 256);
-            this.label3.TabIndex = 25;
-            this.label3.Text = resources.GetString("label3.Text");
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 20F);
+            this.label6.Location = new System.Drawing.Point(3, 529);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(1428, 446);
+            this.label6.TabIndex = 27;
+            this.label6.Text = resources.GetString("label6.Text");
             // 
             // label5
             // 
@@ -112,43 +107,48 @@
             this.label5.TabIndex = 26;
             this.label5.Text = "         Conductibilitatea:";
             // 
-            // label6
+            // label3
             // 
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 20F);
-            this.label6.Location = new System.Drawing.Point(3, 529);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(1428, 446);
-            this.label6.TabIndex = 27;
-            this.label6.Text = resources.GetString("label6.Text");
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 20F);
+            this.label3.Location = new System.Drawing.Point(3, 230);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(1428, 256);
+            this.label3.TabIndex = 25;
+            this.label3.Text = resources.GetString("label3.Text");
             // 
-            // label7
+            // label4
             // 
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 20F);
-            this.label7.Location = new System.Drawing.Point(0, 959);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(624, 477);
-            this.label7.TabIndex = 28;
-            this.label7.Text = resources.GetString("label7.Text");
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold);
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(3, 187);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(448, 43);
+            this.label4.TabIndex = 24;
+            this.label4.Text = "         Excitabilitatea:";
             // 
-            // panel2
+            // label1
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
-            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel2.Location = new System.Drawing.Point(673, 967);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(692, 415);
-            this.panel2.TabIndex = 29;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 20F);
+            this.label1.Location = new System.Drawing.Point(3, 130);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(1428, 46);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "         Neuronul are două proprietăți fundamentale: excitabilitatea și conductib" +
+    "ilitatea. ";
             // 
-            // label8
+            // label2
             // 
-            this.label8.Font = new System.Drawing.Font("Times New Roman", 20F);
-            this.label8.Location = new System.Drawing.Point(3, 1428);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(1428, 621);
-            this.label8.TabIndex = 30;
-            this.label8.Text = resources.GetString("label8.Text");
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Gabriola", 50F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(414, -16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(630, 155);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Fiziologia neuronului";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Fiziologia_neuronului
             // 

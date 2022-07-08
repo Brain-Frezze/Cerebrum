@@ -165,6 +165,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Asezare, rapoarte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Asezare, rapoarte.Designer.cs">
+      <DependentUpon>Asezare, rapoarte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aspectul exterior.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aspectul exterior.Designer.cs">
+      <DependentUpon>Aspectul exterior.cs</DependentUpon>
+    </Compile>
     <Compile Include="CapitoleTeorie.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -212,6 +224,12 @@
     <Compile Include="Email.designer.cs">
       <DependentUpon>Email.cs</DependentUpon>
     </Compile>
+    <Compile Include="Fiziologia maduvei spinarii.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fiziologia maduvei spinarii.Designer.cs">
+      <DependentUpon>Fiziologia maduvei spinarii.cs</DependentUpon>
+    </Compile>
     <Compile Include="Fiziologia neuronului.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -254,6 +272,12 @@
     <Compile Include="Mecanisme generale.Designer.cs">
       <DependentUpon>Mecanisme generale.cs</DependentUpon>
     </Compile>
+    <Compile Include="Meningele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Meningele.Designer.cs">
+      <DependentUpon>Meningele.cs</DependentUpon>
+    </Compile>
     <Compile Include="ParolaUitata.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -277,6 +301,12 @@
     </Compile>
     <Compile Include="Rezultate.Designer.cs">
       <DependentUpon>Rezultate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Structura maduva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Structura maduva.Designer.cs">
+      <DependentUpon>Structura maduva.cs</DependentUpon>
     </Compile>
     <Compile Include="Subcapitole encefal.cs">
       <SubType>Form</SubType>
@@ -358,6 +388,12 @@
     <Compile Include="StartView.Designer.cs">
       <DependentUpon>StartView.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Asezare, rapoarte.resx">
+      <DependentUpon>Asezare, rapoarte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aspectul exterior.resx">
+      <DependentUpon>Aspectul exterior.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CapitoleGrile.resx">
       <DependentUpon>CapitoleGrile.cs</DependentUpon>
     </EmbeddedResource>
@@ -378,6 +414,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Email.resx">
       <DependentUpon>Email.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fiziologia maduvei spinarii.resx">
+      <DependentUpon>Fiziologia maduvei spinarii.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Fiziologia neuronului.resx">
       <DependentUpon>Fiziologia neuronului.cs</DependentUpon>
@@ -403,6 +442,9 @@
     <EmbeddedResource Include="Mecanisme generale.resx">
       <DependentUpon>Mecanisme generale.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Meningele.resx">
+      <DependentUpon>Meningele.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ParolaUitata.resx">
       <DependentUpon>ParolaUitata.cs</DependentUpon>
     </EmbeddedResource>
@@ -414,6 +456,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Rezultate.resx">
       <DependentUpon>Rezultate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Structura maduva.resx">
+      <DependentUpon>Structura maduva.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Subcapitole encefal.resx">
       <DependentUpon>Subcapitole encefal.cs</DependentUpon>
