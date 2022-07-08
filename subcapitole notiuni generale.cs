@@ -47,5 +47,20 @@ namespace Cerebrum
         {
             loadform(new Reflexul());
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            loadform(new Centrii());
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            loadform(new Fiziologia_neuronului());
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            loadform(new Fiziologia_sinapsei());
+        }
     }
 }

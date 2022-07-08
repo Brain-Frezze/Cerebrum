@@ -75,6 +75,7 @@
             this.button7.TabIndex = 10;
             this.button7.Text = "          Nervii";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -92,6 +93,7 @@
             this.button6.TabIndex = 9;
             this.button6.Text = "           Sistemul vegetativ";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button4
             // 

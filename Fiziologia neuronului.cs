@@ -10,24 +10,14 @@ using System.Windows.Forms;
 
 namespace Cerebrum
 {
-    public partial class Reflexul : Form
+    public partial class Fiziologia_neuronului : Form
     {
-        public Reflexul()
+        public Fiziologia_neuronului()
         {
             InitializeComponent();
         }
 
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label22_Click(object sender, EventArgs e)
+        private void label7_Click(object sender, EventArgs e)
         {
 
         }

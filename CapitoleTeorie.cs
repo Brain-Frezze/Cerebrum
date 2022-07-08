@@ -35,11 +35,19 @@ namespace Cerebrum
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+            loadform(new Subcapitole_maduva_spinarii());
         }
         private void button4_Click(object sender, EventArgs e)
         {
-
+            loadform(new Subcapitole_encefal());
+        }
+        private void button7_Click(object sender, EventArgs e)
+        {
+            loadform(new Subcapitole_nervi());
+        }
+        private void button6_Click(object sender, EventArgs e)
+        {
+            loadform(new Subcapitole_sistemul_vegetativ());
         }
         
         private void button3_Click(object sender, EventArgs e)

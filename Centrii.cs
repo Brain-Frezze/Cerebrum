@@ -10,24 +10,19 @@ using System.Windows.Forms;
 
 namespace Cerebrum
 {
-    public partial class Reflexul : Form
+    public partial class Centrii : Form
     {
-        public Reflexul()
+        public Centrii()
         {
             InitializeComponent();
         }
 
-        private void label10_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label22_Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }

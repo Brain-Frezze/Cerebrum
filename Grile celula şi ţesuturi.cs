@@ -19,7 +19,6 @@ namespace Cerebrum
         }
         public int inr = 0;
 
-        
         private void label3_Click(object sender, EventArgs e)
         {
 
@@ -29,6 +28,7 @@ namespace Cerebrum
             int answer = 4;
             bool ok = false;
             int index = checkedListBox1.SelectedIndex;
+            checkedListBox1.BackColor = Color.LightGreen;
             int count = checkedListBox1.Items.Count;
             for (int i = 0; i < count; i++)
             {
