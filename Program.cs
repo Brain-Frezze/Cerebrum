@@ -16,11 +16,7 @@ namespace Cerebrum
         {
             //Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-<<<<<<< HEAD
-            Application.Run(new Grile_celula_şi_ţesuturi());
-=======
             Application.Run(new CapitoleTeorie());
->>>>>>> eb694cdda059be3ccaf0aacbdfb9ff5aa31c8ad1
         }
     }
 
