@@ -118,28 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label2.Text" xml:space="preserve">
-    <value>      Admiterea la Facultatea de Medicină este un moment de cumpănă în viaţa oricărui 
-elev care îşi doreşte să urmeze o carieră medicală, fiind un examen plin de încărcătură 
-emoţională, atât din prisma concurenlei din ce în ce mai crescute, cât datorită dificultăţii 
-sporite a subiectelor atât de biologic, cât de fizică sau chimie. 
-      Aplicaţia de faţă încearcă să aducä în faţa celor care doresc să participe la examenul de 
-admitere al Facultăţii de Medicină o serie de teste grilă, realizate în conformitate cu actuala programă, menite să ajute 
-elevii în înţelegerea fundamentarea noţiunilor învăţate. 
-      Grilele sunt grupate pe capitole pentru a fi uşor de parcurs utilizat, având, la finalul 
-fiecărui capitol, răspunsurile corecte, precum explicaţii detaliate la întrebările cu dificultate 
-crescută. Există şi câteva teste cuprinzând întrebări formulate din toate 
-capitolele, pentu o evaluare generală a cunoştinţelor. Astfel, aplicaţia propune să reprezinte, 
-nu doar o metodă de evaluare, cât mai ales un real ajutor pentru consolidarea noţiunilor de 
-biologie necesare acestui examen. 
-      Ţinem să menţionăm faptul că testele cuprinse în acest volum reprezintă doar modele 
-de teste similare celor de la examenele de admitere. Parcurgerea rezolvarea acestora nu sunt 
-suficiente pentru susţinerea promovarea examenului. </value>
+    <value>      Aplicaţia de faţă încearcă să-ţi aducă în faţa o serie de teste grilă, realizate în conformitate cu actuala programă, menite să te ajute în înţelegerea şi fundamentarea noţiunilor învăţate. 
+      Grilele sunt grupate pe capitole pentru a fi uşor de parcurs, utilizat, având, la finalul fiecărui capitol, răspunsurile corecte, dar şi punctajul obţinut. Există un test ce cuprinde întrebări formulate din toate capitolele, pentu o evaluare generală a cunoştinţelor. Toate testele sunt cronometrate, deci dacă nu apeşi pe clepsidră, răspunsurile nu vor fi înregistrate. Astfel, aplicaţia propune să reprezinte, nu doar o metodă de evaluare, cât mai ales un real ajutor pentru consolidarea noţiunilor de biologie.
+      De asemenea, aplicaţia este foarte utilă pentru tine, mai ales dacă îţi doreşti un viitor în domeniul medical. Admiterea la Facultatea de Medicină este un moment de cumpănă în viaţa ta, fiind un examen plin de încărcătură emoţională, atât din prisma concurenţei din ce în ce mai crescute, cât şi datorită dificultăţii sporite a subiectelor atât de biologie, cât şi de fizică sau chimie. 
+      Ţinem să menţionăm faptul că testele cuprinse în acest volum reprezintă doar modele de teste similare celor de la examenele de admitere. 
+</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAncAAAC4CAYAAACB68oqAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vgAADr4B6kKxwAAA/7JJREFUeF7s/Qd0JEmenwkOl3tDLsldyiOXs9Ryb7kUe7x997j3bu/dW94OyRHd
+        vQAADr0BR/uQrQAA/7JJREFUeF7s/Qd0JEmenwkOl3tDLsldyiOXs9Ryb7kUe7x997j3bu/dW94OyRHd
         pauyUivoADKzRFe1qsqqFtPNFtPTPZxpLUq1KJFaa53IhNZAJjQCCK11xO9+f/OwCIPDIyASmYmshld9
         6ebm5uYy3D+YuZn/xvqwvAHAf4Ue/Cam8RcKQ4X/Dl34q7iFvxHtKvytWGvhb8dvx3+rcDX+PyhuJv5u
         QriV+HuJ24m/n7hdKJFsT/6DZDv+QSl8PfkPFTeT/0jRmvzH89DxHUzTUVjITXA+kbS3k/9E4bS8Rq+v

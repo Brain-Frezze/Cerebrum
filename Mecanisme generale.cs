@@ -16,5 +16,15 @@ namespace Cerebrum
         {
             InitializeComponent();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+        private void panel1_Scroll(object sender, ScrollEventArgs e)
+        {
+            if (e.ScrollOrientation == ScrollOrientation.VerticalScroll)
+                panel1.VerticalScroll.Value = e.NewValue;
+        }
     }
 }

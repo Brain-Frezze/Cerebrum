@@ -33,5 +33,10 @@ namespace Cerebrum
             this.Hide();
             log.Show();
         }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
