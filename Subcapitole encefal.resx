@@ -1057,7 +1057,7 @@
   <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAW4AAAC7CAYAAABFJnSnAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAAO/VJREFUeF7t3Wl35Mh15nHO8snmxSy2JVu2tXj/djOqfWft+9Ia22eO1dW1sLjU
+        vAAADrwBlbxySQAAO/VJREFUeF7t3Wl35Mh15nHO8snmxSy2JVu2tXj/djOqfWft+9Ia22eO1dW1sLjU
         2mpJljTdalUfTTETOc8NREReBB4EEJkAWcvtc36HmUAggEyS/0KDmeTG+/DfYrH4D8p/9P5TIixn0rFB
         Ok7vJ/KH8dH+px5r+nwEjeejA9tuCuzzOAa2L5E+vtzjDXP950TXPtxc/tNg/9l/4/23/4vf/sn+V7/7
         s/03v/sefL+HjGmO+/J3fy4fq9e/+WuxePPbH4pw3/sr+Mvq1W9+4OD24iXGvPztj6o38Oq3P5m9+fpH
@@ -1319,7 +1319,7 @@
   <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAWQAAAC2CAYAAADumvewAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAATZtJREFUeF7t3emTJdd53/n+pya8zOKJsGVptFASNxAAIYoEiH0HiEUkSJAgQFKy
+        vAAADrwBlbxySQAATZtJREFUeF7t3emTJdd53/n+pya8zOKJsGVptFASNxAAIYoEiH0HiEUkSJAgQFKy
         x2PPW4+D4gL0Vvte1d2g/HfMiwmHw+ElQg5JlkR0182c33PyPCefc/KXJzPvUlufF9+om5kn896qrvrU
         6bx5b12r/uKRuvrVo+jxc+6JbLNPv5qt+Rxy5e+n/vSPzq57f4y+gZ6q67vPoOfq2ckr2ao7r2abHb8x
         Z2+66sO3ss0Ov5WtOnpzwd7KVh+/nax7B+vedR/d7d1vZ6t2/sQV1u19J1pvm23juGY57JNkx1Q731mo
@@ -1652,5 +1652,8 @@
         udaxXy6drd42t+06Pc6abCfLOlZnx+ks+RbGdMJ27eabC/atxbqBWe4iXX8n3w3MjGmYnUrXZZa7SN8d
         6H2fWfcJ+hgYf4xfFHgMsxvfrv9/Qr65M3MIRk4AAAAASUVORK5CYII=
 </value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ggvffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffghkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj</value>
   </data>
 </root>

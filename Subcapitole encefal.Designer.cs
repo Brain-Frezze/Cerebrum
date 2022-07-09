@@ -167,7 +167,7 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Subcapitole_encefal";
-            this.Text = "Subcapitole_encefal";
+            this.Text = resources.GetString("$this.Text");
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
