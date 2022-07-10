@@ -69,6 +69,11 @@ namespace Cerebrum
                 textBox2.PasswordChar = '*';
             }
         }
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Comentarii log = new Comentarii();
+            log.Show();
+        }
         private void Login_Load(object sender, EventArgs e)
         {
 

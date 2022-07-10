@@ -95,6 +95,11 @@ namespace Cerebrum
             else
                 MessageBox.Show("Nu merge");
         }
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Comentarii log = new Comentarii();
+            log.Show();
+        }
 
         private void label2_Click(object sender, EventArgs e)
         {
@@ -105,5 +110,11 @@ namespace Cerebrum
         {
 
         }
+
+        private void ParolaUitata_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

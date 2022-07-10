@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CapitoleGrile));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.button4 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -48,6 +49,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.panel1.Controls.Add(this.linkLabel3);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.button5);
@@ -60,6 +62,22 @@
             this.panel1.Size = new System.Drawing.Size(488, 1084);
             this.panel1.TabIndex = 0;
             // 
+            // linkLabel3
+            // 
+            this.linkLabel3.ActiveLinkColor = System.Drawing.Color.DarkSlateGray;
+            this.linkLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.linkLabel3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.linkLabel3.Font = new System.Drawing.Font("Gabriola", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.linkLabel3.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.linkLabel3.LinkColor = System.Drawing.Color.MidnightBlue;
+            this.linkLabel3.Location = new System.Drawing.Point(141, 888);
+            this.linkLabel3.Name = "linkLabel3";
+            this.linkLabel3.Size = new System.Drawing.Size(223, 57);
+            this.linkLabel3.TabIndex = 18;
+            this.linkLabel3.TabStop = true;
+            this.linkLabel3.Text = "Contactează-ne";
+            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
+            // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
@@ -67,7 +85,7 @@
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Location = new System.Drawing.Point(167, 766);
+            this.button4.Location = new System.Drawing.Point(166, 729);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(150, 136);
             this.button4.TabIndex = 8;
@@ -233,5 +251,6 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Timer timer;
+        private System.Windows.Forms.LinkLabel linkLabel3;
     }
 }

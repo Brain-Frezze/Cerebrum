@@ -118,6 +118,11 @@ namespace Cerebrum
                 textBox3.PasswordChar = '*';
             }
         }
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Comentarii log = new Comentarii();
+            log.Show();
+        }
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
             

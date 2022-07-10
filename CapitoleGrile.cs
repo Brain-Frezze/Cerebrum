@@ -28,54 +28,24 @@ namespace Cerebrum
             this.mainPanel.Tag = f;
             f.Show();
         }
-
-        private void panouButoane_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             loadform(new Grile_celula_şi_ţesuturi());
         }
-
         private void button2_Click(object sender, EventArgs e)
         {
             loadform(new Grile_funcţia_de_relaţie());
         }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button5_Click(object sender, EventArgs e)
         {
             loadform(new Test_general());
         }
-
-        private void CapitoleGrile_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button6_Click_1(object sender, EventArgs e)
         {
             MainMenu log = new MainMenu();
             this.Hide();
             log.Show();
         }
-
-        private void mainPanel_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void button4_Click_1(object sender, EventArgs e)
         {
             timer.Start();
@@ -101,6 +71,32 @@ namespace Cerebrum
             }
             else if(timeleft <= 3 && (timeleft%2==0))
                 button4.Visible=true;
+        }
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Comentarii log = new Comentarii();
+            log.Show();
+        }
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void panouButoane_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void CapitoleGrile_Load(object sender, EventArgs e)
+        {
+
+        }
+        private void mainPanel_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

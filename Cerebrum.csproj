@@ -189,6 +189,12 @@
     <Compile Include="Centrii.Designer.cs">
       <DependentUpon>Centrii.cs</DependentUpon>
     </Compile>
+    <Compile Include="Comentarii.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comentarii.Designer.cs">
+      <DependentUpon>Comentarii.cs</DependentUpon>
+    </Compile>
     <Compile Include="ContInexistent.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -402,6 +408,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Centrii.resx">
       <DependentUpon>Centrii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comentarii.resx">
+      <DependentUpon>Comentarii.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ContInexistent.resx">
       <DependentUpon>ContInexistent.cs</DependentUpon>

@@ -44,6 +44,7 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -52,9 +53,9 @@
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(-22, 286);
+            this.pictureBox1.Location = new System.Drawing.Point(-12, 319);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(372, 279);
+            this.pictureBox1.Size = new System.Drawing.Size(380, 286);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -64,7 +65,7 @@
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(440, 61);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(351, 26);
+            this.textBox1.Size = new System.Drawing.Size(397, 26);
             this.textBox1.TabIndex = 1;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -75,7 +76,7 @@
             this.textBox2.Location = new System.Drawing.Point(440, 139);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(351, 26);
+            this.textBox2.Size = new System.Drawing.Size(397, 26);
             this.textBox2.TabIndex = 2;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
@@ -86,7 +87,7 @@
             this.textBox3.Location = new System.Drawing.Point(437, 217);
             this.textBox3.Name = "textBox3";
             this.textBox3.PasswordChar = '*';
-            this.textBox3.Size = new System.Drawing.Size(351, 26);
+            this.textBox3.Size = new System.Drawing.Size(400, 26);
             this.textBox3.TabIndex = 3;
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
@@ -96,7 +97,7 @@
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.Location = new System.Drawing.Point(440, 308);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(351, 26);
+            this.textBox4.Size = new System.Drawing.Size(397, 26);
             this.textBox4.TabIndex = 4;
             this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
@@ -175,7 +176,7 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Gabriola", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.checkBox1.Location = new System.Drawing.Point(663, 249);
+            this.checkBox1.Location = new System.Drawing.Point(709, 249);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(128, 41);
             this.checkBox1.TabIndex = 13;
@@ -189,7 +190,7 @@
             this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
             this.linkLabel1.Font = new System.Drawing.Font("Gabriola", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.linkLabel1.LinkColor = System.Drawing.Color.Indigo;
-            this.linkLabel1.Location = new System.Drawing.Point(471, 492);
+            this.linkLabel1.Location = new System.Drawing.Point(471, 550);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(366, 44);
             this.linkLabel1.TabIndex = 14;
@@ -223,13 +224,30 @@
             this.linkLabel2.Text = "Află mai multe";
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
+            // linkLabel3
+            // 
+            this.linkLabel3.ActiveLinkColor = System.Drawing.Color.DarkSlateGray;
+            this.linkLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.linkLabel3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.linkLabel3.Font = new System.Drawing.Font("Gabriola", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.linkLabel3.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.linkLabel3.LinkColor = System.Drawing.Color.MidnightBlue;
+            this.linkLabel3.Location = new System.Drawing.Point(525, 492);
+            this.linkLabel3.Name = "linkLabel3";
+            this.linkLabel3.Size = new System.Drawing.Size(223, 57);
+            this.linkLabel3.TabIndex = 17;
+            this.linkLabel3.TabStop = true;
+            this.linkLabel3.Text = "Contactează-ne";
+            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
+            // 
             // CreareCont
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(862, 561);
+            this.ClientSize = new System.Drawing.Size(887, 603);
+            this.Controls.Add(this.linkLabel3);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.linkLabel1);
@@ -276,5 +294,6 @@
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.LinkLabel linkLabel3;
     }
 }

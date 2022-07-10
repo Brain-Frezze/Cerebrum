@@ -44,6 +44,11 @@ namespace Cerebrum
             this.Hide();
             log.Show();
         }
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Comentarii log = new Comentarii();
+            log.Show();
+        }
         private void meniu_incercare_Load(object sender, EventArgs e)
         {
 
@@ -58,5 +63,6 @@ namespace Cerebrum
         {
             
         }
+
     }
 }

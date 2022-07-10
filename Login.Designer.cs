@@ -19,6 +19,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // Autentificare
@@ -47,7 +48,7 @@
             this.textBox1.ForeColor = System.Drawing.Color.Black;
             this.textBox1.Location = new System.Drawing.Point(604, 131);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(303, 26);
+            this.textBox1.Size = new System.Drawing.Size(317, 26);
             this.textBox1.TabIndex = 1;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -71,7 +72,7 @@
             this.textBox2.Location = new System.Drawing.Point(604, 233);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(303, 26);
+            this.textBox2.Size = new System.Drawing.Size(317, 26);
             this.textBox2.TabIndex = 4;
             // 
             // linkLabel1
@@ -118,13 +119,29 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.BackColor = System.Drawing.Color.Transparent;
             this.checkBox1.Font = new System.Drawing.Font("Gabriola", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(805, 265);
+            this.checkBox1.Location = new System.Drawing.Point(815, 265);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(116, 41);
             this.checkBox1.TabIndex = 14;
             this.checkBox1.Text = "Arată parola";
             this.checkBox1.UseVisualStyleBackColor = false;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.ActiveLinkColor = System.Drawing.Color.DarkSlateGray;
+            this.linkLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.linkLabel2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.linkLabel2.Font = new System.Drawing.Font("Gabriola", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.linkLabel2.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.linkLabel2.LinkColor = System.Drawing.Color.MidnightBlue;
+            this.linkLabel2.Location = new System.Drawing.Point(698, 480);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(223, 57);
+            this.linkLabel2.TabIndex = 15;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "Contactează-ne";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // Login
             // 
@@ -135,7 +152,8 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(933, 521);
+            this.ClientSize = new System.Drawing.Size(943, 546);
+            this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
@@ -168,6 +186,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.LinkLabel linkLabel2;
     }
 }
 
