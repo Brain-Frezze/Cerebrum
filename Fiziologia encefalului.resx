@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label12.Text" xml:space="preserve">
+    <value>         Rolul specific al creierului este de a prelucra informaţia. Sediul principal al acestui proces este scoarţa cerebrală care funcţionează în strânsă colaborare cu numeroase structuri subcorticale. Pentru a prelucra informaţia, scoarţa cerebrală trebuie mai întâi să o primească. Informaţia pătrunde în sistemul nervos prin intermediul receptorilor, de unde este trimisă pe căi specifice la scoarţă, în ariile senzitive specifice. Aceste informaţii sunt apoi comparate, la nivelul ariilor asociative, cu informaţiile culese de ceilalţi analizatori, precum şi cu datele din memorie. Pe baza sintezei complexe a tuturor informaţiilor este elaborată starea de conştienţă şi sunt luate deciziile automate şi cele voluţionale.
+</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>         Numit şi creierul vegetativ al organismului, hipotalamusul este organul nervos cu cele mai multe funcţii pe unitate de volum. 
+         Hipotalamusul are conexiuni cu toate etajele sistemului limbic. De asemenea, hipota-lamusul şi structurile sale învecinate trimit eferenţe în trei direcţii: descendent, către trunchiul cerebral, în special către formaţia reticulată, ascendent - către etajele superioare ale diencefa-lului şi ale scoarţei cerebrale, în special către talamusul anterior şi cortexul limbic, şi spre in-fundibul - pentru a controla cea mai mare parte a funcţiilor secretorii ale hipofizei anterioare şi posterioare. Astfel, hipotalamusul, care reprezintă mai puţin de 1% din masa cerebrală, este unul dintre cele mai importante căi eferente motorii ale sistemului limbic, controlează cea mai mare parte a funcţiilor endocrine şi vegetative ale organismului, ca şi multe aspecte ale com-portamentului emoţional. 
+         Hipotalamusul integrează toate reglările vegetative din organism. Porţiunea sa anteri-oară coordonează activitatea parasimpaticului, iar cea posterioară pe cea a simpaticului. Astfel, stimularea porţiunii anterioare a hipotalamusului determină scăderea presiunii sangvine şi a frecvenţei cardiace, în timp ce stimularea porţiunii posterioare are efecte inverse. De asemenea, hipotalamusul are rolul de a integra activitatea cardiovasculară cu cea respiratorie, digestivă, excretorie etc. De exemplu, în timpul digestiei, la nivelul vaselor sangvine ale tubului digestiv este necesar un volum mare de sânge, pentru a furniza suplimentul de energie necesar activităţii secretorii crescute, motilităţii crescute şi pentru a prelua substanţele absorbite la nivelul intestinu-lui subţire. Deoarece volumul de sânge este constant, este necesară o redistribuire a acestuia către teritoriile tubului digestiv, cu scăderea irigării altor ţesuturi aflate în repaus în acel moment (piele, muşchi). Această redistribuţie a debitului circulator este realizată de hipotalamus. 
+         Hipotalamusul intervine în reglarea metabolismelor intermediare lipidic, glucidic, portidic şi a metabolismului energetic. Hipotalamusul anterior favorizează procesele anabolice, iar cel posterior pe cele catabolice, generatoare de energie. Lezarea hipotalamusului produce obezitate sau slăbirea exagerată, în funcţie de sediul leziunii. 
+         Hipotalamusul reglează activitatea secretorie a glandei hipofize. Neuronii hipotalamusului anterior au proprietăţi secretorii endocrine. Toţi hormonii secretaţi de hipotalamus se numesc produşi de neurosecreţie. Neuronii din nucleii supraoptic şi paraventricular secretă vasopresina şi ocitocina (sau oxitocina), hormoni transportaţi de-a lungul axonilor acestor neuroni până în hipofiza posterioară, unde sunt depozitaţi şi de unde sunt eliberaţi la nevoie. Alţi neuroni secretă hormoni care sunt eliberaţi în sistemul sangvin port hipofizar, ajungând la nivelul hipofizei anterioare; aceşti hormoni sunt inhibitori sau stimulatori şi reglează secreţia adenohipofizei. Prin intermediul hipofizei anterioare, hipotalamusul coordonează de fapt ac-tivitatea întregului sistem endocrin al organismului. 
+         Hipotalamusul reglează şi temperatura corpului. Organismul uman, la fel ca cel al mamiferelor şi al păsărilor, este homeoterm, adică are temperatura constantă (de 37°C) şi in-dependentă de variaţiile temperaturii mediului ambiant. Menţinerea constantă a temperaturii este realizată prin intervenţia hipotalamusului, prin mecanism de feedback. În acest circuit de feedback, elementul reglat este temperatura medie a suprafeţei corpului sau temperatura sângelui care irigă hipotalamusul. Traductorii sunt termoreceptorii cutanaţi şi neuronii termosensibili, iar efectorii sunt aparatul cardiovascular, pielea, muşchii scheletici şi tiroida.
+</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>         Talamusul indeplineste patru functii: 
+  • Functia de releu este indeplinita de nucleii talamici specifici, in care se afld cel de al treilea neuron al cailor de conducere al tuturor analizatorilor, cu exceptia celui olfactiv. La acest nivel exists si numeroase sinapse inhibitorii care pot regla intensitatea stimulilor ce se propaga spre ariile corticale. Unele sinapse inhibitorii se gasesc la terminatia unor axoni cortico-talarmci, prin care se poate controla, voluntar, intensitatea senzatiilor dureroase. 
+  • Functia de asociatie se realizeazd prin conexiunile unor nuclei talamici cu ariile asu: ciative corticale din lobii parietal, temporal si occipital. Pe baza acestor conexiuni, talamusui is parte, aldturi de scoarta cerebrald, la elaborarea unor comenzi voluntare. 
+  • Functia motorie a talamusului se realizeazd prin intermediul ganglionilor bazali cu care este conectat bidirectional, al neocerebelului şi al substantei negre, de la care primeşte aferente.
+  • Funcţia nespecifică este realizată de nucleii talamici nespecifici, care fac parte din formaţia reticulată.
+</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>         Deşi cerebelul nu are conexiuni directe cu efectorii motori, prezenţa sa este indispensabilă pentru activitatea normală a acestora. Excitarea cerebelului nu provoacă nici senzaţii subiective, nici mişcare. Totuşi, după indepărtarea sa, apar grave tulburări ale funcţiilor motorii somatice. Se perturbă mai ales mişcările voluntare rapide, cum sunt alergatul, cântatul la pian, scrisul şi vorbirea. 
+         Funcţia cerebelului este stâns legată de structura sa şi de conexiunile aferente şi eferente pe care le realizează. Pe aceste baze anatomice, el îndeplineşte rolul de suprave-ghetor al activităţii motorii, comparând comanda centrală cu modul în care ea este executată. 
+         În lumina concepţiei cibernetice, cerebelul apare ca un servomecanism dispus în paralel pe căile ce leagă bidirecţional centri motori superiori de efectorii şi receptorii periferici. Orice comandă motorie trimisă la periferie este expediată, "în copie", şi spre cerebel, care ajunge astfel în posesia modelului teoretic al mişcării. La rândul lor, recepto-ril periferici (proprioceptori, exteroceptori, receptori vestibulari) informează cerebelul asupra mişcării reale efectuate şi a eventualelor schimbări survenite în postura organismului. Pe baza informaţiilor primite, cerebelul calculează eroarea dintre mişcarea dorită şi cea realizată şi trimite impulsuri corectoare spre centrii motori. 
+         Cerebelul participă atât la activitatea motorie automată (menţinerea tonusului, echili-brului, posturii şi redresarea corpului), cât şi la cea intenţională, voluntară (mers, scris, vorbit). Se asigură şi coordonarea acestor două categorii de activităţi motorii somatice. 
+         Funcţiile motorii automate sunt reglate pe baza conexiunilor vermisului şi lobului floculonodular (arhicerebel) cu nucleii vestibulari şi cu nucleii extrapiramidali şi ai formaţiei reticulate din trunchiul cerebral. 
+         Funcţiile motorii intenţionale, emanate din scoarţa motorie şi ariile asociative corticale, sunt coordonate pe baza conexiunilor emisferelor cerebeloase (neocerebel) cu talamusul şi cortexul motor. 
+         Cooperarea dintre mişcările voluntare şi cele automate asigură echilibru, tonusul şi postura adecvată realizării cât mai perfecte a mişcărilor intenţionale; ea se realizează pe baza conexiunilor pe care le are paleocerebelul (scoarţa cerebeloasă din vecinătatea vermisului) cu talamusul şi cu cortexul motor, pe de o parte, şi cu nuclei motori extrapiramidali mezencefalici şi bazali, pe de altă parte.
+</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>         Trunchiul cerebral este primul component al encefalului. Funcţiile sale sunt numeroase şi de importanţă.
+  • Prin trunchiul cerebral trec toate căile ce leagă măduva spinării de etajele superioare ale SNC, precum şi căi proprii trunchiului cerebral ce conectează diferitele sale etaje. 
+  • La nivelul trunchiului se află nucleii de releu ai căilor ascendente şi descendente, precum şi nucleii de releu cu cerebelul.
+  • În trunchiul cerebral se închid o serie de reflexe, deoarece conţine nuclei senzitivi şi motori care au aceleaşi funcţii senzitive şi motorii pentru regiunile feţei şi capului, la fel ca şi funcţiile substanţei cenuşii medulare pentru regiunile corpului de la gât in jos.
+  • La nivelul trunchiului cerebral se află formaţiunea reticulată, cu rol în reglarea tonusu-lui muscular, al celui cortical şi în controlul reflexelor spinale, al echilibrului şi al posturii. 
+  • Trunchiul cerebral conţine centrii de reglare ai unor funcţii vitale, cum sunt activitatea cardiovasculară, respiratorie şi digestivă.
+</value>
+  </data>
+</root>

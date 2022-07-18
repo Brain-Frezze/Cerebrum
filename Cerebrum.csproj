@@ -189,6 +189,12 @@
     <Compile Include="Centrii.Designer.cs">
       <DependentUpon>Centrii.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cerebelul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cerebelul.Designer.cs">
+      <DependentUpon>Cerebelul.cs</DependentUpon>
+    </Compile>
     <Compile Include="Comentarii.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -224,11 +230,29 @@
     <Compile Include="Creat.Designer.cs">
       <DependentUpon>Creat.cs</DependentUpon>
     </Compile>
+    <Compile Include="Diencefalul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Diencefalul.Designer.cs">
+      <DependentUpon>Diencefalul.cs</DependentUpon>
+    </Compile>
     <Compile Include="Email.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Email.designer.cs">
       <DependentUpon>Email.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Emisferele cerebrale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Emisferele cerebrale.Designer.cs">
+      <DependentUpon>Emisferele cerebrale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fiziologia encefalului.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fiziologia encefalului.Designer.cs">
+      <DependentUpon>Fiziologia encefalului.cs</DependentUpon>
     </Compile>
     <Compile Include="Fiziologia maduvei spinarii.cs">
       <SubType>Form</SubType>
@@ -394,6 +418,12 @@
     <Compile Include="StartView.Designer.cs">
       <DependentUpon>StartView.cs</DependentUpon>
     </Compile>
+    <Compile Include="Trunchiul cerebral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trunchiul cerebral.Designer.cs">
+      <DependentUpon>Trunchiul cerebral.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Asezare, rapoarte.resx">
       <DependentUpon>Asezare, rapoarte.cs</DependentUpon>
     </EmbeddedResource>
@@ -409,6 +439,9 @@
     <EmbeddedResource Include="Centrii.resx">
       <DependentUpon>Centrii.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Cerebelul.resx">
+      <DependentUpon>Cerebelul.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Comentarii.resx">
       <DependentUpon>Comentarii.cs</DependentUpon>
     </EmbeddedResource>
@@ -421,8 +454,17 @@
     <EmbeddedResource Include="Creat.resx">
       <DependentUpon>Creat.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Diencefalul.resx">
+      <DependentUpon>Diencefalul.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Email.resx">
       <DependentUpon>Email.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Emisferele cerebrale.resx">
+      <DependentUpon>Emisferele cerebrale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fiziologia encefalului.resx">
+      <DependentUpon>Fiziologia encefalului.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Fiziologia maduvei spinarii.resx">
       <DependentUpon>Fiziologia maduvei spinarii.cs</DependentUpon>
@@ -516,6 +558,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Test general.resx">
       <DependentUpon>Test general.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trunchiul cerebral.resx">
+      <DependentUpon>Trunchiul cerebral.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="ConturiDataSet.xsc">
       <DependentUpon>ConturiDataSet.xsd</DependentUpon>
