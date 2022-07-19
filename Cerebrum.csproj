@@ -183,6 +183,12 @@
     <Compile Include="CapitoleTeorie.Designer.cs">
       <DependentUpon>CapitoleTeorie.cs</DependentUpon>
     </Compile>
+    <Compile Include="Centrii SNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Centrii SNV.Designer.cs">
+      <DependentUpon>Centrii SNV.cs</DependentUpon>
+    </Compile>
     <Compile Include="Centrii.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -230,6 +236,24 @@
     <Compile Include="Creat.Designer.cs">
       <DependentUpon>Creat.cs</DependentUpon>
     </Compile>
+    <Compile Include="Căile ascendente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Căile ascendente.Designer.cs">
+      <DependentUpon>Căile ascendente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Căile descendente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Căile descendente.Designer.cs">
+      <DependentUpon>Căile descendente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Căile SNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Căile SNV.Designer.cs">
+      <DependentUpon>Căile SNV.cs</DependentUpon>
+    </Compile>
     <Compile Include="Diencefalul.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -272,6 +296,12 @@
     <Compile Include="Fiziologia sinapsei.Designer.cs">
       <DependentUpon>Fiziologia sinapsei.cs</DependentUpon>
     </Compile>
+    <Compile Include="Fiziologia SNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fiziologia SNV.Designer.cs">
+      <DependentUpon>Fiziologia SNV.cs</DependentUpon>
+    </Compile>
     <Compile Include="Folosit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -296,6 +326,12 @@
     <Compile Include="Incomplet.Designer.cs">
       <DependentUpon>Incomplet.cs</DependentUpon>
     </Compile>
+    <Compile Include="Localizări corticale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Localizări corticale.Designer.cs">
+      <DependentUpon>Localizări corticale.cs</DependentUpon>
+    </Compile>
     <Compile Include="Mecanisme generale.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -308,6 +344,24 @@
     <Compile Include="Meningele.Designer.cs">
       <DependentUpon>Meningele.cs</DependentUpon>
     </Compile>
+    <Compile Include="Nervii cranieni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nervii cranieni.Designer.cs">
+      <DependentUpon>Nervii cranieni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nervii spinali.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nervii spinali.Designer.cs">
+      <DependentUpon>Nervii spinali.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Neurotransmiţători.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Neurotransmiţători.Designer.cs">
+      <DependentUpon>Neurotransmiţători.cs</DependentUpon>
+    </Compile>
     <Compile Include="ParolaUitata.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -319,6 +373,12 @@
     </Compile>
     <Compile Include="Parole.Designer.cs">
       <DependentUpon>Parole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plexuri vegetative.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Plexuri vegetative.Designer.cs">
+      <DependentUpon>Plexuri vegetative.cs</DependentUpon>
     </Compile>
     <Compile Include="Reflexul.cs">
       <SubType>Form</SubType>
@@ -436,6 +496,9 @@
     <EmbeddedResource Include="CapitoleTeorie.resx">
       <DependentUpon>CapitoleTeorie.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Centrii SNV.resx">
+      <DependentUpon>Centrii SNV.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Centrii.resx">
       <DependentUpon>Centrii.cs</DependentUpon>
     </EmbeddedResource>
@@ -453,6 +516,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Creat.resx">
       <DependentUpon>Creat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Căile ascendente.resx">
+      <DependentUpon>Căile ascendente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Căile descendente.resx">
+      <DependentUpon>Căile descendente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Căile SNV.resx">
+      <DependentUpon>Căile SNV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Diencefalul.resx">
       <DependentUpon>Diencefalul.cs</DependentUpon>
@@ -475,6 +547,9 @@
     <EmbeddedResource Include="Fiziologia sinapsei.resx">
       <DependentUpon>Fiziologia sinapsei.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Fiziologia SNV.resx">
+      <DependentUpon>Fiziologia SNV.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Folosit.resx">
       <DependentUpon>Folosit.cs</DependentUpon>
     </EmbeddedResource>
@@ -490,17 +565,32 @@
     <EmbeddedResource Include="Incomplet.resx">
       <DependentUpon>Incomplet.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Localizări corticale.resx">
+      <DependentUpon>Localizări corticale.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Mecanisme generale.resx">
       <DependentUpon>Mecanisme generale.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Meningele.resx">
       <DependentUpon>Meningele.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Nervii cranieni.resx">
+      <DependentUpon>Nervii cranieni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nervii spinali.resx">
+      <DependentUpon>Nervii spinali.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Neurotransmiţători.resx">
+      <DependentUpon>Neurotransmiţători.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ParolaUitata.resx">
       <DependentUpon>ParolaUitata.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Parole.resx">
       <DependentUpon>Parole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plexuri vegetative.resx">
+      <DependentUpon>Plexuri vegetative.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reflexul.resx">
       <DependentUpon>Reflexul.cs</DependentUpon>
