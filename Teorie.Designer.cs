@@ -56,7 +56,7 @@
             this.label2.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.label2.Location = new System.Drawing.Point(12, 106);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(1342, 511);
+            this.label2.Size = new System.Drawing.Size(1342, 527);
             this.label2.TabIndex = 1;
             this.label2.Text = resources.GetString("label2.Text");
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -84,7 +84,7 @@
             this.label16.BackColor = System.Drawing.Color.Transparent;
             this.label16.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold);
             this.label16.ForeColor = System.Drawing.Color.Black;
-            this.label16.Location = new System.Drawing.Point(337, 617);
+            this.label16.Location = new System.Drawing.Point(313, 642);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(849, 41);
             this.label16.TabIndex = 21;

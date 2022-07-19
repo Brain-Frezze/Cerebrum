@@ -344,6 +344,66 @@
     <Compile Include="Meningele.Designer.cs">
       <DependentUpon>Meningele.cs</DependentUpon>
     </Compile>
+    <Compile Include="nerv accesor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nerv accesor.Designer.cs">
+      <DependentUpon>nerv accesor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nerv facial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nerv facial.Designer.cs">
+      <DependentUpon>nerv facial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nerv glosofaringian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nerv glosofaringian.Designer.cs">
+      <DependentUpon>nerv glosofaringian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nerv hipoglos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nerv hipoglos.Designer.cs">
+      <DependentUpon>nerv hipoglos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nerv oculomotor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nerv oculomotor.Designer.cs">
+      <DependentUpon>Nerv oculomotor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nerv olfactiv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nerv olfactiv.Designer.cs">
+      <DependentUpon>nerv olfactiv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nerv optic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nerv optic.Designer.cs">
+      <DependentUpon>nerv optic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nerv trigemen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nerv trigemen.Designer.cs">
+      <DependentUpon>nerv trigemen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nerv vag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nerv vag.Designer.cs">
+      <DependentUpon>nerv vag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nerv vestibulocohlear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nerv vestibulocohlear.Designer.cs">
+      <DependentUpon>nerv vestibulocohlear.cs</DependentUpon>
+    </Compile>
     <Compile Include="Nervii cranieni.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -573,6 +633,36 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Meningele.resx">
       <DependentUpon>Meningele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv accesor.resx">
+      <DependentUpon>nerv accesor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv facial.resx">
+      <DependentUpon>nerv facial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv glosofaringian.resx">
+      <DependentUpon>nerv glosofaringian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv hipoglos.resx">
+      <DependentUpon>nerv hipoglos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nerv oculomotor.resx">
+      <DependentUpon>Nerv oculomotor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv olfactiv.resx">
+      <DependentUpon>nerv olfactiv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv optic.resx">
+      <DependentUpon>nerv optic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv trigemen.resx">
+      <DependentUpon>nerv trigemen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv vag.resx">
+      <DependentUpon>nerv vag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv vestibulocohlear.resx">
+      <DependentUpon>nerv vestibulocohlear.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nervii cranieni.resx">
       <DependentUpon>Nervii cranieni.cs</DependentUpon>

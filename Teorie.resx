@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label2.Text" xml:space="preserve">
-    <value>      În capitolul „Teorie” vei găsi informaţii noi, în plus faţă de ce găseşti în manualele de la clasă, dar şi esenţele logice a unor adevăruri biologice. Sutele de explicaţii pe înţelesul tuturor pasionaţilor de anatomie se solidifică prin imaginile subiective din dreptul acestora.
+    <value>      În capitolul „Teorie” vei găsi informaţii noi, în plus faţă de ce găseşti în manualele de la clasă, dar şi esenţele logice a unor adevăruri biologice. Sutele de explicaţii pe înţelesul tuturor pasionaţilor de anatomie se solidifică prin imaginile subiective din dreptul acestora. Unele dintre desene şi scheme sunt cele realizate de Frank H. Netter, un fost medic specialist şi pasionat de pictură.
       Un aspect foarte important pe care trebuie să îl iei în calcul este faptul că orice principiu anatomic înţeles este un pas înainte spre succes. Cu ajutorul acestei aplicaţii, vei memora mai uşor unele elemente de bază, dar îţi vei înzestra cunoştinţa şi cu informaţii noi pe care niciodată nu ştii când ai nevoie de ele. Sutele de explicaţii pe înţelesul tuturor pasionaţilor de biologie se solidifică prin imaginile subiective din dreptul acestora. 
       Totodată, ne propunem să te ajutăm cu informaţii necesare pentru Admiterea la Medicină, în caz că acesta este visul tău. Examenul care te aşteaptă nu este aşa de uşor, de aceea îţi venim în ajutor cu această aplicaţie.
 </value>
@@ -127,7 +127,7 @@
   <data name="button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAncAAAC4CAYAAACB68oqAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAA/7JJREFUeF7s/Qd0JEmenwkOl3tDLsldyiOXs9Ryb7kUe7x997j3bu/dW94OyRHd
+        vgAADr4B6kKxwAAA/7JJREFUeF7s/Qd0JEmenwkOl3tDLsldyiOXs9Ryb7kUe7x997j3bu/dW94OyRHd
         pauyUivoADKzRFe1qsqqFtPNFtPTPZxpLUq1KJFaa53IhNZAJjQCCK11xO9+f/OwCIPDIyASmYmshld9
         6ebm5uYy3D+YuZn/xvqwvAHAf4Ue/Cam8RcKQ4X/Dl34q7iFvxHtKvytWGvhb8dvx3+rcDX+PyhuJv5u
         QriV+HuJ24m/n7hdKJFsT/6DZDv+QSl8PfkPFTeT/0jRmvzH89DxHUzTUVjITXA+kbS3k/9E4bS8Rq+v
