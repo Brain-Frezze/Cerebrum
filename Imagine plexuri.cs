@@ -10,22 +10,19 @@ using System.Windows.Forms;
 
 namespace Cerebrum
 {
-    public partial class Plexuri_vegetative : Form
+    public partial class Imagine_plexuri : Form
     {
-        public Plexuri_vegetative()
+        public Imagine_plexuri()
         {
             InitializeComponent();
         }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
+        private void Imagine_plexuri_Deactivate(object sender, EventArgs e)
         {
-
+            this.Close();
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            Imagine_plexuri log = new Imagine_plexuri();
-            log.Show();
+            this.Close();
         }
     }
 }

@@ -320,6 +320,12 @@
     <Compile Include="Grile funcţia de relaţie.Designer.cs">
       <DependentUpon>Grile funcţia de relaţie.cs</DependentUpon>
     </Compile>
+    <Compile Include="Imagine plexuri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Imagine plexuri.Designer.cs">
+      <DependentUpon>Imagine plexuri.cs</DependentUpon>
+    </Compile>
     <Compile Include="Incomplet.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -621,6 +627,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Grile.resx">
       <DependentUpon>Grile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Imagine plexuri.resx">
+      <DependentUpon>Imagine plexuri.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Incomplet.resx">
       <DependentUpon>Incomplet.cs</DependentUpon>
