@@ -320,17 +320,24 @@
     <Compile Include="Galerie.Designer.cs">
       <DependentUpon>Galerie.cs</DependentUpon>
     </Compile>
-    <Compile Include="Grile celula şi ţesuturi.cs">
+    <Compile Include="Grile sistem nervos central .cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Grile celula şi ţesuturi.Designer.cs">
-      <DependentUpon>Grile celula şi ţesuturi.cs</DependentUpon>
+    <Compile Include="Grile sistem nervos central .Designer.cs">
+      <DependentUpon>Grile sistem nervos central .cs</DependentUpon>
     </Compile>
-    <Compile Include="Grile funcţia de relaţie.cs">
+    <Compile Include="Grile noţiuni generale.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Grile funcţia de relaţie.Designer.cs">
-      <DependentUpon>Grile funcţia de relaţie.cs</DependentUpon>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>Grile noţiuni generale.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grile sistem nervos periferic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grile sistem nervos periferic.Designer.cs">
+      <DependentUpon>Grile sistem nervos periferic.cs</DependentUpon>
     </Compile>
     <Compile Include="Imagine plexuri.cs">
       <SubType>Form</SubType>
@@ -649,11 +656,14 @@
     <EmbeddedResource Include="Galerie.resx">
       <DependentUpon>Galerie.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Grile celula şi ţesuturi.resx">
-      <DependentUpon>Grile celula şi ţesuturi.cs</DependentUpon>
+    <EmbeddedResource Include="Grile sistem nervos central .resx">
+      <DependentUpon>Grile sistem nervos central .cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Grile funcţia de relaţie.resx">
-      <DependentUpon>Grile funcţia de relaţie.cs</DependentUpon>
+    <EmbeddedResource Include="Grile noţiuni generale.resx">
+      <DependentUpon>Grile noţiuni generale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grile sistem nervos periferic.resx">
+      <DependentUpon>Grile sistem nervos periferic.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Grile.resx">
       <DependentUpon>Grile.cs</DependentUpon>

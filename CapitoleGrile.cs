@@ -30,12 +30,16 @@ namespace Cerebrum
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            loadform(new Grile_celula_şi_ţesuturi());
+            loadform(new Grile_noţiuni_generale());
             //timer.Start();
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            loadform(new Grile_funcţia_de_relaţie());
+            loadform(new Grile_sistem_nervos_central());
+        }
+        private void button3_Click(object sender, EventArgs e)
+        {
+            loadform(new Grile_sistem_nervos_periferic());
         }
         private void button5_Click(object sender, EventArgs e)
         {
@@ -77,10 +81,6 @@ namespace Cerebrum
         {
             Comentarii log = new Comentarii();
             log.Show();
-        }
-        private void button3_Click(object sender, EventArgs e)
-        {
-
         }
         private void panouButoane_Paint(object sender, PaintEventArgs e)
         {

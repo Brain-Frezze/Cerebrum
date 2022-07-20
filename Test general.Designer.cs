@@ -92,7 +92,7 @@
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Gabriola", 20F, System.Drawing.FontStyle.Bold);
-            this.button2.Location = new System.Drawing.Point(477, 2721);
+            this.button2.Location = new System.Drawing.Point(499, 2700);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(511, 112);
             this.button2.TabIndex = 42;
@@ -108,11 +108,11 @@
             this.checkedListBox9.Font = new System.Drawing.Font("Times New Roman", 20F);
             this.checkedListBox9.FormattingEnabled = true;
             this.checkedListBox9.Items.AddRange(new object[] {
-            "adună limfa de la glandele mamare;",
-            "conţine chilomicroni;",
-            "adună limfa din jumătatea superioară a corpului;",
-            "are un traiect ascendent;",
-            "este de aproximativ 10 ori mai lung;"});
+            "nervii XII au originea reală în nucleul motor ambiguu;",
+            "nervii XI au rădăcină dublă: una bulbară şi una pontină;",
+            "originea aparentă a nervilor VI e aşezată medial de cea a nervilor VII;",
+            "nervii V nu sunt micşti, fiindcă nu au componentă vegetativă;",
+            "ultimile două variante sunt corecte;"});
             this.checkedListBox9.Location = new System.Drawing.Point(46, 2439);
             this.checkedListBox9.Name = "checkedListBox9";
             this.checkedListBox9.Size = new System.Drawing.Size(942, 205);
@@ -126,7 +126,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(1243, 50);
             this.label9.TabIndex = 40;
-            this.label9.Text = "10. Spre deosebire de vena limfatică dreaptă, canalul limfatic: ";
+            this.label9.Text = "10. Despre nervii cranieni ştim: ";
             // 
             // checkedListBox8
             // 
@@ -195,13 +195,11 @@
             this.checkedListBox5.Font = new System.Drawing.Font("Times New Roman", 20F);
             this.checkedListBox5.FormattingEnabled = true;
             this.checkedListBox5.Items.AddRange(new object[] {
-            "diferă ca număr în funcţie de sex (bărbaţii au un număr mai mare);",
-            "vitamina 812 intervine în hematopoieză;",
-            "în interiorul unei hematii găsim hemoglobina, care formează cu CO2 carboxihemoglo" +
-                "bina;",
-            "intervin în reglarea echilibrului acido bazic;",
-            "după 120 zile, hematiile sunt metabolizatc unde sunt transformate în biliverdină " +
-                "şi bilirubină;"});
+            "nervul V trimite eferenţe simpatice către glandele salivare;",
+            "parasimpaticul din nivel medular se manifestă prin intermediul nervului vag;",
+            "simpaticul sacral se manifestă prin intermediul nervilor pelvini;",
+            "ganglionii parasimpaticului pot fi doar fuxtaviscerali;",
+            "parasimpaticul nu trimite eferenţe către muşchii piloerectori;"});
             this.checkedListBox5.Location = new System.Drawing.Point(46, 1604);
             this.checkedListBox5.Name = "checkedListBox5";
             this.checkedListBox5.Size = new System.Drawing.Size(1285, 205);
@@ -215,9 +213,9 @@
             this.label5.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label5.Location = new System.Drawing.Point(3, 1562);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(726, 39);
+            this.label5.Size = new System.Drawing.Size(514, 39);
             this.label5.TabIndex = 34;
-            this.label5.Text = "7. Alegeţi afirmaţia incorectă cu privire la eritrocite: ";
+            this.label5.Text = "7. Căile sistemului nervos vegetativ: ";
             // 
             // checkedListBox6
             // 
@@ -227,14 +225,16 @@
             this.checkedListBox6.Font = new System.Drawing.Font("Times New Roman", 20F);
             this.checkedListBox6.FormattingEnabled = true;
             this.checkedListBox6.Items.AddRange(new object[] {
-            "planul transversal trece prin axul sagital şi transversal;",
-            "planul frontal împarte corpul într-o parte anterioară şi una posterioară;",
-            "axul sagital are un pol anterior şi unul posterior;",
-            "axul transversal corespunde lăţimii corpului;",
-            "planul transversal împarte corpul parte craniană şi una caudală;"});
+            "în dreptul regiunii cervicale şi sacrale, măduva prezintă două porţiun mai volumi" +
+                "noase;",
+            "arahnoida are o structură epitelială, separată de pia mater printr-un spaţiu cu L" +
+                "CR;",
+            "măduva e formată din substanţă cenuşie aşezată sub formă de coloane;",
+            "dura mater are o structură elastică, pentru a rezista la şocuri;",
+            "ultimile două variante sunt corecte;"});
             this.checkedListBox6.Location = new System.Drawing.Point(46, 1342);
             this.checkedListBox6.Name = "checkedListBox6";
-            this.checkedListBox6.Size = new System.Drawing.Size(975, 205);
+            this.checkedListBox6.Size = new System.Drawing.Size(1340, 205);
             this.checkedListBox6.TabIndex = 33;
             this.checkedListBox6.SelectedIndexChanged += new System.EventHandler(this.checkedListBox6_SelectedIndexChanged);
             // 
@@ -244,9 +244,9 @@
             this.label6.Font = new System.Drawing.Font("Times New Roman", 20F);
             this.label6.Location = new System.Drawing.Point(3, 1299);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(951, 39);
+            this.label6.Size = new System.Drawing.Size(822, 39);
             this.label6.TabIndex = 32;
-            this.label6.Text = "6. În ceea ce priveşte axele şi planurile corpului, nu este adevărat că: ";
+            this.label6.Text = "6. În legătură cu măduva spinării, corecte sunt informaţiile: ";
             // 
             // checkedListBox7
             // 
@@ -285,11 +285,11 @@
             this.checkedListBox2.Font = new System.Drawing.Font("Times New Roman", 20F);
             this.checkedListBox2.FormattingEnabled = true;
             this.checkedListBox2.Items.AddRange(new object[] {
-            "conţine o cantitate mai mare de ioni de Na;",
-            "se varsă în vena portă;",
-            "are un traseu descendent mai lung;",
-            "incrucişează vena renală stângă;",
-            "vascularizează colonul transvers;"});
+            "receptorii se găsesc în lumenul vaselor;",
+            "deutoneuronul se află în ganglionii laterovertebrali;",
+            "calea are o proiecţie corticală precisă;",
+            "protoneuronul se găseşte în ganglionii laterovertebrali;",
+            "receptorii se pot găsi şi sub formă de corpusculi lamelaţi;"});
             this.checkedListBox2.Location = new System.Drawing.Point(46, 832);
             this.checkedListBox2.Name = "checkedListBox2";
             this.checkedListBox2.Size = new System.Drawing.Size(942, 205);
@@ -302,9 +302,9 @@
             this.label2.Font = new System.Drawing.Font("Times New Roman", 20F);
             this.label2.Location = new System.Drawing.Point(3, 790);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(901, 39);
+            this.label2.Size = new System.Drawing.Size(626, 39);
             this.label2.TabIndex = 28;
-            this.label2.Text = "4. Spre deosebire de vena mezenterică inferioară, cea superioară: ";
+            this.label2.Text = "4. În cadrul căilor sensibilităţii interoceptive: ";
             // 
             // checkedListBox3
             // 
@@ -314,11 +314,11 @@
             this.checkedListBox3.Font = new System.Drawing.Font("Times New Roman", 20F);
             this.checkedListBox3.FormattingEnabled = true;
             this.checkedListBox3.Items.AddRange(new object[] {
-            "zonele reflexogene din interiorul sistemului vascular;",
-            "celulele hepatice;",
-            "celulele pancreasului exocrin; ",
-            "hipotalamusul;",
-            "toate variantele sunt corecte;"});
+            "are ca receptori corpusculii Merkel;",
+            "are ca receptori discurile Meissner;",
+            "are tritoneuronul în talamus;",
+            "fasciculul spinotalamic anterior are fibre din neuronii de aceaşi parte;",
+            "primele trei variante sunt corecte;"});
             this.checkedListBox3.Location = new System.Drawing.Point(46, 569);
             this.checkedListBox3.Name = "checkedListBox3";
             this.checkedListBox3.Size = new System.Drawing.Size(942, 205);
@@ -332,10 +332,9 @@
             this.label3.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.label3.Location = new System.Drawing.Point(3, 527);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(1112, 39);
+            this.label3.Size = new System.Drawing.Size(879, 39);
             this.label3.TabIndex = 26;
-            this.label3.Text = "3. Variaţiile glicemiei influenţează activitatea următoarelor structuri, cu excep" +
-    "ţia: \r\n";
+            this.label3.Text = "3. În cazul sensibilităţii tactile grosiere, afirmaţiile corecte sunt: \r\n";
             // 
             // checkedListBox1
             // 
@@ -374,11 +373,11 @@
             this.checkedListBox16.Font = new System.Drawing.Font("Times New Roman", 20F);
             this.checkedListBox16.FormattingEnabled = true;
             this.checkedListBox16.Items.AddRange(new object[] {
-            "artera brahială, vena jugulară externă, vena cavă superioară;",
-            "artera axilară, artera brahială, venele pulmonare;",
-            "venele pulmonare, artera axilară, artera aortă;",
-            "vena subclaviculară, venele brahiocefalice, artera radială/ ulnară;",
-            "artera radială/ ulnară, vena radială/ ulnară, arterele digitale plantare;"});
+            "în regiunea cervicală C2 - C3 găsim 3 tipuri de coarne;",
+            "în regiunea sacrumului, există neuroni simpatomotori;",
+            "protoneuronul unor căi se află în coarnele posterioare;",
+            "în coarnele anterioare găsim motoneuronul gamma;",
+            "comisura cenuşie nu prezintă neuroni;"});
             this.checkedListBox16.Location = new System.Drawing.Point(46, 56);
             this.checkedListBox16.Name = "checkedListBox16";
             this.checkedListBox16.Size = new System.Drawing.Size(942, 205);
@@ -391,10 +390,9 @@
             this.label16.Font = new System.Drawing.Font("Times New Roman", 20F);
             this.label16.Location = new System.Drawing.Point(3, 14);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(1328, 39);
+            this.label16.Size = new System.Drawing.Size(907, 39);
             this.label16.TabIndex = 22;
-            this.label16.Text = "1. O moleculă de aminoacid de la nivelul arterei axilare ajunge la nivelul plămân" +
-    "ilor trecând prin:";
+            this.label16.Text = "1. Substanţa cenuşie din măduva spinării are următoarea alcătuire:";
             // 
             // Test_general
             // 
