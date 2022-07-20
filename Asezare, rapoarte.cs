@@ -12,6 +12,7 @@ namespace Cerebrum
 {
     public partial class Asezare__rapoarte : Form
     {
+
         public Asezare__rapoarte()
         {
             InitializeComponent();
@@ -28,6 +29,16 @@ namespace Cerebrum
         }
 
         private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+            
+        }
+
+        private void Asezare__rapoarte_Load(object sender, EventArgs e)
         {
 
         }

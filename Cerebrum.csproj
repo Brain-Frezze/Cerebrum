@@ -308,6 +308,12 @@
     <Compile Include="Folosit.Designer.cs">
       <DependentUpon>Folosit.cs</DependentUpon>
     </Compile>
+    <Compile Include="Galerie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Galerie.Designer.cs">
+      <DependentUpon>Galerie.cs</DependentUpon>
+    </Compile>
     <Compile Include="Grile celula şi ţesuturi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -619,6 +625,9 @@
     <EmbeddedResource Include="Folosit.resx">
       <DependentUpon>Folosit.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Galerie.resx">
+      <DependentUpon>Galerie.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Grile celula şi ţesuturi.resx">
       <DependentUpon>Grile celula şi ţesuturi.cs</DependentUpon>
     </EmbeddedResource>
@@ -735,6 +744,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="StartView.resx">
       <DependentUpon>StartView.cs</DependentUpon>
@@ -797,6 +807,16 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Conturi.mdf</DependentUpon>
     </Content>
+    <None Include="imagini\10.jpg" />
+    <None Include="imagini\09.jpg" />
+    <None Include="imagini\08.jpg" />
+    <None Include="imagini\07.jpg" />
+    <None Include="imagini\06.jpg" />
+    <None Include="imagini\05.jpg" />
+    <None Include="imagini\04.jpg" />
+    <None Include="imagini\03.jpg" />
+    <None Include="imagini\02.jpg" />
+    <None Include="imagini\01.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
