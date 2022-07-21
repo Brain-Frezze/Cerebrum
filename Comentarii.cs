@@ -22,7 +22,7 @@ namespace Cerebrum
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            MailMessage mm = new MailMessage(textBox2.Text,"company.cerebrum@gmail.com");
+           /* MailMessage mm = new MailMessage(textBox2.Text,"company.cerebrum@gmail.com");
             mm.Subject = textBox1.Text;
             mm.Body = richTextBox1.Text;
             SmtpClient smtp = new SmtpClient();
@@ -33,7 +33,10 @@ namespace Cerebrum
             smtp.EnableSsl = true;
             smtp.UseDefaultCredentials = false;
             smtp.Send(mm);
-            label5.Text = "E-mailul tău a fost trimis! Îţi mulţumim! ";
+            label5.Text = "E-mailul tău a fost trimis! Îţi mulţumim! "; */
+            System.Diagnostics.Process proc = new System.Diagnostics.Process();
+            proc.StartInfo.FileName = "mailto:comapany.cerebrum@gmail.com ? subject=te & body=love my body ";
+            proc.Start();
         }
 
 
@@ -43,6 +46,11 @@ namespace Cerebrum
         }
 
         private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
