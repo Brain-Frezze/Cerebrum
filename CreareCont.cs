@@ -39,10 +39,10 @@ namespace Cerebrum
             else if (textBox2.Text != textBox3.Text)
             {
                 Parole log = new Parole();
-                log.Show();
                 textBox2.Text = "";
                 textBox3.Text = "";
-                textBox2.Focus();
+                textBox2.Focus(); 
+                log.Show();
             }
             else if (textBox4.Text.IndexOf("@gmail.com") == -1 && textBox4.Text.IndexOf("@email.com") == -1)
             {

@@ -74,6 +74,11 @@ namespace Cerebrum
             Comentarii log = new Comentarii();
             log.Show();
         }
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ParolaUitata log = new ParolaUitata();
+            log.Show();
+        }
         private void Login_Load(object sender, EventArgs e)
         {
 
