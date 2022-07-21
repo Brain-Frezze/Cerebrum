@@ -16,7 +16,7 @@ namespace Cerebrum
         {
             //Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CapitoleTeorie());
+            Application.Run(new ParolaUitata());
         }
     }
 

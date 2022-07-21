@@ -116,5 +116,11 @@ namespace Cerebrum
 
         }
 
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process proc = new System.Diagnostics.Process();
+            proc.StartInfo.FileName = "mailto:comapany.cerebrum@gmail.com";
+            proc.Start();
+        }
     }
 }
