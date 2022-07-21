@@ -20,6 +20,7 @@ namespace Cerebrum
         OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=BazaDateConturi.mdb");
         OleDbCommand cmd = new OleDbCommand();
         OleDbDataAdapter da = new OleDbDataAdapter();
+        public static string user = "";
         private void button1_Click(object sender, EventArgs e)
         {
             using (OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=BazaDateConturi.mdb"))
@@ -39,6 +40,7 @@ namespace Cerebrum
                 }
                 if (exist1 == true && exist2 == true)
                 {
+                    user = textBox1.Text;
                     MainMenu log = new MainMenu();
                     this.Hide();
                     log.Show();

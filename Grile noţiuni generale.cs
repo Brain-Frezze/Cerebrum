@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OleDb;
 
 namespace Cerebrum
 {
@@ -16,7 +17,10 @@ namespace Cerebrum
         {
             InitializeComponent();
         }
-        
+        OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=BazaDateConturi.mdb");
+        OleDbCommand cmd = new OleDbCommand();
+        OleDbDataAdapter da = new OleDbDataAdapter();
+
         private void checkedListBox16_SelectedIndexChanged(object sender, EventArgs e)
         {
             // int answer = 4;
@@ -168,6 +172,7 @@ namespace Cerebrum
             }
             
         }
+        
         private void button1_Click(object sender, EventArgs e)
         {
             Rezultate form = new Rezultate(); // formul daca am luat intre 0 si 4
@@ -318,6 +323,19 @@ namespace Cerebrum
                         last.ShowDialog();
                     }
                 }
+            }
+
+            using (OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=BazaDateConturi.mdb"))
+            {
+                con.Open();
+                using (OleDbCommand cmd = new OleDbCommand("INSERT INTO Utilizator VALUES (@Nume, @Parola, @Email)", con))
+                {
+                    cmd.Parameters.AddWithValue("Nume", Login.user); // utilizator
+                    cmd.Parameters.AddWithValue("Parola", "Noțiuni generale"); // testul dat
+                    cmd.Parameters.AddWithValue("Email", snr); // punctaj
+                    cmd.ExecuteNonQuery();
+                }
+                con.Close();
             }
 
         }
