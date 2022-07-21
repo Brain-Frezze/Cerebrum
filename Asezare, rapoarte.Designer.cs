@@ -127,13 +127,12 @@
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Gabriola", 50F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(462, -18);
+            this.label2.Location = new System.Drawing.Point(0, -16);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(523, 155);
+            this.label2.Size = new System.Drawing.Size(1425, 155);
             this.label2.TabIndex = 10;
             this.label2.Text = "Aşezare, rapoarte";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -151,7 +150,6 @@
             this.Text = "Asezare__rapoarte";
             this.Load += new System.EventHandler(this.Asezare__rapoarte_Load);
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 

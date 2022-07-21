@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Căile_ascendente));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,19 +44,6 @@
             this.panel1.Size = new System.Drawing.Size(1400, 738);
             this.panel1.TabIndex = 0;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Gabriola", 50F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(448, -15);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(507, 155);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Căile ascendente";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label9
             // 
             this.label9.Font = new System.Drawing.Font("Times New Roman", 20F);
@@ -65,6 +52,18 @@
             this.label9.Size = new System.Drawing.Size(1388, 487);
             this.label9.TabIndex = 11;
             this.label9.Text = resources.GetString("label9.Text");
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Gabriola", 50F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(0, -16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(1394, 155);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Căile ascendente";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Căile_ascendente
             // 
@@ -78,7 +77,6 @@
             this.Name = "Căile_ascendente";
             this.Text = "Căile_ascendente";
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }

@@ -30,11 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Aspectul_exterior));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -50,27 +50,14 @@
             this.panel1.Size = new System.Drawing.Size(1440, 838);
             this.panel1.TabIndex = 0;
             // 
-            // label2
+            // label7
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Gabriola", 50F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(488, -22);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(513, 155);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "Aspectul exterior";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label1
-            // 
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 20F);
-            this.label1.Location = new System.Drawing.Point(0, 116);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1437, 169);
-            this.label1.TabIndex = 12;
-            this.label1.Text = resources.GetString("label1.Text");
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 20F);
+            this.label7.Location = new System.Drawing.Point(0, 275);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(987, 527);
+            this.label7.TabIndex = 31;
+            this.label7.Text = resources.GetString("label7.Text");
             // 
             // panel2
             // 
@@ -92,14 +79,26 @@
             this.label6.TabIndex = 0;
             this.label6.Text = "Măduva spinării";
             // 
-            // label7
+            // label1
             // 
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 20F);
-            this.label7.Location = new System.Drawing.Point(0, 275);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(987, 527);
-            this.label7.TabIndex = 31;
-            this.label7.Text = resources.GetString("label7.Text");
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 20F);
+            this.label1.Location = new System.Drawing.Point(0, 116);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(1437, 169);
+            this.label1.TabIndex = 12;
+            this.label1.Text = resources.GetString("label1.Text");
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Gabriola", 50F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(0, -16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(1440, 155);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Aspectul exterior";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Aspectul_exterior
             // 
@@ -113,7 +112,6 @@
             this.Name = "Aspectul_exterior";
             this.Text = "Aspectul_exterior";
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 

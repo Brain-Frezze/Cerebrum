@@ -30,17 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Centrii));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -62,72 +62,34 @@
             this.panel1.Size = new System.Drawing.Size(1428, 1460);
             this.panel1.TabIndex = 0;
             // 
-            // label2
+            // label9
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Gabriola", 50F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(623, -3);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(249, 155);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Centrii";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold);
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(0, 1214);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(448, 41);
+            this.label9.TabIndex = 28;
+            this.label9.Text = "         Nivelul cortical:";
             // 
-            // label1
+            // label8
             // 
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 20F);
-            this.label1.Location = new System.Drawing.Point(0, 140);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1428, 91);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "         Sistemul nervos central are trei nivele majore cu atribute funcționale s" +
-    "pecifice: nivelul măduvei spinării, nivelul subcortical şi nivelul cortical.";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label8.Font = new System.Drawing.Font("Times New Roman", 20F);
+            this.label8.Location = new System.Drawing.Point(0, 1253);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(1428, 168);
+            this.label8.TabIndex = 27;
+            this.label8.Text = resources.GetString("label8.Text");
             // 
-            // label16
+            // label6
             // 
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold);
-            this.label16.ForeColor = System.Drawing.Color.Black;
-            this.label16.Location = new System.Drawing.Point(3, 231);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(418, 41);
-            this.label16.TabIndex = 21;
-            this.label16.Text = "         Nivelul medular:";
-            // 
-            // label3
-            // 
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 20F);
-            this.label3.Location = new System.Drawing.Point(3, 285);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(1425, 353);
-            this.label3.TabIndex = 22;
-            this.label3.Text = resources.GetString("label3.Text");
-            this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // label4
-            // 
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold);
-            this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(0, 656);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(448, 41);
-            this.label4.TabIndex = 23;
-            this.label4.Text = "         Nivelul subcortical:";
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
-            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel2.Controls.Add(this.label7);
-            this.panel2.Location = new System.Drawing.Point(10, 798);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(452, 393);
-            this.panel2.TabIndex = 24;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 20F);
+            this.label6.Location = new System.Drawing.Point(509, 798);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(916, 393);
+            this.label6.TabIndex = 26;
+            this.label6.Text = resources.GetString("label6.Text");
             // 
             // label5
             // 
@@ -140,14 +102,16 @@
     "ticale: trunchiul cerebral, hipotalamusul, talamusul, cerebelul şi ganglionii ba" +
     "zali. ";
             // 
-            // label6
+            // panel2
             // 
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 20F);
-            this.label6.Location = new System.Drawing.Point(509, 798);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(916, 393);
-            this.label6.TabIndex = 26;
-            this.label6.Text = resources.GetString("label6.Text");
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Controls.Add(this.label7);
+            this.panel2.Location = new System.Drawing.Point(10, 798);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(452, 393);
+            this.panel2.TabIndex = 24;
             // 
             // label7
             // 
@@ -158,25 +122,60 @@
             this.label7.TabIndex = 27;
             this.label7.Text = "Trunchiul cerebral şi cerebelul";
             // 
-            // label8
+            // label4
             // 
-            this.label8.Font = new System.Drawing.Font("Times New Roman", 20F);
-            this.label8.Location = new System.Drawing.Point(0, 1253);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(1428, 168);
-            this.label8.TabIndex = 27;
-            this.label8.Text = resources.GetString("label8.Text");
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold);
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(0, 656);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(448, 41);
+            this.label4.TabIndex = 23;
+            this.label4.Text = "         Nivelul subcortical:";
             // 
-            // label9
+            // label3
             // 
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold);
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(0, 1214);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(448, 41);
-            this.label9.TabIndex = 28;
-            this.label9.Text = "         Nivelul cortical:";
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 20F);
+            this.label3.Location = new System.Drawing.Point(3, 285);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(1425, 353);
+            this.label3.TabIndex = 22;
+            this.label3.Text = resources.GetString("label3.Text");
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // label16
+            // 
+            this.label16.BackColor = System.Drawing.Color.Transparent;
+            this.label16.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold);
+            this.label16.ForeColor = System.Drawing.Color.Black;
+            this.label16.Location = new System.Drawing.Point(3, 231);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(418, 41);
+            this.label16.TabIndex = 21;
+            this.label16.Text = "         Nivelul medular:";
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 20F);
+            this.label1.Location = new System.Drawing.Point(0, 140);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(1428, 91);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "         Sistemul nervos central are trei nivele majore cu atribute funcționale s" +
+    "pecifice: nivelul măduvei spinării, nivelul subcortical şi nivelul cortical.";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Gabriola", 50F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(0, -16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(1428, 155);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Centrii";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Centrii
             // 
@@ -190,7 +189,6 @@
             this.Name = "Centrii";
             this.Text = "Centrii";
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
