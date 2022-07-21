@@ -12,7 +12,6 @@ namespace Cerebrum
 {
     public partial class Test_general : Form
     {
-        private int nr = 0;
         public Test_general()
         {
             InitializeComponent();
