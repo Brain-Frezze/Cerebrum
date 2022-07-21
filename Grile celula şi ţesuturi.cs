@@ -25,7 +25,6 @@ namespace Cerebrum
         {
             // int answer = 4;
             //checkedListBox1.BackColor = Color.LightGreen;
-
             int index = checkedListBox1.SelectedIndex;
             int count = checkedListBox1.Items.Count;
             for (int i = 0; i < count; i++)
@@ -163,6 +162,8 @@ namespace Cerebrum
             //MessageBox.Show(nr.ToString(),"Punctajul obţinut:",MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             Rezultate form = new Rezultate(); // formul daca am luat intre 0 si 4
             cinci_sapte nou = new cinci_sapte(); // formul daca am luat intre 5 si 7 
+            opt_noua again = new opt_noua(); // formul daca am luat intre 8 si 9
+            zece last = new zece();
             int punctaj = 0;
             if (checkedListBox1.SelectedIndex == 4)
             {
@@ -172,7 +173,8 @@ namespace Cerebrum
             }
             else
             {
-                checkedListBox1.BackColor = Color.DarkRed;
+                checkedListBox1.BackColor = Color.Red;
+                checkedListBox1.SelectedIndex = 4; //cu acesta comanda aratam care era raspunsul corect
             }
             if (checkedListBox2.SelectedIndex == 2)
             {
@@ -182,7 +184,8 @@ namespace Cerebrum
             }
             else
             {
-                checkedListBox2.BackColor = Color.DarkRed;
+                checkedListBox2.BackColor = Color.Red;
+                checkedListBox2.SelectedIndex = 2;
             }
             if (checkedListBox3.SelectedIndex == 3)
             {
@@ -192,7 +195,9 @@ namespace Cerebrum
             }
             else
             {
-                checkedListBox3.BackColor = Color.DarkRed;
+                checkedListBox3.BackColor = Color.Red;
+                checkedListBox3.SelectedIndex = 3;
+
             }
             if (checkedListBox4.SelectedIndex == 3)
             {
@@ -202,7 +207,9 @@ namespace Cerebrum
             }
             else
             {
-                checkedListBox4.BackColor = Color.DarkRed;
+                checkedListBox4.BackColor = Color.Red;
+                checkedListBox4.SelectedIndex = 3;
+
             }
             if (checkedListBox5.SelectedIndex == 2)
             {
@@ -212,13 +219,20 @@ namespace Cerebrum
             }
             else
             {
-                checkedListBox5.BackColor = Color.DarkRed;
+                checkedListBox5.BackColor = Color.Red;
+                checkedListBox5.SelectedIndex = 2;
+
             }
             if (checkedListBox6.SelectedIndex == 1)
             {
                 punctaj += 10;
                 checkedListBox6.BackColor = Color.LightGreen;
                 checkedListBox6.ClearSelected();
+            }
+            else
+            {
+                checkedListBox6.BackColor = Color.Red;
+                checkedListBox6.SelectedIndex = 1;
             }
             if (checkedListBox7.SelectedIndex == 2)
             {
@@ -228,7 +242,8 @@ namespace Cerebrum
             }
             else
             {
-                checkedListBox7.BackColor = Color.DarkRed;
+                checkedListBox7.BackColor = Color.Red;
+                checkedListBox7.SelectedIndex = 2;
             }
             if (checkedListBox8.SelectedIndex == 4)
             {
@@ -238,7 +253,9 @@ namespace Cerebrum
             }
             else
             {
-                checkedListBox8.BackColor = Color.DarkRed;
+                checkedListBox8.BackColor = Color.Red;
+                checkedListBox8.SelectedIndex = 4;
+                
             }
             if (checkedListBox9.SelectedIndex == 2)
             {
@@ -248,7 +265,8 @@ namespace Cerebrum
             }
             else
             {
-                checkedListBox9.BackColor = Color.DarkRed;
+                checkedListBox9.BackColor = Color.Red;
+                checkedListBox9.SelectedIndex = 2;
             }
             if (checkedListBox10.SelectedIndex == 4)
             {
@@ -258,24 +276,38 @@ namespace Cerebrum
             }
             else
             {
-                checkedListBox10.BackColor = Color.DarkRed;
+                checkedListBox10.BackColor = Color.Red;
+                checkedListBox10.SelectedIndex = 4;
             }
 
             string snr = Convert.ToString(punctaj);
-            if (punctaj < 5)
+            if (punctaj < 50)
             {
                 form.rez = snr;
                 form.ShowDialog();
             }
             else
             {
-                if (punctaj > 4 && punctaj < 8)
+                if (punctaj > 49 && punctaj < 80)
                 {
                     nou.cinci = snr;
-                    form.ShowDialog();
+                    nou.ShowDialog();
 
                 }
                 else
+                {
+                    if(punctaj > 79 && punctaj < 100)
+                    {
+                        again.opt = snr;
+                        again.ShowDialog();
+                    }
+                    else
+                        if(punctaj == 100)
+                    {
+                        last.brb = snr;
+                        last.ShowDialog();
+                    }
+                }
             }
             
 

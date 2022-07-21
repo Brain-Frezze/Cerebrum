@@ -201,6 +201,12 @@
     <Compile Include="Cerebelul.Designer.cs">
       <DependentUpon>Cerebelul.cs</DependentUpon>
     </Compile>
+    <Compile Include="cinci_sapte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cinci_sapte.Designer.cs">
+      <DependentUpon>cinci_sapte.cs</DependentUpon>
+    </Compile>
     <Compile Include="Comentarii.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -428,6 +434,12 @@
     <Compile Include="Neurotransmiţători.Designer.cs">
       <DependentUpon>Neurotransmiţători.cs</DependentUpon>
     </Compile>
+    <Compile Include="opt_noua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="opt_noua.Designer.cs">
+      <DependentUpon>opt_noua.cs</DependentUpon>
+    </Compile>
     <Compile Include="ParolaUitata.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -550,6 +562,12 @@
     <Compile Include="Trunchiul cerebral.Designer.cs">
       <DependentUpon>Trunchiul cerebral.cs</DependentUpon>
     </Compile>
+    <Compile Include="zece.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zece.Designer.cs">
+      <DependentUpon>zece.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Asezare, rapoarte.resx">
       <DependentUpon>Asezare, rapoarte.cs</DependentUpon>
     </EmbeddedResource>
@@ -570,6 +588,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cerebelul.resx">
       <DependentUpon>Cerebelul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cinci_sapte.resx">
+      <DependentUpon>cinci_sapte.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Comentarii.resx">
       <DependentUpon>Comentarii.cs</DependentUpon>
@@ -682,6 +703,9 @@
     <EmbeddedResource Include="Neurotransmiţători.resx">
       <DependentUpon>Neurotransmiţători.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="opt_noua.resx">
+      <DependentUpon>opt_noua.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ParolaUitata.resx">
       <DependentUpon>ParolaUitata.cs</DependentUpon>
     </EmbeddedResource>
@@ -750,6 +774,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Trunchiul cerebral.resx">
       <DependentUpon>Trunchiul cerebral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zece.resx">
+      <DependentUpon>zece.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="ConturiDataSet.xsc">
       <DependentUpon>ConturiDataSet.xsd</DependentUpon>

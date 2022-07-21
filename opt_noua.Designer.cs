@@ -93,6 +93,7 @@
             this.Name = "opt_noua";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "opt_noua";
+            this.Load += new System.EventHandler(this.label1_Click);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -31,6 +31,7 @@ namespace Cerebrum
         private void button1_Click(object sender, EventArgs e)
         {
             loadform(new Grile_celula_şi_ţesuturi());
+            //timer.Start();
         }
         private void button2_Click(object sender, EventArgs e)
         {
@@ -63,7 +64,7 @@ namespace Cerebrum
                 timer.Stop();
                 timeleft = 10;
                 
-                //button1.PerformClick();
+                // button1.PerformClick();
             }
             if(timeleft <= 3 && timeleft%2==1)
             {

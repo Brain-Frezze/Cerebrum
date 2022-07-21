@@ -93,6 +93,7 @@
             this.Name = "cinci_sapte";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "cinci_sapte";
+            this.Load += new System.EventHandler(this.label1_Click);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
