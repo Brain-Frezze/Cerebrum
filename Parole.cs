@@ -16,5 +16,10 @@ namespace Cerebrum
         {
             InitializeComponent();
         }
+
+        private void Parole_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -82,6 +82,10 @@ namespace Cerebrum
             Comentarii log = new Comentarii();
             log.Show();
         }
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            loadform(new Rezultatele_mele());
+        }
         private void panouButoane_Paint(object sender, PaintEventArgs e)
         {
 
@@ -103,5 +107,6 @@ namespace Cerebrum
         {
 
         }
+
     }
 }

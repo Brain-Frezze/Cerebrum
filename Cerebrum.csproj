@@ -177,6 +177,11 @@
     <Compile Include="Aspectul exterior.Designer.cs">
       <DependentUpon>Aspectul exterior.cs</DependentUpon>
     </Compile>
+    <Compile Include="BazaDateRezultateDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BazaDateRezultateDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="CapitoleTeorie.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -483,6 +488,12 @@
     <Compile Include="Rezultate.Designer.cs">
       <DependentUpon>Rezultate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Rezultatele mele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rezultatele mele.Designer.cs">
+      <DependentUpon>Rezultatele mele.cs</DependentUpon>
+    </Compile>
     <Compile Include="Structura maduva.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -740,6 +751,9 @@
     <EmbeddedResource Include="Rezultate.resx">
       <DependentUpon>Rezultate.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Rezultatele mele.resx">
+      <DependentUpon>Rezultatele mele.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Structura maduva.resx">
       <DependentUpon>Structura maduva.cs</DependentUpon>
     </EmbeddedResource>
@@ -798,6 +812,17 @@
     <EmbeddedResource Include="zece.resx">
       <DependentUpon>zece.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="BazaDateRezultateDataSet.xsc">
+      <DependentUpon>BazaDateRezultateDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BazaDateRezultateDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BazaDateRezultateDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BazaDateRezultateDataSet.xss">
+      <DependentUpon>BazaDateRezultateDataSet.xsd</DependentUpon>
+    </None>
     <None Include="ConturiDataSet.xsc">
       <DependentUpon>ConturiDataSet.xsd</DependentUpon>
     </None>
@@ -836,6 +861,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BazaDateRezultate.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="BeWell.Healthy-Brain-Regimen.pink-brain-illustration.jpg" />
     <Content Include="Conturi.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
