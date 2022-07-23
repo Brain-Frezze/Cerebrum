@@ -56,7 +56,7 @@
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Location = new System.Drawing.Point(16, 15);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1369, 1274);
             this.panel1.TabIndex = 0;
@@ -87,8 +87,8 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(1367, 85);
             this.label4.TabIndex = 17;
-            this.label4.Text = "         Notăm în plus că, la nivelul tectumului, îşi are originea aparentă nerul" +
-    " IV. Acesta apare sub coliculii inferiori. \r\n";
+            this.label4.Text = "         Notăm în plus că, la nivelul tectumului, îşi are originea aparentă nervu" +
+    "l IV. Acesta apare sub coliculii inferiori. \r\n";
             // 
             // label3
             // 
@@ -172,7 +172,7 @@
             this.ClientSize = new System.Drawing.Size(1415, 965);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Trunchiul_cerebral";
             this.Text = "Trunchiul_cerebral";
             this.panel1.ResumeLayout(false);

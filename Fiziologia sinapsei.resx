@@ -3726,12 +3726,12 @@
 </value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>         Sunt caracterizate de canale care conduc direct impulsul electrici de la o celulă la alta. Cele mai multe dintre acestea sunt mici structuri tubulare proteice, numita joncțiuni gap, care permit mişcarea liberă a ionilor din interiorul unei celule către următoarea. În sistemul nervos central au fost identificate foarte puține joncțiuni gap a căror semnificatie nu este încă cunoscută.
+    <value>         Sunt caracterizate de canale care conduc direct impulsul electrici de la o celulă la alta. Cele mai multe dintre acestea sunt mici structuri tubulare proteice, numita joncțiuni gap, care permit mişcarea liberă a ionilor din interiorul unei celule către următoarea. În sistemul nervos central au fost identificate foarte puține joncțiuni gap a căror semnificatie este încă necunoscută.
 
 </value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>         Se ştie că informația este transmisă la nivelul sistemului nervos în principal sub forma impulsurilor nervoase, printr-o succesiune de neuroni, unul după altul. Cu toate acestea, nu este evident de la prima vedere că fiecare impuls poate fi blocat la trecerea de la un neuron la altul, poate fi transformat dintr-un impuls unic în impulsuri repetate sau poate fi integrat cu impulsuri venite de la alţi neuroni, producând astfel impulsuri complexe la nivelul neuronilor următori. Toate aceste funcţii pot f numite funcţii sinaptice ale neuronilor. Sinapsa este un organ întâlnit la nivelul contactului dintre doi neuroni sau dintre neuron şi celula receptoare sau efectoare. În lumea animală există două tipuri de sinapse: chimice şi electrice. 
+    <value>         Se ştie că informația este transmisă la nivelul sistemului nervos în principal sub forma impulsurilor nervoase, printr-o succesiune de neuroni, unul după altul. Cu toate acestea, nu este evident de la prima vedere că fiecare impuls poate fi blocat la trecerea de la un neuron la altul, poate fi transformat dintr-un impuls unic în impulsuri repetate sau poate fi integrat cu impulsuri venite de la alţi neuroni, producând astfel impulsuri complexe la nivelul neuronilor următori. Toate aceste funcţii pot fi numite funcţii sinaptice ale neuronilor. Sinapsa este un organ întâlnit la nivelul contactului dintre doi neuroni sau dintre neuron şi celula receptoare sau efectoare. În lumea animală există două tipuri de sinapse: chimice şi electrice. 
 </value>
   </data>
 </root>

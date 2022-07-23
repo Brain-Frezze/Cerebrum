@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label10.Text" xml:space="preserve">
-    <value>        Acetilcolina este un neurotransmiţător important atât în sistemul nervos central, cât şi în cel periferic.Cel mai obişnuit efect al acetilcolinei în creier este excitaţia, realizată. în mare măsură prin intermediul receptorilor muscarinici. Acetilcolina este, de asemenea, neurotransmiţătorul căilor parasimpatice postgangli-onare care inervează cordul, ţesutul glandular şi muşchii netezi viscerali, medierea efectelor realizându-se prin receptori muscarinici.
+    <value>        Acetilcolina este un neurotransmiţător important atât în sistemul nervos central, cât şi în cel periferic. Cel mai obişnuit efect al acetilcolinei în creier este excitaţia, realizată. În mare măsură prin intermediul receptorilor muscarinici. Acetilcolina este, de asemenea, neurotransmiţătorul căilor parasimpatice postganglionare care inervează cordul, ţesutul glandular şi muşchii netezi viscerali, medierea efectelor realizându-se prin receptori muscarinici.
 </value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>        Aminoacizii sunt cei mai abundenţi neurotransmiţători din sistemul nervos central şi sunt reprezentaţi de:glutamat, aspartat, glicină, GABA (acid g-aminobutiric), taurina. 
-        Din punct de vedere funcţional, aminoacizii pot fi impărţiţi în două categorii: excitatori şi inhibitori. 
+    <value>        Aminoacizii sunt cei mai abundenţi neurotransmiţători din sistemul nervos central şi sunt reprezentaţi de: glutamat, aspartat, glicină, GABA (acid g-aminobutiric), taurina. 
+        Din punct de vedere funcţional, aminoacizii pot fi împărţiţi în două categorii: excitatori şi inhibitori. 
   • Aminoacizii excitatori. L-glutamatul şi L-aspatatul sunt neurotransmiţătorii utilizaţi de cei mai mulţi neuroni excitatori din sistemul nervos central. 
   • Aminoacizii inhibitori. GABA, răspândit peste tot în sistemul nervos central, şi glicina, întâlnită în special în măduva spinării şi trunchiul cerebral, sunt mediatorii sinapselor inhibitorii în sistemul nervos central. 
 </value>
@@ -133,19 +133,19 @@
 </value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>sunt sintetizate în terminaţifle nervoase, ci în corpii celulari neuronali din ARN-mesager. 
-        Atât sistemele de proiecţic di fuză, cât şi cele localizate folosesc ca mediatori neuropep-tide. Neuropeptidele frecvent coexistă cu alţi neurotransmiţători, inclusiv cu alte neuropeptide (în neuronii hipotalamici), cu monoamine (acetilcolina, în sistemul difuz al trunchiului cerebral), sau cu aminoacizi (GABA, în neuronii striaţi sau corticali). 
+    <value>sunt sintetizate în terminaţiile nervoase, ci în corpii celulari neuronali din ARN-mesager. 
+        Atât sistemele de proiecţie difuză, cât şi cele localizate folosesc ca mediatori neuropeptide. Neuropeptidele frecvent coexistă cu alţi neurotransmiţători, inclusiv cu alte neuropeptide (în neuronii hipotalamici), cu monoamine (acetilcolina, în sistemul difuz al trunchiului cerebral), sau cu aminoacizi (GABA, în neuronii striaţi sau corticali). 
 </value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>        Neuropeptidele sunt abundente atât în sistemul nervos central cât şi periferic. Multe sunt de asemenea prezente în ţesuturi nonneurale, în mod particular în axul gastro-entero-pancreatic şi în alte sisteme endocrinc. 
+    <value>        Neuropeptidele sunt abundente atât în sistemul nervos central cât şi periferic. Multe sunt de asemenea prezente în ţesuturi nonneurale, în mod particular în axul gastro-entero-pancreatic şi în alte sisteme endocrine. 
         Neuropeptidele alcătuiesc mai multe familii, fiecare familie prezentând gcne precursoare comune şi similarităţi structurale şi funcţionale. Spre dcosebire de alte substanţe neurochimice, neuropeptidele nu </value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA14AAAJzCAYAAAAfncKuAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAfR5JREFUeF7t3V/IHHW+5/GTaP6Z/1HjZgZCQmD2YuKaVXA8I0icHY0iJ4a5cBMG
+        wQAADsEBuJFr7QAAfR5JREFUeF7t3V/IHHW+5/GTaP6Z/1HjZgZCQmD2YuKaVXA8I0icHY0iJ4a5cBMG
         nEBg2exFiAEvvAgqjGAmSEZw2DOLmiADSSBuhBES8SJCLiInF4FcHCWQBJWJmIvIBMNhlLF2Pz31jd/8
         nl9VV1VXV1dVv1/w5enuqvrVn66uqk9XdT3/lAAAAAAAxorgBQAAAABjRvACAAAAgDEjeAEAAADAmBG8
         AAAAAGDMCF4AAAAAMGYELwAAAAAYM4IXAAAAAIwZwQsAAAAAxozgBQAAAABjRvACAAAAgDEjeAEAAADA
@@ -683,14 +683,14 @@
 </value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>         Cercetările privind transferul chimic de informație la nivelul sinapselor s-au extins treptat și în sistemul nervos central, punându-se bazele neurochimiei creierului, care a reuşit să deterrnme structura moleculară a substanţelor neurotransmiţătoare şi neuromodulatoare şi a stabilit etapele biochimice ale transmiterii sinaptice. Aceste etape sunt: 
+    <value>         Cercetările privind transferul chimic de informație la nivelul sinapselor s-au extins treptat și în sistemul nervos central, punându-se bazele neurochimiei creierului, care a reuşit să determine structura moleculară a substanţelor neurotransmiţătoare şi neuromodulatoare şi a stabilit etapele biochimice ale transmiterii sinaptice. Aceste etape sunt: 
   • Sinteza în pericarion a neurotransmiţătorului.
   • Transportul şi depozitarea acestuia în veziculele sinaptice din terminaţiile axonale. 
-  • Eliberarea neurotransmiţătorului în fanta sinaptică prin exocitoză sub influenţa im-pulsului nervos. 
-  • Cuplarea neurotransmitătorului cu receptorii de pe membrana postsinaptică. 
+  • Eliberarea neurotransmiţătorului în fanta sinaptică prin exocitoză sub influenţa impulsului nervos. 
+  • Cuplarea neurotransmiţătorului cu receptorii de pe membrana postsinaptică. 
   • Inactivarea neurotransmiţătorului prin procese enzimatice sau de recaptare. 
-         Substanţele neurotransmiţătoare şi neuromodulatoare au fost evidenţiate printr-o serie de metode ca: microscopia de fluorescenţă., autohistiografia prin marcare cu radioizotopi, mi-croscopia electronică, tehnici de imunocitochimie bazate pe specificitatea anticorpilor faţă de enzime ce mediază transmiterea sinaptică. 
-         Datorită acestor metode s-au descoperit până astăzi peste 60 de substanţe neurotrans-miţătoare şi neuromodulatoare care au fost clasificate în patru grupuri mari: neuropeptide, monoamine biogene, aminoacizi, mediatori non-peptidergici. 
+         Substanţele neurotransmiţătoare şi neuromodulatoare au fost evidenţiate printr-o serie de metode ca: microscopia de fluorescenţă, autohistiografia prin marcare cu radioizotopi, mi-croscopia electronică, tehnici de imunocitochimie bazate pe specificitatea anticorpilor faţă de enzime ce mediază transmiterea sinaptică. 
+         Datorită acestor metode s-au descoperit până astăzi peste 60 de substanţe neurotransmiţătoare şi neuromodulatoare care au fost clasificate în patru grupuri mari: neuropeptide, monoamine biogene, aminoacizi, mediatori non-peptidergici. 
 </value>
   </data>
 </root>

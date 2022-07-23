@@ -118,18 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label6.Text" xml:space="preserve">
-    <value>         La exteriorul trunchiului cerebral se află substanţa albă (exceptând numai fața dorsală a mezencefalului, unde se află substanța cenuşie formată din cei patru coliculi cvadrigemeni). Substanța cenuşie este localizată central. Datorită încrucişării fibrelor descendente (motorii) și a celor ascendente (senzitive) care fragmentează coloanele longitudinale de substanță cenuşie, aceasta apare ca fiind formată din nuclei. Substanța cenuşie a trunchiului cerebral este formată din nuclei proprii și din nuclei echivalenti coarnelor din măduvă. 
+    <value>         La exteriorul trunchiului cerebral se află substanţa albă (exceptând numai fața dorsală a mezencefalului, unde se află substanța cenuşie formată din cei patru coliculi cvadrigemeni). Substanța cenuşie este localizată central. Datorită încrucişării fibrelor descendente (motorii) și a celor ascendente (senzitive) care fragmentează coloanele longitudinale de substanță cenuşie, aceasta apare ca fiind formată din nuclei. Substanța cenuşie a trunchiului cerebral este formată din nuclei proprii și din nuclei echivalenţi coarnelor din măduvă. 
          În afara căilor ascendente și descendente, în trunchiul cerebral există şi fascicule de asociație, care leagă între ei nuclei ai trunchiului cerebral sau leagă nucleii de formațiuni supra- sau subiacente. 
 </value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>         Bulbul şi puntea au o porțiune ventrală (bazilară), în care predomină substanța albă, și o porțiune dorsală (tegmentală), în care predomină substanța cenuşie. Spre deosebire de aceste prime două etaje, mezencefalul prezintă trei porțiuni: una anterioară, reprezentată de picioarele pedunculilor, prin care trec fibrele fasciculului piramidal, una mijlocie, calota mezencefalului, unde se află nucleul roşu, , şi cea de-a treia, lama cvadrigemina (tectum), formată din patru coliculi cvadrigemeni: doi superiori și doi inferiori. Între nucleul roșu și picioarele pedunculilor se află substanța neagră. Nucleul roşu are o formă ovalară și culoare roşietică.</value>
+    <value>         Bulbul şi puntea au o porțiune ventrală (bazilară), în care predomină substanța albă, și o porțiune dorsală (tegmentală), în care predomină substanța cenuşie. Spre deosebire de aceste prime două etaje, mezencefalul prezintă trei porțiuni: una anterioară, reprezentată de picioarele pedunculilor, prin care trec fibrele fasciculului piramidal, una mijlocie, calota mezencefalului, unde se află nucleul roşu, şi cea de-a treia, lama cvadrigemina (tectum), formată din patru coliculi cvadrigemeni: doi superiori și doi inferiori. Între nucleul roșu și picioarele pedunculilor se află substanța neagră. Nucleul roşu are o formă ovalară și culoare roşietică.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="panel3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAOEAAAEpCAYAAABlf0UXAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAA/7JJREFUeF7s/QWUXse5LYrGDDHEsYNO4jgxM1uWbDEzU0vd6lYzMzMzMzMzMzMz
+        wAAADsABataJCQAA/7JJREFUeF7s/QWUXse5LYrGDDHEsYNO4jgxM1uWbDEzU0vd6lYzMzMzMzMzMzMz
         d6ulVkstyZIscxyYd1a15L33GeO8N+6757xzna0a4xu1flo/1aw5Z9VXtX52t9wtd8vdcrfcLXfL3XK3
         3C13y91yt9wtd8vdcrfcLXfL3XK33C13y91yt9wtd8vdcrfcLT/lEqtvcE+cgeE98QbG9yQYmdybaGx6
         X5Kx+T0pJgxTCxH3ppha3pNsYnGPuP/2y2RJMLL8L7fvlrvl374kGOnfl2Coe2+8oc5Dcfra98fpad8f
