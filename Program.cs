@@ -16,7 +16,8 @@ namespace Cerebrum
         {
             //Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CapitoleGrile());
+            Application.Run(new MainMenu());
+
         }
     }
 
