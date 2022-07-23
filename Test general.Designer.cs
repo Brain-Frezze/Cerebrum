@@ -395,6 +395,7 @@
             this.label16.Size = new System.Drawing.Size(907, 39);
             this.label16.TabIndex = 22;
             this.label16.Text = "1. Substanţa cenuşie din măduva spinării are următoarea alcătuire:";
+            this.label16.Click += new System.EventHandler(this.label16_Click);
             // 
             // timer1
             // 

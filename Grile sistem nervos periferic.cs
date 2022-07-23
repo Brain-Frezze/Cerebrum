@@ -15,6 +15,7 @@ namespace Cerebrum
         public Grile_sistem_nervos_periferic()
         {
             InitializeComponent();
+            timer1.Start();
         }
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -158,6 +159,8 @@ namespace Cerebrum
         }
         private void button1_Click(object sender, EventArgs e)
         {
+            timer1.Stop();
+            CapitoleGrile.nr++;
             //MessageBox.Show(nr.ToString(),"Punctajul obţinut:",MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             Rezultate form = new Rezultate(); // formul daca am luat intre 0 si 4
             cinci_sapte nou = new cinci_sapte(); // formul daca am luat intre 5 si 7 
@@ -309,7 +312,20 @@ namespace Cerebrum
                 }
             }
         }
+        int time = CapitoleGrile.timeleft;
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (time > 0)
+            {
+                time = time - 1;
 
+            }
+            else
+            {
+                timer1.Stop();
+                button1.PerformClick();
 
+            }
+        }
     }
 }

@@ -180,6 +180,8 @@ namespace Cerebrum
 
         private void button2_Click_1(object sender, EventArgs e)
         {
+            timer1.Stop();
+            CapitoleGrile.nr++;
             Rezultate form = new Rezultate(); // formul daca am luat intre 0 si 4
             cinci_sapte nou = new cinci_sapte(); // formul daca am luat intre 5 si 7 
             opt_noua again = new opt_noua(); // formul daca am luat intre 8 si 9
@@ -345,6 +347,11 @@ namespace Cerebrum
                 button2.PerformClick();
 
             }
+        }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

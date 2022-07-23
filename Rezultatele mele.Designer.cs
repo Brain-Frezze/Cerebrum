@@ -37,21 +37,21 @@
             this.conturiDataSet = new Cerebrum.ConturiDataSet();
             this.conturiDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.bazaDateRezultateDataSet = new Cerebrum.BazaDateRezultateDataSet();
-            this.rezultateBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.rezultateTableAdapter = new Cerebrum.BazaDateRezultateDataSetTableAdapters.RezultateTableAdapter();
             this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.numeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.testDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.punctajDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rezultateBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bazaDateRezultateDataSet = new Cerebrum.BazaDateRezultateDataSet();
+            this.rezultateTableAdapter = new Cerebrum.BazaDateRezultateDataSetTableAdapters.RezultateTableAdapter();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.conturiDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.conturiDataSetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bazaDateRezultateDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rezultateBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bazaDateRezultateDataSet)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -129,20 +129,6 @@
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick_1);
             // 
-            // bazaDateRezultateDataSet
-            // 
-            this.bazaDateRezultateDataSet.DataSetName = "BazaDateRezultateDataSet";
-            this.bazaDateRezultateDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // rezultateBindingSource
-            // 
-            this.rezultateBindingSource.DataMember = "Rezultate";
-            this.rezultateBindingSource.DataSource = this.bazaDateRezultateDataSet;
-            // 
-            // rezultateTableAdapter
-            // 
-            this.rezultateTableAdapter.ClearBeforeFill = true;
-            // 
             // iDDataGridViewTextBoxColumn
             // 
             this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
@@ -171,6 +157,20 @@
             this.punctajDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.punctajDataGridViewTextBoxColumn.Name = "punctajDataGridViewTextBoxColumn";
             // 
+            // rezultateBindingSource
+            // 
+            this.rezultateBindingSource.DataMember = "Rezultate";
+            this.rezultateBindingSource.DataSource = this.bazaDateRezultateDataSet;
+            // 
+            // bazaDateRezultateDataSet
+            // 
+            this.bazaDateRezultateDataSet.DataSetName = "BazaDateRezultateDataSet";
+            this.bazaDateRezultateDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // rezultateTableAdapter
+            // 
+            this.rezultateTableAdapter.ClearBeforeFill = true;
+            // 
             // label2
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -184,6 +184,7 @@
             this.label2.TabIndex = 12;
             this.label2.Text = "Rezultatele mele";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // panel1
             // 
@@ -223,8 +224,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.conturiDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.conturiDataSetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bazaDateRezultateDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rezultateBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bazaDateRezultateDataSet)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
