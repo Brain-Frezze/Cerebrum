@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OleDb;
 
 namespace Cerebrum
 {
@@ -18,6 +19,9 @@ namespace Cerebrum
             timer1.Start();
         }
 
+        OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=BazaDateRezultate.mdb");
+        OleDbCommand cmd = new OleDbCommand();
+        OleDbDataAdapter da = new OleDbDataAdapter();
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             // int answer = 3;
@@ -310,6 +314,19 @@ namespace Cerebrum
                         last.ShowDialog();
                     }
                 }
+            }
+            using (OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=BazaDateRezultate.mdb"))
+            {
+                con.Open();
+                using (OleDbCommand cmd = new OleDbCommand("INSERT INTO Rezultate VALUES (@ID ,@Nume, @Parola, @Email)", con))
+                {
+                    cmd.Parameters.AddWithValue("ID", CapitoleGrile.nr); // nr de teste
+                    cmd.Parameters.AddWithValue("Nume", Login.user); // utilizator
+                    cmd.Parameters.AddWithValue("Parola", "Noțiuni generale"); // testul dat
+                    cmd.Parameters.AddWithValue("Email", snr); // punctaj
+                    cmd.ExecuteNonQuery();
+                }
+                con.Close();
             }
         }
         int time = CapitoleGrile.timeleft;
