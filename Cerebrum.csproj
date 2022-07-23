@@ -592,7 +592,16 @@
     <Compile Include="zece.Designer.cs">
       <DependentUpon>zece.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Asezare, rapoarte.aa.resx">
+      <DependentUpon>Asezare, rapoarte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Asezare, rapoarte.en.resx">
+      <DependentUpon>Asezare, rapoarte.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Asezare, rapoarte.resx">
+      <DependentUpon>Asezare, rapoarte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Asezare, rapoarte.ro.resx">
       <DependentUpon>Asezare, rapoarte.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Aspectul exterior.resx">
@@ -621,6 +630,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ContInexistent.resx">
       <DependentUpon>ContInexistent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreareCont.en.resx">
+      <DependentUpon>CreareCont.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CreareCont.resx">
       <DependentUpon>CreareCont.cs</DependentUpon>
@@ -687,6 +699,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Localizări corticale.resx">
       <DependentUpon>Localizări corticale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.en.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.ro.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Mecanisme generale.resx">
       <DependentUpon>Mecanisme generale.cs</DependentUpon>

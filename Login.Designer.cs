@@ -21,110 +21,75 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
+            this.românăToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.englishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // Autentificare
             // 
             this.Autentificare.BackColor = System.Drawing.Color.Transparent;
-            this.Autentificare.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Autentificare.BackgroundImage")));
-            this.Autentificare.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            resources.ApplyResources(this.Autentificare, "Autentificare");
             this.Autentificare.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Autentificare.FlatAppearance.BorderSize = 0;
             this.Autentificare.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Autentificare.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.Autentificare.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Autentificare.Font = new System.Drawing.Font("Gabriola", 14F, System.Drawing.FontStyle.Bold);
-            this.Autentificare.Location = new System.Drawing.Point(654, 305);
             this.Autentificare.Name = "Autentificare";
-            this.Autentificare.Size = new System.Drawing.Size(233, 78);
-            this.Autentificare.TabIndex = 0;
-            this.Autentificare.Text = "        Autentificare";
             this.Autentificare.UseVisualStyleBackColor = false;
             this.Autentificare.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            resources.ApplyResources(this.textBox1, "textBox1");
             this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(604, 131);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(317, 26);
-            this.textBox1.TabIndex = 1;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
+            resources.ApplyResources(this.label1, "label1");
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Gabriola", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.label1.Location = new System.Drawing.Point(600, 77);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 50);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Utilizator:";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox2
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            resources.ApplyResources(this.textBox2, "textBox2");
             this.textBox2.ForeColor = System.Drawing.Color.Black;
-            this.textBox2.Location = new System.Drawing.Point(604, 233);
             this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(317, 26);
-            this.textBox2.TabIndex = 4;
             // 
             // linkLabel1
             // 
             this.linkLabel1.ActiveLinkColor = System.Drawing.Color.DarkSlateGray;
             this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
             this.linkLabel1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.linkLabel1.Font = new System.Drawing.Font("Gabriola", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            resources.ApplyResources(this.linkLabel1, "linkLabel1");
             this.linkLabel1.LinkColor = System.Drawing.Color.MidnightBlue;
-            this.linkLabel1.Location = new System.Drawing.Point(721, 432);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(124, 42);
-            this.linkLabel1.TabIndex = 5;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Creare cont";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
+            resources.ApplyResources(this.label3, "label3");
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Gabriola", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.label3.Location = new System.Drawing.Point(600, 180);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 50);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Parola:";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
+            resources.ApplyResources(this.label2, "label2");
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Gabriola", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.label2.Location = new System.Drawing.Point(721, 386);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(124, 46);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Nu ai cont ?";
             // 
             // checkBox1
             // 
-            this.checkBox1.AutoSize = true;
+            resources.ApplyResources(this.checkBox1, "checkBox1");
             this.checkBox1.BackColor = System.Drawing.Color.Transparent;
-            this.checkBox1.Font = new System.Drawing.Font("Gabriola", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(815, 265);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(116, 41);
-            this.checkBox1.TabIndex = 14;
-            this.checkBox1.Text = "Arată parola";
             this.checkBox1.UseVisualStyleBackColor = false;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
@@ -133,15 +98,11 @@
             this.linkLabel2.ActiveLinkColor = System.Drawing.Color.DarkSlateGray;
             this.linkLabel2.BackColor = System.Drawing.Color.Transparent;
             this.linkLabel2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.linkLabel2.Font = new System.Drawing.Font("Gabriola", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            resources.ApplyResources(this.linkLabel2, "linkLabel2");
             this.linkLabel2.ForeColor = System.Drawing.SystemColors.MenuText;
             this.linkLabel2.LinkColor = System.Drawing.Color.MidnightBlue;
-            this.linkLabel2.Location = new System.Drawing.Point(698, 480);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(223, 57);
-            this.linkLabel2.TabIndex = 15;
             this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "Contactează-ne";
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // linkLabel3
@@ -149,26 +110,49 @@
             this.linkLabel3.ActiveLinkColor = System.Drawing.Color.DarkSlateGray;
             this.linkLabel3.BackColor = System.Drawing.Color.Transparent;
             this.linkLabel3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.linkLabel3.Font = new System.Drawing.Font("Gabriola", 13F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            resources.ApplyResources(this.linkLabel3, "linkLabel3");
             this.linkLabel3.LinkColor = System.Drawing.Color.MidnightBlue;
-            this.linkLabel3.Location = new System.Drawing.Point(601, 260);
             this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(140, 42);
-            this.linkLabel3.TabIndex = 16;
             this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "Ai uitat parola?";
             this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
+            // 
+            // toolStrip1
+            // 
+            resources.ApplyResources(this.toolStrip1, "toolStrip1");
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripDropDownButton1});
+            this.toolStrip1.Name = "toolStrip1";
+            // 
+            // toolStripDropDownButton1
+            // 
+            this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripDropDownButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.românăToolStripMenuItem,
+            this.englishToolStripMenuItem});
+            resources.ApplyResources(this.toolStripDropDownButton1, "toolStripDropDownButton1");
+            this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
+            // 
+            // românăToolStripMenuItem
+            // 
+            this.românăToolStripMenuItem.Name = "românăToolStripMenuItem";
+            resources.ApplyResources(this.românăToolStripMenuItem, "românăToolStripMenuItem");
+            this.românăToolStripMenuItem.Click += new System.EventHandler(this.românăToolStripMenuItem_Click);
+            // 
+            // englishToolStripMenuItem
+            // 
+            this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
+            resources.ApplyResources(this.englishToolStripMenuItem, "englishToolStripMenuItem");
+            this.englishToolStripMenuItem.Click += new System.EventHandler(this.englishToolStripMenuItem_Click);
             // 
             // Login
             // 
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            resources.ApplyResources(this, "$this");
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(943, 546);
+            this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.linkLabel3);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.checkBox1);
@@ -182,12 +166,11 @@
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.ForeColor = System.Drawing.SystemColors.MenuText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Login";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);
             this.Resize += new System.EventHandler(this.Login_Load);
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -205,6 +188,11 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.LinkLabel linkLabel3;
+        private System.ComponentModel.IContainer components;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton1;
+        private System.Windows.Forms.ToolStripMenuItem românăToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem englishToolStripMenuItem;
     }
 }
 

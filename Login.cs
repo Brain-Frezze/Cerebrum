@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.OleDb;
@@ -81,6 +82,18 @@ namespace Cerebrum
             ParolaUitata log = new ParolaUitata();
             log.Show();
         }
+        private void englishToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en");
+            this.Controls.Clear();
+            InitializeComponent();
+        }
+        private void românăToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("ro");
+            this.Controls.Clear();
+            InitializeComponent();
+        }
         private void Login_Load(object sender, EventArgs e)
         {
 
@@ -93,6 +106,11 @@ namespace Cerebrum
 
 
         private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolTip1_Popup(object sender, PopupEventArgs e)
         {
 
         }
