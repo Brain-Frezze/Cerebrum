@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Grile_noţiuni_generale));
             this.label1 = new System.Windows.Forms.Label();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
@@ -68,6 +69,7 @@
             this.label15 = new System.Windows.Forms.Label();
             this.checkedListBox16 = new System.Windows.Forms.CheckedListBox();
             this.label16 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -669,6 +671,11 @@
             this.label16.TabIndex = 13;
             this.label16.Text = "1. Este fals despre neuronii din SNP: ";
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Grile_noţiuni_generale
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -730,5 +737,6 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.CheckedListBox checkedListBox16;
         private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Timer timer1;
     }
 }

@@ -35,7 +35,7 @@ namespace Cerebrum
             smtp.Send(mm);
             label5.Text = "E-mailul tău a fost trimis! Îţi mulţumim! "; */
             System.Diagnostics.Process proc = new System.Diagnostics.Process();
-            proc.StartInfo.FileName = "mailto:comapany.cerebrum@gmail.com ? subject=te & body=love my body ";
+            proc.StartInfo.FileName = "mailto:comapany.cerebrum@gmail.com" ;
             proc.Start();
         }
 

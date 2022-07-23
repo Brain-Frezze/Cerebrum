@@ -16,6 +16,7 @@ namespace Cerebrum
         public Grile_noţiuni_generale()
         {
             InitializeComponent();
+            timer1.Start();
         }
         OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=BazaDateConturi.mdb");
         OleDbCommand cmd = new OleDbCommand();
@@ -172,7 +173,6 @@ namespace Cerebrum
             }
             
         }
-        
         private void button1_Click(object sender, EventArgs e)
         {
             Rezultate form = new Rezultate(); // formul daca am luat intre 0 si 4
@@ -353,6 +353,20 @@ namespace Cerebrum
         {
 
         }
+        int time = CapitoleGrile.timeleft;
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (time > 0)
+            {
+                time = time - 1;
 
+            }
+            else
+            {
+                timer1.Stop();
+                button1.PerformClick();
+
+            }
+        }
     }
 }

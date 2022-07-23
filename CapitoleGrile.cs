@@ -27,23 +27,28 @@ namespace Cerebrum
             this.mainPanel.Controls.Add(f);
             this.mainPanel.Tag = f;
             f.Show();
+
         }
         private void button1_Click(object sender, EventArgs e)
         {
             loadform(new Grile_noţiuni_generale());
-            //timer.Start();
+            timer.Start();
+            
         }
         private void button2_Click(object sender, EventArgs e)
         {
             loadform(new Grile_sistem_nervos_central());
+            timer.Start();
         }
         private void button3_Click(object sender, EventArgs e)
         {
             loadform(new Grile_sistem_nervos_periferic());
+            timer.Start();
         }
         private void button5_Click(object sender, EventArgs e)
         {
             loadform(new Test_general());
+            timer.Start();
         }
         private void button6_Click_1(object sender, EventArgs e)
         {
@@ -55,7 +60,7 @@ namespace Cerebrum
         {
             timer.Start();
         }
-        int timeleft = 10;
+        public static int timeleft = 10;
         private void timer1_Tick(object sender, EventArgs e)
         {
             if(timeleft > 0)
@@ -67,8 +72,9 @@ namespace Cerebrum
             {
                 timer.Stop();
                 timeleft = 10;
+
+                // button1.PerformClick()
                 
-                // button1.PerformClick();
             }
             if(timeleft <= 3 && timeleft%2==1)
             {

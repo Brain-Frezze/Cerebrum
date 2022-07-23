@@ -15,6 +15,7 @@ namespace Cerebrum
         public Test_general()
         {
             InitializeComponent();
+            timer1.Start();
         }
 
         private void checkedListBox16_SelectedIndexChanged(object sender, EventArgs e)
@@ -327,6 +328,22 @@ namespace Cerebrum
                         last.ShowDialog();
                     }
                 }
+            }
+        }
+
+        int time = CapitoleGrile.timeleft;
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (time > 0)
+            {
+                time = time - 1;
+
+            }
+            else
+            {
+                timer1.Stop();
+                button2.PerformClick();
+
             }
         }
     }
