@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OleDb;
 
 namespace Cerebrum
 {
@@ -17,7 +18,9 @@ namespace Cerebrum
             InitializeComponent();
             timer1.Start();
         }
-
+        OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=BazaDateRezultate.mdb");
+        OleDbCommand cmd = new OleDbCommand();
+        OleDbDataAdapter da = new OleDbDataAdapter();
         private void checkedListBox16_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -180,6 +183,8 @@ namespace Cerebrum
 
         private void button2_Click_1(object sender, EventArgs e)
         {
+            timer1.Stop();
+            CapitoleGrile.nr++;
             Rezultate form = new Rezultate(); // formul daca am luat intre 0 si 4
             cinci_sapte nou = new cinci_sapte(); // formul daca am luat intre 5 si 7 
             opt_noua again = new opt_noua(); // formul daca am luat intre 8 si 9
@@ -329,6 +334,19 @@ namespace Cerebrum
                     }
                 }
             }
+            using (OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=BazaDateRezultate.mdb"))
+            {
+                con.Open();
+                using (OleDbCommand cmd = new OleDbCommand("INSERT INTO Rezultate VALUES (@ID ,@Nume, @Parola, @Email)", con))
+                {
+                    cmd.Parameters.AddWithValue("ID", CapitoleGrile.nr); // nr de teste
+                    cmd.Parameters.AddWithValue("Nume", Login.user); // utilizator
+                    cmd.Parameters.AddWithValue("Parola", "Noțiuni generale"); // testul dat
+                    cmd.Parameters.AddWithValue("Email", snr); // punctaj
+                    cmd.ExecuteNonQuery();
+                }
+                con.Close();
+            }
         }
 
         int time = CapitoleGrile.timeleft;
@@ -345,6 +363,11 @@ namespace Cerebrum
                 button2.PerformClick();
 
             }
+        }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

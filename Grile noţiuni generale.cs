@@ -18,7 +18,7 @@ namespace Cerebrum
             InitializeComponent();
             timer1.Start();
         }
-        OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=BazaDateConturi.mdb");
+        OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=BazaDateRezultate.mdb");
         OleDbCommand cmd = new OleDbCommand();
         OleDbDataAdapter da = new OleDbDataAdapter();
 
@@ -175,6 +175,8 @@ namespace Cerebrum
         }
         private void button1_Click(object sender, EventArgs e)
         {
+            timer1.Stop();
+            CapitoleGrile.nr++;
             Rezultate form = new Rezultate(); // formul daca am luat intre 0 si 4
             cinci_sapte nou = new cinci_sapte(); // formul daca am luat intre 5 si 7 
             opt_noua again = new opt_noua(); // formul daca am luat intre 8 si 9
@@ -325,11 +327,12 @@ namespace Cerebrum
                 }
             }
 
-            using (OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=BazaDateConturi.mdb"))
+            using (OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=BazaDateRezultate.mdb"))
             {
                 con.Open();
-                using (OleDbCommand cmd = new OleDbCommand("INSERT INTO Utilizator VALUES (@Nume, @Parola, @Email)", con))
+                using (OleDbCommand cmd = new OleDbCommand("INSERT INTO Rezultate VALUES (@ID ,@Nume, @Parola, @Email)", con))
                 {
+                    cmd.Parameters.AddWithValue("ID", CapitoleGrile.nr); // nr de teste
                     cmd.Parameters.AddWithValue("Nume", Login.user); // utilizator
                     cmd.Parameters.AddWithValue("Parola", "Noțiuni generale"); // testul dat
                     cmd.Parameters.AddWithValue("Email", snr); // punctaj

@@ -29,6 +29,7 @@ namespace Cerebrum
             f.Show();
 
         }
+        public static int nr = 0;
         private void button1_Click(object sender, EventArgs e)
         {
             loadform(new Grile_noţiuni_generale());

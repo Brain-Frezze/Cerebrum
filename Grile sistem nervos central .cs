@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OleDb;
 
 namespace Cerebrum
 {
@@ -15,8 +16,11 @@ namespace Cerebrum
         public Grile_sistem_nervos_central()
         {
             InitializeComponent();
-
+            timer1.Start();
         }
+        OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=BazaDateRezultate.mdb");
+        OleDbCommand cmd = new OleDbCommand();
+        OleDbDataAdapter da = new OleDbDataAdapter();
         private void label3_Click(object sender, EventArgs e)
         {
 
@@ -159,6 +163,8 @@ namespace Cerebrum
         }
         private void button1_Click(object sender, EventArgs e)
         {
+            timer1.Stop();
+            CapitoleGrile.nr++;
             //MessageBox.Show(nr.ToString(),"Punctajul obţinut:",MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             Rezultate form = new Rezultate(); // formul daca am luat intre 0 si 4
             cinci_sapte nou = new cinci_sapte(); // formul daca am luat intre 5 si 7 
@@ -309,7 +315,19 @@ namespace Cerebrum
                     }
                 }
             }
-            
+            using (OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=BazaDateRezultate.mdb"))
+            {
+                con.Open();
+                using (OleDbCommand cmd = new OleDbCommand("INSERT INTO Rezultate VALUES (@ID ,@Nume, @Parola, @Email)", con))
+                {
+                    cmd.Parameters.AddWithValue("ID", CapitoleGrile.nr); // nr de teste
+                    cmd.Parameters.AddWithValue("Nume", Login.user); // utilizator
+                    cmd.Parameters.AddWithValue("Parola", "Noțiuni generale"); // testul dat
+                    cmd.Parameters.AddWithValue("Email", snr); // punctaj
+                    cmd.ExecuteNonQuery();
+                }
+                con.Close();
+            }
 
         }
         private void label8_Click(object sender, EventArgs e)
@@ -328,5 +346,20 @@ namespace Cerebrum
 
         }
 
+        int time = CapitoleGrile.timeleft;
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (time > 0)
+            {
+                time = time - 1;
+
+            }
+            else
+            {
+                timer1.Stop();
+                button1.PerformClick();
+
+            }
+        }
     }
 }
