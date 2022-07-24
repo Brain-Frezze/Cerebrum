@@ -20,6 +20,7 @@ namespace Cerebrum
         public ParolaUitata()
         {
             InitializeComponent();
+            button1.Enabled = false;
         }
 
         OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=BazaDateConturi.mdb");
@@ -33,10 +34,15 @@ namespace Cerebrum
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string from, pass;
+            //string from, pass;
+            
             Random rand = new Random();
             randomCode = (rand.Next(99999)).ToString();
-            MailMessage message = new MailMessage();
+            System.Diagnostics.Process proc = new System.Diagnostics.Process();
+            proc.StartInfo.FileName = "mailto:comapany.cerebrum@gmail.com?subject=" + ("Recuperare Parolă") + "&body=" + (randomCode);
+            proc.Start();
+            proc.Start();
+            /*MailMessage message = new MailMessage();
             to = textBox1.Text;
             from = "company.cerebrum@gmail.com";
             pass = "anAHc1QrFmxVDh7z";
@@ -83,7 +89,7 @@ namespace Cerebrum
                     textBox1.Focus();
                 }
                 con.Close();
-            }
+            }*/
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -116,11 +122,42 @@ namespace Cerebrum
 
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void button2_Click_1(object sender, EventArgs e)
         {
-            System.Diagnostics.Process proc = new System.Diagnostics.Process();
-            proc.StartInfo.FileName = "mailto:comapany.cerebrum@gmail.com, mailfrom:florentinivan2004@gmail.com";
-            proc.Start();
+            using (OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=BazaDateConturi.mdb"))
+            {
+                con.Open();
+                bool exist = false;
+                using (OleDbCommand cmd = new OleDbCommand("select count(*) from Utilizator where Email = @Email", con))
+                {
+                    cmd.Parameters.AddWithValue("Email", textBox1.Text);
+                    exist = (int)cmd.ExecuteScalar() > 0;
+                }
+                if (exist == true)
+                {
+                    button1.Enabled = true;
+                }
+                else
+                {
+                    Email log = new Email();
+                    log.Show();
+                }
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (textBox2.Text == randomCode)
+            {
+                Resetare_parola log = new Resetare_parola();
+                this.Hide();
+                log.Show();
+            }
+            else
+            {
+                cod log = new cod();
+                log.Show();
+            }
         }
     }
 }

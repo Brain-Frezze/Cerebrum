@@ -212,6 +212,12 @@
     <Compile Include="cinci_sapte.Designer.cs">
       <DependentUpon>cinci_sapte.cs</DependentUpon>
     </Compile>
+    <Compile Include="cod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cod.Designer.cs">
+      <DependentUpon>cod.cs</DependentUpon>
+    </Compile>
     <Compile Include="Comentarii.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -482,6 +488,12 @@
     <Compile Include="Reflexul.Designer.cs">
       <DependentUpon>Reflexul.cs</DependentUpon>
     </Compile>
+    <Compile Include="Resetare parola.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resetare parola.Designer.cs">
+      <DependentUpon>Resetare parola.cs</DependentUpon>
+    </Compile>
     <Compile Include="Rezultate.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -666,6 +678,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="cinci_sapte.ro.resx">
       <DependentUpon>cinci_sapte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cod.resx">
+      <DependentUpon>cod.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Comentarii.en.resx">
       <DependentUpon>Comentarii.cs</DependentUpon>
@@ -876,6 +891,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reflexul.resx">
       <DependentUpon>Reflexul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resetare parola.resx">
+      <DependentUpon>Resetare parola.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Rezultate.resx">
       <DependentUpon>Rezultate.cs</DependentUpon>
