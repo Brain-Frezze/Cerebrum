@@ -17,8 +17,12 @@ namespace Cerebrum
         {
             //Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
             Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("ro");
-            Application.Run(new Login());
+
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en");
+            Application.Run(new CapitoleTeorie());
+
         }
     }
 

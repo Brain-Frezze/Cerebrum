@@ -117,18 +117,49 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label12.Text" xml:space="preserve">
-    <value>         Rolul specific al creierului este de a prelucra informaţia. Sediul principal al acestui proces este scoarţa cerebrală care funcţionează în strânsă colaborare cu numeroase structuri subcorticale. Pentru a prelucra informaţia, scoarţa cerebrală trebuie mai întâi să o primească. Informaţia pătrunde în sistemul nervos prin intermediul receptorilor, de unde este trimisă pe căi specifice la scoarţă, în ariile senzitive specifice. Aceste informaţii sunt apoi comparate, la nivelul ariilor asociative, cu informaţiile culese de ceilalţi analizatori, precum şi cu datele din memorie. Pe baza sintezei complexe a tuturor informaţiilor este elaborată starea de conştienţă şi sunt luate deciziile automate şi cele voluţionale.
-</value>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label8.Text" xml:space="preserve">
-    <value>         Numit şi creierul vegetativ al organismului, hipotalamusul este organul nervos cu cele mai multe funcţii pe unitate de volum. 
-         Hipotalamusul are conexiuni cu toate etajele sistemului limbic. De asemenea, hipotalamusul şi structurile sale învecinate trimit eferenţe în trei direcţii: descendent, către trunchiul cerebral, în special către formaţia reticulată, ascendent - către etajele superioare ale diencefalului şi ale scoarţei cerebrale, în special către talamusul anterior şi cortexul limbic, şi spre infundibul - pentru a controla cea mai mare parte a funcţiilor secretorii ale hipofizei anterioare şi posterioare. Astfel, hipotalamusul, care reprezintă mai puţin de 1% din masa cerebrală, este unul dintre cele mai importante căi eferente motorii ale sistemului limbic, controlează cea mai mare parte a funcţiilor endocrine şi vegetative ale organismului, ca şi multe aspecte ale comportamentului emoţional. 
-         Hipotalamusul integrează toate reglările vegetative din organism. Porţiunea sa anterioară coordonează activitatea parasimpaticului, iar cea posterioară pe cea a simpaticului. Astfel, stimularea porţiunii anterioare a hipotalamusului determină scăderea presiunii sangvine şi a frecvenţei cardiace, în timp ce stimularea porţiunii posterioare are efecte inverse. De asemenea, hipotalamusul are rolul de a integra activitatea cardiovasculară cu cea respiratorie, digestivă, excretorie etc. De exemplu, în timpul digestiei, la nivelul vaselor sangvine ale tubului digestiv este necesar un volum mare de sânge, pentru a furniza suplimentul de energie necesar activităţii secretorii crescute, motilităţii crescute şi pentru a prelua substanţele absorbite la nivelul intestinu-lui subţire. Deoarece volumul de sânge este constant, este necesară o redistribuire a acestuia către teritoriile tubului digestiv, cu scăderea irigării altor ţesuturi aflate în repaus în acel moment (piele, muşchi). Această redistribuţie a debitului circulator este realizată de hipotalamus. 
-         Hipotalamusul intervine în reglarea metabolismelor intermediare lipidic, glucidic, portidic şi a metabolismului energetic. Hipotalamusul anterior favorizează procesele anabolice, iar cel posterior pe cele catabolice, generatoare de energie. Lezarea hipotalamusului produce obezitate sau slăbirea exagerată, în funcţie de sediul leziunii. 
-         Hipotalamusul reglează activitatea secretorie a glandei hipofize. Neuronii hipotalamusului anterior au proprietăţi secretorii endocrine. Toţi hormonii secretaţi de hipotalamus se numesc produşi de neurosecreţie. Neuronii din nucleii supraoptic şi paraventricular secretă vasopresina şi ocitocina (sau oxitocina), hormoni transportaţi de-a lungul axonilor acestor neuroni până în hipofiza posterioară, unde sunt depozitaţi şi de unde sunt eliberaţi la nevoie. Alţi neuroni secretă hormoni care sunt eliberaţi în sistemul sangvin port hipofizar, ajungând la nivelul hipofizei anterioare; aceşti hormoni sunt inhibitori sau stimulatori şi reglează secreţia adenohipofizei. Prin intermediul hipofizei anterioare, hipotalamusul coordonează de fapt activitatea întregului sistem endocrin al organismului. 
-         Hipotalamusul reglează şi temperatura corpului. Organismul uman, la fel ca cel al mamiferelor şi al păsărilor, este homeoterm, adică are temperatura constantă (de 37°C) şi independentă de variaţiile temperaturii mediului ambiant. Menţinerea constantă a temperaturii este realizată prin intervenţia hipotalamusului, prin mecanism de feedback. În acest circuit de feedback, elementul reglat este temperatura medie a suprafeţei corpului sau temperatura sângelui care irigă hipotalamusul. Traductorii sunt termoreceptorii cutanaţi şi neuronii termosensibili, iar efectorii sunt aparatul cardiovascular, pielea, muşchii scheletici şi tiroida.
-</value>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>         Fiziologia cerebelului:</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 177</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>         Fiziologia diencefalului:</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 2655</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>         Talamusul:</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>panel1</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>         Talamusul îndeplineşte patru functii: 
@@ -136,6 +167,81 @@
   • Funcţia de asociatie se realizează prin conexiunile unor nuclei talamici cu ariile asociative corticale din lobii parietal, temporal şi occipital. Pe baza acestor conexiuni, talamusul ia parte, alături de scoarţa cerebrală, la elaborarea unor comenzi voluntare. 
   • Funcţia motorie a talamusului se realizează prin intermediul ganglionilor bazali cu care este conectat bidirecţional, al neocerebelului şi al substanţei negre, de la care primeşte aferenţe.
   • Funcţia nespecifică este realizată de nucleii talamici nespecifici, care fac parte din formaţia reticulată.</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1380, 1702</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4378</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>820, 41</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1376, 155</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1380, 328</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>820, 41</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt, style=Bold</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 1956</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>         Fiziologia emisferelor cerebrale:</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>         Deşi cerebelul nu are conexiuni directe cu efectorii motori, prezenţa sa este îndispensabilă pentru activitatea normală a acestora. Excitarea cerebelului nu provoacă nici senzaţii subiective, nici mişcare. Totuşi, după indepărtarea sa, apar grave tulburări ale funcţiilor motorii somatice. Se perturbă mai ales mişcările voluntare rapide, cum sunt alergatul, cântatul la pian, scrisul şi vorbirea. 
@@ -147,6 +253,94 @@
          Cooperarea dintre mişcările voluntare şi cele automate asigură echilibru, tonusul şi postura adecvată realizării cât mai perfecte a mişcărilor intenţionale; ea se realizează pe baza conexiunilor pe care le are paleocerebelul (scoarţa cerebeloasă din vecinătatea vermisului) cu talamusul şi cu cortexul motor, pe de o parte, şi cu nuclei motori extrapiramidali mezencefalici şi bazali, pe de altă parte.
 </value>
   </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>820, 41</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>         Rolul specific al creierului este de a prelucra informaţia. Sediul principal al acestui proces este scoarţa cerebrală care funcţionează în strânsă colaborare cu numeroase structuri subcorticale. Pentru a prelucra informaţia, scoarţa cerebrală trebuie mai întâi să o primească. Informaţia pătrunde în sistemul nervos prin intermediul receptorilor, de unde este trimisă pe căi specifice la scoarţă, în ariile senzitive specifice. Aceste informaţii sunt apoi comparate, la nivelul ariilor asociative, cu informaţiile culese de ceilalţi analizatori, precum şi cu datele din memorie. Pe baza sintezei complexe a tuturor informaţiilor este elaborată starea de conştienţă şi sunt luate deciziile automate şi cele voluţionale.
+</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>820, 41</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>         Fiziologia trunchiului cerebral:</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1380, 1211</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 756</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>         Hipotalamusul:</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>         Numit şi creierul vegetativ al organismului, hipotalamusul este organul nervos cu cele mai multe funcţii pe unitate de volum. 
+         Hipotalamusul are conexiuni cu toate etajele sistemului limbic. De asemenea, hipotalamusul şi structurile sale învecinate trimit eferenţe în trei direcţii: descendent, către trunchiul cerebral, în special către formaţia reticulată, ascendent - către etajele superioare ale diencefalului şi ale scoarţei cerebrale, în special către talamusul anterior şi cortexul limbic, şi spre infundibul - pentru a controla cea mai mare parte a funcţiilor secretorii ale hipofizei anterioare şi posterioare. Astfel, hipotalamusul, care reprezintă mai puţin de 1% din masa cerebrală, este unul dintre cele mai importante căi eferente motorii ale sistemului limbic, controlează cea mai mare parte a funcţiilor endocrine şi vegetative ale organismului, ca şi multe aspecte ale comportamentului emoţional. 
+         Hipotalamusul integrează toate reglările vegetative din organism. Porţiunea sa anterioară coordonează activitatea parasimpaticului, iar cea posterioară pe cea a simpaticului. Astfel, stimularea porţiunii anterioare a hipotalamusului determină scăderea presiunii sangvine şi a frecvenţei cardiace, în timp ce stimularea porţiunii posterioare are efecte inverse. De asemenea, hipotalamusul are rolul de a integra activitatea cardiovasculară cu cea respiratorie, digestivă, excretorie etc. De exemplu, în timpul digestiei, la nivelul vaselor sangvine ale tubului digestiv este necesar un volum mare de sânge, pentru a furniza suplimentul de energie necesar activităţii secretorii crescute, motilităţii crescute şi pentru a prelua substanţele absorbite la nivelul intestinu-lui subţire. Deoarece volumul de sânge este constant, este necesară o redistribuire a acestuia către teritoriile tubului digestiv, cu scăderea irigării altor ţesuturi aflate în repaus în acel moment (piele, muşchi). Această redistribuţie a debitului circulator este realizată de hipotalamus. 
+         Hipotalamusul intervine în reglarea metabolismelor intermediare lipidic, glucidic, portidic şi a metabolismului energetic. Hipotalamusul anterior favorizează procesele anabolice, iar cel posterior pe cele catabolice, generatoare de energie. Lezarea hipotalamusului produce obezitate sau slăbirea exagerată, în funcţie de sediul leziunii. 
+         Hipotalamusul reglează activitatea secretorie a glandei hipofize. Neuronii hipotalamusului anterior au proprietăţi secretorii endocrine. Toţi hormonii secretaţi de hipotalamus se numesc produşi de neurosecreţie. Neuronii din nucleii supraoptic şi paraventricular secretă vasopresina şi ocitocina (sau oxitocina), hormoni transportaţi de-a lungul axonilor acestor neuroni până în hipofiza posterioară, unde sunt depozitaţi şi de unde sunt eliberaţi la nevoie. Alţi neuroni secretă hormoni care sunt eliberaţi în sistemul sangvin port hipofizar, ajungând la nivelul hipofizei anterioare; aceşti hormoni sunt inhibitori sau stimulatori şi reglează secreţia adenohipofizei. Prin intermediul hipofizei anterioare, hipotalamusul coordonează de fapt activitatea întregului sistem endocrin al organismului. 
+         Hipotalamusul reglează şi temperatura corpului. Organismul uman, la fel ca cel al mamiferelor şi al păsărilor, este homeoterm, adică are temperatura constantă (de 37°C) şi independentă de variaţiile temperaturii mediului ambiant. Menţinerea constantă a temperaturii este realizată prin intervenţia hipotalamusului, prin mecanism de feedback. În acest circuit de feedback, elementul reglat este temperatura medie a suprafeţei corpului sau temperatura sângelui care irigă hipotalamusul. Traductorii sunt termoreceptorii cutanaţi şi neuronii termosensibili, iar efectorii sunt aparatul cardiovascular, pielea, muşchii scheletici şi tiroida.
+</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
   <data name="label9.Text" xml:space="preserve">
     <value>         Trunchiul cerebral este primul component al encefalului. Funcţiile sale sunt numeroase şi de importanţă.
   • Prin trunchiul cerebral trec toate căile ce leagă măduva spinării de etajele superioare ale SNC, precum şi căi proprii trunchiului cerebral ce conectează diferitele sale etaje. 
@@ -156,4 +350,169 @@
   • Trunchiul cerebral conţine centrii de reglare ai unor funcţii vitale, cum sunt activitatea cardiovasculară, respiratorie şi digestivă.
 </value>
   </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>820, 41</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 715</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1999</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Fiziologia encefalului</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1380, 520</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Fiziologia_encefalului</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 2037</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt, style=Bold</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1415, 965</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -16</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 2620</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 136</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Gabriola, 50pt, style=Bold, Underline</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1380, 570</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>820, 41</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Fiziologia_encefalului</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4336</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1379, 4715</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt, style=Bold</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
 </root>
