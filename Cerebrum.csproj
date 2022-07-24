@@ -907,34 +907,94 @@
     <EmbeddedResource Include="Meningele.ro.resx">
       <DependentUpon>Meningele.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="nerv accesor.en.resx">
+      <DependentUpon>nerv accesor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="nerv accesor.resx">
       <DependentUpon>nerv accesor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv accesor.ro.resx">
+      <DependentUpon>nerv accesor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv facial.en.resx">
+      <DependentUpon>nerv facial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="nerv facial.resx">
       <DependentUpon>nerv facial.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="nerv facial.ro.resx">
+      <DependentUpon>nerv facial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv glosofaringian.en.resx">
+      <DependentUpon>nerv glosofaringian.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="nerv glosofaringian.resx">
       <DependentUpon>nerv glosofaringian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv glosofaringian.ro.resx">
+      <DependentUpon>nerv glosofaringian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv hipoglos.en.resx">
+      <DependentUpon>nerv hipoglos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="nerv hipoglos.resx">
       <DependentUpon>nerv hipoglos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="nerv hipoglos.ro.resx">
+      <DependentUpon>nerv hipoglos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nerv oculomotor.en.resx">
+      <DependentUpon>Nerv oculomotor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Nerv oculomotor.resx">
       <DependentUpon>Nerv oculomotor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nerv oculomotor.ro.resx">
+      <DependentUpon>Nerv oculomotor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv olfactiv.en.resx">
+      <DependentUpon>nerv olfactiv.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="nerv olfactiv.resx">
       <DependentUpon>nerv olfactiv.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="nerv olfactiv.ro.resx">
+      <DependentUpon>nerv olfactiv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv optic.en.resx">
+      <DependentUpon>nerv optic.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="nerv optic.resx">
       <DependentUpon>nerv optic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv optic.ro.resx">
+      <DependentUpon>nerv optic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv trigemen.en.resx">
+      <DependentUpon>nerv trigemen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="nerv trigemen.resx">
       <DependentUpon>nerv trigemen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="nerv trigemen.ro.resx">
+      <DependentUpon>nerv trigemen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv vag.en.resx">
+      <DependentUpon>nerv vag.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="nerv vag.resx">
       <DependentUpon>nerv vag.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="nerv vag.ro.resx">
+      <DependentUpon>nerv vag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv vestibulocohlear.en.resx">
+      <DependentUpon>nerv vestibulocohlear.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="nerv vestibulocohlear.resx">
+      <DependentUpon>nerv vestibulocohlear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv vestibulocohlear.ro.resx">
       <DependentUpon>nerv vestibulocohlear.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nervii cranieni.en.resx">
