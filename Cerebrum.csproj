@@ -679,7 +679,13 @@
     <EmbeddedResource Include="cinci_sapte.ro.resx">
       <DependentUpon>cinci_sapte.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="cod.en.resx">
+      <DependentUpon>cod.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="cod.resx">
+      <DependentUpon>cod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cod.ro.resx">
       <DependentUpon>cod.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Comentarii.en.resx">
@@ -922,34 +928,94 @@
     <EmbeddedResource Include="Meningele.ro.resx">
       <DependentUpon>Meningele.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="nerv accesor.en.resx">
+      <DependentUpon>nerv accesor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="nerv accesor.resx">
       <DependentUpon>nerv accesor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv accesor.ro.resx">
+      <DependentUpon>nerv accesor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv facial.en.resx">
+      <DependentUpon>nerv facial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="nerv facial.resx">
       <DependentUpon>nerv facial.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="nerv facial.ro.resx">
+      <DependentUpon>nerv facial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv glosofaringian.en.resx">
+      <DependentUpon>nerv glosofaringian.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="nerv glosofaringian.resx">
       <DependentUpon>nerv glosofaringian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv glosofaringian.ro.resx">
+      <DependentUpon>nerv glosofaringian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv hipoglos.en.resx">
+      <DependentUpon>nerv hipoglos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="nerv hipoglos.resx">
       <DependentUpon>nerv hipoglos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="nerv hipoglos.ro.resx">
+      <DependentUpon>nerv hipoglos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nerv oculomotor.en.resx">
+      <DependentUpon>Nerv oculomotor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Nerv oculomotor.resx">
       <DependentUpon>Nerv oculomotor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nerv oculomotor.ro.resx">
+      <DependentUpon>Nerv oculomotor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv olfactiv.en.resx">
+      <DependentUpon>nerv olfactiv.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="nerv olfactiv.resx">
       <DependentUpon>nerv olfactiv.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="nerv olfactiv.ro.resx">
+      <DependentUpon>nerv olfactiv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv optic.en.resx">
+      <DependentUpon>nerv optic.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="nerv optic.resx">
       <DependentUpon>nerv optic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv optic.ro.resx">
+      <DependentUpon>nerv optic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv trigemen.en.resx">
+      <DependentUpon>nerv trigemen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="nerv trigemen.resx">
       <DependentUpon>nerv trigemen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="nerv trigemen.ro.resx">
+      <DependentUpon>nerv trigemen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv vag.en.resx">
+      <DependentUpon>nerv vag.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="nerv vag.resx">
       <DependentUpon>nerv vag.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="nerv vag.ro.resx">
+      <DependentUpon>nerv vag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv vestibulocohlear.en.resx">
+      <DependentUpon>nerv vestibulocohlear.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="nerv vestibulocohlear.resx">
+      <DependentUpon>nerv vestibulocohlear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nerv vestibulocohlear.ro.resx">
       <DependentUpon>nerv vestibulocohlear.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nervii cranieni.en.resx">
@@ -988,7 +1054,13 @@
     <EmbeddedResource Include="opt_noua.ro.resx">
       <DependentUpon>opt_noua.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ParolaUitata.en.resx">
+      <DependentUpon>ParolaUitata.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ParolaUitata.resx">
+      <DependentUpon>ParolaUitata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParolaUitata.ro.resx">
       <DependentUpon>ParolaUitata.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Parole.en.resx">
@@ -1018,7 +1090,13 @@
     <EmbeddedResource Include="Reflexul.ro.resx">
       <DependentUpon>Reflexul.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resetare parola.en.resx">
+      <DependentUpon>Resetare parola.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Resetare parola.resx">
+      <DependentUpon>Resetare parola.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resetare parola.ro.resx">
       <DependentUpon>Resetare parola.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Rezultate.en.resx">
@@ -1226,6 +1304,16 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Conturi.mdf</DependentUpon>
     </Content>
+    <None Include="imagini\E10.png" />
+    <None Include="imagini\E09.png" />
+    <None Include="imagini\E08.png" />
+    <None Include="imagini\E07.png" />
+    <None Include="imagini\E06.png" />
+    <None Include="imagini\E05.png" />
+    <None Include="imagini\E04.png" />
+    <None Include="imagini\E03.png" />
+    <None Include="imagini\E02.png" />
+    <None Include="imagini\E01.png" />
     <None Include="imagini\10.jpg" />
     <None Include="imagini\09.jpg" />
     <None Include="imagini\08.jpg" />

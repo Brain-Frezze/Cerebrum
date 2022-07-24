@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -50,6 +51,7 @@ namespace Cerebrum
         }
         private void schimbaimaginea(int nr)
         {
+            if(Login.limba != "en")
             switch (nr)
             {
                 case 1:
@@ -93,6 +95,50 @@ namespace Cerebrum
                     label1.Text = "Nervul hipoglos (XII)";
                 break;
             }
+            else
+            switch (nr)
+                {
+                    case 1:
+                        pictureBox1.Image = Properties.Resources.E01;
+                        label1.Text = "Olfactory nerve (I)";
+                        break;
+                    case 2:
+                        pictureBox1.Image = Properties.Resources.E02;
+                        label1.Text = "Optic nerve (II) and visual pathway";
+                        break;
+                    case 3:
+                        pictureBox1.Image = Properties.Resources.E03;
+                        label1.Text = "Oculomotor(III), trochlear (IV) and abducens (VI) nerves";
+                        break;
+                    case 4:
+                        pictureBox1.Image = Properties.Resources.E04;
+                        label1.Text = "Trigeminal nerve (V)";
+                        break;
+                    case 5:
+                        pictureBox1.Image = Properties.Resources.E05;
+                        label1.Text = "Facial nerve (VII)";
+                        break;
+                    case 6:
+                        pictureBox1.Image = Properties.Resources.E06;
+                        label1.Text = "Vestibulocochlear nerve (VIII)";
+                        break;
+                    case 7:
+                        pictureBox1.Image = Properties.Resources.E07;
+                        label1.Text = "Glosopharyngeal nerve (IX)";
+                        break;
+                    case 8:
+                        pictureBox1.Image = Properties.Resources.E08;
+                        label1.Text = "Vagus nerve (X)";
+                        break;
+                    case 9:
+                        pictureBox1.Image = Properties.Resources.E09;
+                        label1.Text = "Accessory nerve (XI)";
+                        break;
+                    case 10:
+                        pictureBox1.Image = Properties.Resources.E10;
+                        label1.Text = "Hypoglossal nerve (XII)";
+                        break;
+                }
         }
     }
 }
