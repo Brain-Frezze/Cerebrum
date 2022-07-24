@@ -34,7 +34,7 @@ namespace Cerebrum
         private void button1_Click(object sender, EventArgs e)
         {
             timer.Stop();
-            timeleft = 10;
+            timeleft = 600;
             loadform(new Grile_noţiuni_generale());
             timer.Start();
             
@@ -42,21 +42,21 @@ namespace Cerebrum
         private void button2_Click(object sender, EventArgs e)
         {
             timer.Stop();
-            timeleft = 10;
+            timeleft = 600;
             loadform(new Grile_sistem_nervos_central());
             timer.Start();
         }
         private void button3_Click(object sender, EventArgs e)
         {
             timer.Stop();
-            timeleft = 10;
+            timeleft = 600;
             loadform(new Grile_sistem_nervos_periferic());
             timer.Start();
         }
         private void button5_Click(object sender, EventArgs e)
         {
             timer.Stop();
-            timeleft = 10;
+            timeleft = 600;
             loadform(new Test_general());
             timer.Start();
         }
@@ -70,7 +70,7 @@ namespace Cerebrum
         {
             timer.Start();
         }
-        public static int timeleft = 10;
+        public static int timeleft = 600;
         private void timer1_Tick(object sender, EventArgs e)
         {
             if(timeleft > 0)
@@ -82,14 +82,13 @@ namespace Cerebrum
                 if(ok == true || timeleft == 0)
             {
                 timer.Stop();
-                timeleft = 10;
-                MessageBox.Show(Convert.ToString(ok));
+                timeleft = 600;
                 ok = false;
 
                 // button1.PerformClick()
 
             }
-            if(timeleft <= 5 && timeleft%2==1)
+            if(timeleft <= 13 && timeleft%2==1)
             {
                 button4.Visible = false;
             }
