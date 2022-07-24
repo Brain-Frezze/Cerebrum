@@ -22,6 +22,7 @@ namespace Cerebrum
         OleDbCommand cmd = new OleDbCommand();
         OleDbDataAdapter da = new OleDbDataAdapter();
         public static string user = "";
+        public static string limba;
         private void button1_Click(object sender, EventArgs e)
         {
             using (OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=BazaDateConturi.mdb"))
@@ -86,12 +87,14 @@ namespace Cerebrum
         {
             Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en");
             this.Controls.Clear();
+            limba = "en";
             InitializeComponent();
         }
         private void românăToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("ro");
             this.Controls.Clear();
+            limba = "ro";
             InitializeComponent();
         }
         private void Login_Load(object sender, EventArgs e)

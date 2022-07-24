@@ -1208,6 +1208,16 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Conturi.mdf</DependentUpon>
     </Content>
+    <None Include="imagini\E10.png" />
+    <None Include="imagini\E09.png" />
+    <None Include="imagini\E08.png" />
+    <None Include="imagini\E07.png" />
+    <None Include="imagini\E06.png" />
+    <None Include="imagini\E05.png" />
+    <None Include="imagini\E04.png" />
+    <None Include="imagini\E03.png" />
+    <None Include="imagini\E02.png" />
+    <None Include="imagini\E01.png" />
     <None Include="imagini\10.jpg" />
     <None Include="imagini\09.jpg" />
     <None Include="imagini\08.jpg" />

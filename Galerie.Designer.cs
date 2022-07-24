@@ -70,7 +70,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Cerebrum.Properties.Resources._10;
+            this.pictureBox1.Image = global::Cerebrum.Properties.Resources.E10;
             this.pictureBox1.Location = new System.Drawing.Point(271, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(877, 896);
