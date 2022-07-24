@@ -36,127 +36,106 @@
             // 
             // button1
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.button1, "button1");
             this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(961, 0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(47, 47);
-            this.button1.TabIndex = 8;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Location = new System.Drawing.Point(12, 66);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(734, 792);
-            this.panel1.TabIndex = 9;
             // 
             // listBox1
             // 
+            resources.ApplyResources(this.listBox1, "listBox1");
             this.listBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.listBox1.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 22;
             this.listBox1.Items.AddRange(new object[] {
-            "(1) corpul ciliar și irisul; ",
-            "(2) ganglionul ciliar; ",
-            "(3) glandă lacrimală; ",
-            "(4) ganglionul lui Meckel; ",
-            "(5) glandă sublinguală; ",
-            "(6) glandă submaxilară; ",
-            "(7) ganglionul otic; ",
-            "(8) glandă parotidă; ",
-            "(9) inimă; ",
-            "(10) trahee, bronhii, plămâni și ",
-            "vase pulmonare; ",
-            "(11) ficat, căile biliare și pancreas; ",
-            "(12) splină; ",
-            "(13) ganglionul celiac (semilunar); ",
-            "(14) marele nerv splahnic; ",
-            "(15) micul nerv splahnic; ",
-            "(16) medulosuprarenala; ",
-            "(17) rinichi și uretere;  ",
-            "(18) stomac; ",
-            "(19) colonul distal; ",
-            "(20) rect;",
-            "(21) ganglion mezenteric superior; ",
-            "(22) vezica urinară; ",
-            "(23) organe genitale externe; ",
-            "(24) ganglion mezenteric inferior; ",
-            "(25) ramuri ale vaselor sanguine și ",
-            "ai foliculilor pilări ai membrului ",
-            "inferior și eferente vezicii urinare;",
-            "(26) nucleii bulbari; ",
-            "(27) măduva spinării la nivelul ",
-            "coloanei cervicale;  ",
-            "(28) măduva spinării la nivelul ",
-            "toracelui;",
-            "(29) măduva spinării la nivelul ",
-            "coloanei lombare; ",
-            "(30) măduva spinării la nivelul ",
-            "coloanei sacrale; ",
-            "(31) ganglionul geniculat; ",
-            "(32) urechea medie; ",
-            "(33) ganglionul inferior pe care-l ",
-            "formează nervul glosofaringian ",
-            "(ganglion senzitiv sau parasimpatic);",
-            "(34) uvulă; ",
-            "(35) amigdala palatină; ",
-            "(36) limbă; ",
-            "(37) ganglion nodular; ",
-            "(38) trahee; ",
-            "(39) plămân; ",
-            "(40) nervul frenic; ",
-            "(41) stomac; ",
-            "(42) intestin; ",
-            "(43) diafragma; ",
-            "(44) uter; ",
-            "(45) colon; ",
-            "(46) sfincterele vezicii urinare; ",
-            "(47) ovare; ",
-            "(48) fibre aferente ale vezicii ",
-            "urinare și fibre segmentare post- ",
-            "ganglionare adrenergice și ",
-            "colinergice ce provin de la gangli- ",
-            "onii paravertebrali și îndreptate ",
-            "către vasele de sânge ale glan- ",
-            "delor sudoripare și ale foliculilor",
-            "firelor de păr prin intermediul ",
-            "ramurilor gri și nervii spinali."});
-            this.listBox1.Location = new System.Drawing.Point(688, 78);
+            resources.GetString("listBox1.Items"),
+            resources.GetString("listBox1.Items1"),
+            resources.GetString("listBox1.Items2"),
+            resources.GetString("listBox1.Items3"),
+            resources.GetString("listBox1.Items4"),
+            resources.GetString("listBox1.Items5"),
+            resources.GetString("listBox1.Items6"),
+            resources.GetString("listBox1.Items7"),
+            resources.GetString("listBox1.Items8"),
+            resources.GetString("listBox1.Items9"),
+            resources.GetString("listBox1.Items10"),
+            resources.GetString("listBox1.Items11"),
+            resources.GetString("listBox1.Items12"),
+            resources.GetString("listBox1.Items13"),
+            resources.GetString("listBox1.Items14"),
+            resources.GetString("listBox1.Items15"),
+            resources.GetString("listBox1.Items16"),
+            resources.GetString("listBox1.Items17"),
+            resources.GetString("listBox1.Items18"),
+            resources.GetString("listBox1.Items19"),
+            resources.GetString("listBox1.Items20"),
+            resources.GetString("listBox1.Items21"),
+            resources.GetString("listBox1.Items22"),
+            resources.GetString("listBox1.Items23"),
+            resources.GetString("listBox1.Items24"),
+            resources.GetString("listBox1.Items25"),
+            resources.GetString("listBox1.Items26"),
+            resources.GetString("listBox1.Items27"),
+            resources.GetString("listBox1.Items28"),
+            resources.GetString("listBox1.Items29"),
+            resources.GetString("listBox1.Items30"),
+            resources.GetString("listBox1.Items31"),
+            resources.GetString("listBox1.Items32"),
+            resources.GetString("listBox1.Items33"),
+            resources.GetString("listBox1.Items34"),
+            resources.GetString("listBox1.Items35"),
+            resources.GetString("listBox1.Items36"),
+            resources.GetString("listBox1.Items37"),
+            resources.GetString("listBox1.Items38"),
+            resources.GetString("listBox1.Items39"),
+            resources.GetString("listBox1.Items40"),
+            resources.GetString("listBox1.Items41"),
+            resources.GetString("listBox1.Items42"),
+            resources.GetString("listBox1.Items43"),
+            resources.GetString("listBox1.Items44"),
+            resources.GetString("listBox1.Items45"),
+            resources.GetString("listBox1.Items46"),
+            resources.GetString("listBox1.Items47"),
+            resources.GetString("listBox1.Items48"),
+            resources.GetString("listBox1.Items49"),
+            resources.GetString("listBox1.Items50"),
+            resources.GetString("listBox1.Items51"),
+            resources.GetString("listBox1.Items52"),
+            resources.GetString("listBox1.Items53"),
+            resources.GetString("listBox1.Items54"),
+            resources.GetString("listBox1.Items55"),
+            resources.GetString("listBox1.Items56"),
+            resources.GetString("listBox1.Items57"),
+            resources.GetString("listBox1.Items58"),
+            resources.GetString("listBox1.Items59"),
+            resources.GetString("listBox1.Items60"),
+            resources.GetString("listBox1.Items61"),
+            resources.GetString("listBox1.Items62"),
+            resources.GetString("listBox1.Items63"),
+            resources.GetString("listBox1.Items64")});
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(308, 748);
-            this.listBox1.TabIndex = 10;
             // 
             // Imagine_plexuri
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(1008, 852);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Imagine_plexuri";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Imagine_plexuri";
             this.Deactivate += new System.EventHandler(this.Imagine_plexuri_Deactivate);
             this.ResumeLayout(false);
 

@@ -46,5 +46,10 @@ namespace Cerebrum
                 pictureBox1.Image = marire(org.Image, new Size(trackBar1.Value, trackBar1.Value));
             }
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

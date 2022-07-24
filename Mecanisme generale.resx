@@ -117,9 +117,117 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1385, 1502</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1358, 1345</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1415, 965</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 112</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Mecanisme_generale</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Mecanisme_generale</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="label1.Text" xml:space="preserve">
     <value>         Sistemul nervos, împreună cu sistemul endocrin, reglează majoritatea funcțiilor organismului. Sistemul nervos (SN) are rol în special în reglarea activității musculaturii şi glandelor secretorii (atât exocrine, cât şi endocrine), în timp ce sistemul endocrin reglează în principal funcțiile metabolice. Reglarea activității musculaturii scheletice este realizată de SN somatic, iar reglarea activității musculaturii viscerale şi a glandelor (exo- şi endocrine) este realizată de SN vegetativ. Între SN şi sistemul endocrin există o strânsă interdependenţă.
          Organismul uman este un sistem cibernetic. Noțiunea de sistem este foarte cuprinzătoare: un sistem este orice ansamblu de elemente aflate în interacțiune neîntâmplătoare. Potrivit acestei definiţii, orice organism viu este un sistem, la fel cum orice aparat sau mașină este un sistem, societatea este și ea un sistem, atomul de asemenea etc. Granița dintre sisteme nu este absolută. Fiecare sistem, la rândul său, este component al unor sisteme mai complexe şi, în același timp, conține mai multe subsisteme. Unele sisteme evoluează conform principiului al II-lea al termodinamicii dezordine (cu creşterea entropiei sistemului); altele se opun acestei creşteri sau spre chiar o reduc. Acestea sunt sisteme autoreglate sau sisteme cibernetice. 
          Orice sistem cibernetic are cel puțin două componente majore: centrul de comandă și control (C) şi dispozitivul de execuție (E). Pentru a elabora comenzi adecvate, centrul trebuie să primească informații asupra variațiilor parametrului reglat şi asupra modului în care sunt executate comenzile. Calea de întoarcere a informației de la efector la centru se numeşte circuit de feedback, informație recurentă sau conexiune inversă. Toate mecanismele de autoreglare funcționează pe bază de feedback. Pentru ca informația recurentă să fie cât mai exactă, mecanismul de reglare prin feedback dispune de un sistem de traductori (T) (sau receptori) care sesizează atât perturbația inițială survenită (P), cât şi precizia corecţiei realizate de efector asupra elementului reglat (ER). Prin feedback, parametrul reglat influențează centrul de reglare. Astfel, mecanismul de feedback funcționează în conformitate cu efectele sale.ci în colaborare; orice reglare este de fapt neuro-umorală. Centrii de comandă şi control sunt situaţi în sistemul nervos central şi în sistemul endocrin, pentru reglarea nervoasă, respectiv umorală. În acelaşi timp, întreaga activitate endocrină este coordonată de către sistemul nervos central, prin intermediul hipotalamusultu. La nivelul acestuia are loc integrarea reglării nervoase cu cea umorală. Un al doilea punct de fuziune între mecanismul nervos şi cel umoral se întâlneşte la nivelul efectorilor periferici, a căror funcţie este influenţată prin mesageri chimici; aceşti mesageri chimici pot fi hormoni (în cazul reglării umorale) sau mediatori chimici eliberaţi de terminaţii nervoase (în cazul reglării nervoase). </value>
   </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -1</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1371, 155</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -16</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Mecanisme generale</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="panel1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Gabriola, 50pt, style=Bold, Underline</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
 </root>

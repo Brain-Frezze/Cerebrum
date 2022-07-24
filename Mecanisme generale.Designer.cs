@@ -37,48 +37,32 @@
             // 
             // panel1
             // 
-            this.panel1.AutoScroll = true;
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(0, -1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1385, 1502);
-            this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 20F);
-            this.label1.Location = new System.Drawing.Point(19, 112);
-            this.label1.Margin = new System.Windows.Forms.Padding(0);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1358, 1345);
-            this.label1.TabIndex = 6;
-            this.label1.Text = resources.GetString("label1.Text");
             // 
             // label2
             // 
+            resources.ApplyResources(this.label2, "label2");
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Gabriola", 50F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(0, -16);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(1371, 155);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Mecanisme generale";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Mecanisme_generale
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1415, 965);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Mecanisme_generale";
-            this.Text = "Mecanisme_generale";
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

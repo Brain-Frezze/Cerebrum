@@ -1209,11 +1209,71 @@
         AAAASUVORK5CYII=
 </value>
   </data>
+  <data name="Autentificare.Text" xml:space="preserve">
+    <value>        Login</value>
+  </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 50</value>
+    <value>121, 50</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Altceva</value>
+    <value>Username:</value>
+  </data>
+  <data name="linkLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>694, 432</value>
+  </data>
+  <data name="linkLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 42</value>
+  </data>
+  <data name="linkLabel1.Text" xml:space="preserve">
+    <value>Create account</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 50</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>646, 386</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 46</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>You don't have an account?</value>
+  </data>
+  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>789, 265</value>
+  </data>
+  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 41</value>
+  </data>
+  <data name="checkBox1.Text" xml:space="preserve">
+    <value>Show the password</value>
+  </data>
+  <data name="linkLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>706, 480</value>
+  </data>
+  <data name="linkLabel2.Text" xml:space="preserve">
+    <value>Contact us</value>
+  </data>
+  <data name="linkLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>578, 262</value>
+  </data>
+  <data name="linkLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 42</value>
+  </data>
+  <data name="linkLabel3.Text" xml:space="preserve">
+    <value>Forgot your password?</value>
+  </data>
+  <data name="românăToolStripMenuItem.Text" xml:space="preserve">
+    <value>Romanien</value>
+  </data>
+  <data name="toolStripDropDownButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 24</value>
+  </data>
+  <data name="toolStripDropDownButton1.Text" xml:space="preserve">
+    <value>Change the language</value>
   </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
