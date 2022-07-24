@@ -39,5 +39,10 @@ namespace Cerebrum
         {
 
         }
+
+        private void conturiDataSetBindingSource_CurrentChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

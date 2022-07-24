@@ -30,24 +30,33 @@ namespace Cerebrum
 
         }
         public static int nr = 0;
+        public static bool ok = false;
         private void button1_Click(object sender, EventArgs e)
         {
+            timer.Stop();
+            timeleft = 10;
             loadform(new Grile_noţiuni_generale());
             timer.Start();
             
         }
         private void button2_Click(object sender, EventArgs e)
         {
+            timer.Stop();
+            timeleft = 10;
             loadform(new Grile_sistem_nervos_central());
             timer.Start();
         }
         private void button3_Click(object sender, EventArgs e)
         {
+            timer.Stop();
+            timeleft = 10;
             loadform(new Grile_sistem_nervos_periferic());
             timer.Start();
         }
         private void button5_Click(object sender, EventArgs e)
         {
+            timer.Stop();
+            timeleft = 10;
             loadform(new Test_general());
             timer.Start();
         }
@@ -70,18 +79,21 @@ namespace Cerebrum
                 
             }
             else
+                if(ok == true || timeleft == 0)
             {
                 timer.Stop();
                 timeleft = 10;
+                MessageBox.Show(Convert.ToString(ok));
+                ok = false;
 
                 // button1.PerformClick()
-                
+
             }
-            if(timeleft <= 3 && timeleft%2==1)
+            if(timeleft <= 5 && timeleft%2==1)
             {
                 button4.Visible = false;
             }
-            else if(timeleft <= 3 && (timeleft%2==0))
+            else if(timeleft <= 5 && (timeleft%2==0))
                 button4.Visible=true;
         }
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
