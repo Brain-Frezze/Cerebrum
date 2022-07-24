@@ -165,6 +165,7 @@ namespace Cerebrum
         {
             timer1.Stop();
             CapitoleGrile.nr++;
+            CapitoleGrile.ok = true;
             //MessageBox.Show(nr.ToString(),"Punctajul obţinut:",MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             Rezultate form = new Rezultate(); // formul daca am luat intre 0 si 4
             cinci_sapte nou = new cinci_sapte(); // formul daca am luat intre 5 si 7 
@@ -322,7 +323,7 @@ namespace Cerebrum
                 {
                     cmd.Parameters.AddWithValue("ID", CapitoleGrile.nr); // nr de teste
                     cmd.Parameters.AddWithValue("Nume", Login.user); // utilizator
-                    cmd.Parameters.AddWithValue("Parola", "Noțiuni generale"); // testul dat
+                    cmd.Parameters.AddWithValue("Parola", "Sistem nervos periferic"); // testul dat
                     cmd.Parameters.AddWithValue("Email", snr); // punctaj
                     cmd.ExecuteNonQuery();
                 }

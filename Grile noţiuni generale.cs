@@ -176,6 +176,7 @@ namespace Cerebrum
         private void button1_Click(object sender, EventArgs e)
         {
             timer1.Stop();
+            CapitoleGrile.ok = true;
             CapitoleGrile.nr++;
             Rezultate form = new Rezultate(); // formul daca am luat intre 0 si 4
             cinci_sapte nou = new cinci_sapte(); // formul daca am luat intre 5 si 7 

@@ -39,7 +39,7 @@ namespace Cerebrum
             MailMessage message = new MailMessage();
             to = textBox1.Text;
             from = "company.cerebrum@gmail.com";
-            pass = "Sebi&Ivan";
+            pass = "anAHc1QrFmxVDh7z";
             using (OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=BazaDateConturi.mdb"))
             {
                 con.Open();
@@ -61,7 +61,7 @@ namespace Cerebrum
                         message.To.Add(new MailAddress(to));
 
                         SmtpClient smtp = new SmtpClient();  // Smtp Client system
-                        smtp.Host = "smtp.gmail.com"; // Host == Google (bulangiu că nu lasă surse nesigure)
+                        smtp.Host = "smtp-relay.sendinblue.com"; // Host == Google (bulangiu că nu lasă surse nesigure)
                         smtp.Port = 587; // Port (don't ask me why is 587)
                         smtp.UseDefaultCredentials = false;
                         smtp.EnableSsl = true; // ok so this should make it secure, so Google f**k off

@@ -287,6 +287,7 @@
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
             // 
             // Grile_sistem_nervos_central
             // 
