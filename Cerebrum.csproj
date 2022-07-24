@@ -212,6 +212,12 @@
     <Compile Include="cinci_sapte.Designer.cs">
       <DependentUpon>cinci_sapte.cs</DependentUpon>
     </Compile>
+    <Compile Include="cod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cod.Designer.cs">
+      <DependentUpon>cod.cs</DependentUpon>
+    </Compile>
     <Compile Include="Comentarii.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -482,6 +488,12 @@
     <Compile Include="Reflexul.Designer.cs">
       <DependentUpon>Reflexul.cs</DependentUpon>
     </Compile>
+    <Compile Include="Resetare parola.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resetare parola.Designer.cs">
+      <DependentUpon>Resetare parola.cs</DependentUpon>
+    </Compile>
     <Compile Include="Rezultate.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -666,6 +678,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="cinci_sapte.ro.resx">
       <DependentUpon>cinci_sapte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cod.en.resx">
+      <DependentUpon>cod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cod.resx">
+      <DependentUpon>cod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cod.ro.resx">
+      <DependentUpon>cod.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Comentarii.en.resx">
       <DependentUpon>Comentarii.cs</DependentUpon>
@@ -1033,7 +1054,13 @@
     <EmbeddedResource Include="opt_noua.ro.resx">
       <DependentUpon>opt_noua.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ParolaUitata.en.resx">
+      <DependentUpon>ParolaUitata.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ParolaUitata.resx">
+      <DependentUpon>ParolaUitata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParolaUitata.ro.resx">
       <DependentUpon>ParolaUitata.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Parole.en.resx">
@@ -1062,6 +1089,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reflexul.ro.resx">
       <DependentUpon>Reflexul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resetare parola.en.resx">
+      <DependentUpon>Resetare parola.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resetare parola.resx">
+      <DependentUpon>Resetare parola.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resetare parola.ro.resx">
+      <DependentUpon>Resetare parola.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Rezultate.en.resx">
       <DependentUpon>Rezultate.cs</DependentUpon>
