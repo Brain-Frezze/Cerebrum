@@ -604,31 +604,85 @@
     <EmbeddedResource Include="Asezare, rapoarte.ro.resx">
       <DependentUpon>Asezare, rapoarte.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Aspectul exterior.en.resx">
+      <DependentUpon>Aspectul exterior.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Aspectul exterior.resx">
       <DependentUpon>Aspectul exterior.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aspectul exterior.ro.resx">
+      <DependentUpon>Aspectul exterior.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapitoleGrile.en.resx">
+      <DependentUpon>CapitoleGrile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CapitoleGrile.resx">
       <DependentUpon>CapitoleGrile.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CapitoleGrile.ro.resx">
+      <DependentUpon>CapitoleGrile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapitoleTeorie.en.resx">
+      <DependentUpon>CapitoleTeorie.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CapitoleTeorie.resx">
       <DependentUpon>CapitoleTeorie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapitoleTeorie.ro.resx">
+      <DependentUpon>CapitoleTeorie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Centrii SNV.en.resx">
+      <DependentUpon>Centrii SNV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Centrii SNV.resx">
       <DependentUpon>Centrii SNV.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Centrii SNV.ro.resx">
+      <DependentUpon>Centrii SNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Centrii.en.resx">
+      <DependentUpon>Centrii.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Centrii.resx">
       <DependentUpon>Centrii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Centrii.ro.resx">
+      <DependentUpon>Centrii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cerebelul.en.resx">
+      <DependentUpon>Cerebelul.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cerebelul.resx">
       <DependentUpon>Cerebelul.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Cerebelul.ro.resx">
+      <DependentUpon>Cerebelul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cinci_sapte.en.resx">
+      <DependentUpon>cinci_sapte.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="cinci_sapte.resx">
       <DependentUpon>cinci_sapte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cinci_sapte.ro.resx">
+      <DependentUpon>cinci_sapte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comentarii.en.resx">
+      <DependentUpon>Comentarii.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Comentarii.resx">
       <DependentUpon>Comentarii.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Comentarii.ro.resx">
+      <DependentUpon>Comentarii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContInexistent.en.resx">
+      <DependentUpon>ContInexistent.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ContInexistent.resx">
+      <DependentUpon>ContInexistent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContInexistent.ro.resx">
       <DependentUpon>ContInexistent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CreareCont.en.resx">
@@ -637,31 +691,88 @@
     <EmbeddedResource Include="CreareCont.resx">
       <DependentUpon>CreareCont.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CreareCont.ro.resx">
+      <DependentUpon>CreareCont.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Creat.en.resx">
+      <DependentUpon>Creat.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Creat.resx">
       <DependentUpon>Creat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Creat.ro.resx">
+      <DependentUpon>Creat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Căile ascendente.en.resx">
+      <DependentUpon>Căile ascendente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Căile ascendente.resx">
       <DependentUpon>Căile ascendente.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Căile ascendente.ro.resx">
+      <DependentUpon>Căile ascendente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Căile descendente.en.resx">
+      <DependentUpon>Căile descendente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Căile descendente.resx">
       <DependentUpon>Căile descendente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Căile descendente.ro.resx">
+      <DependentUpon>Căile descendente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Căile SNV.en.resx">
+      <DependentUpon>Căile SNV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Căile SNV.resx">
       <DependentUpon>Căile SNV.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Căile SNV.ro.resx">
+      <DependentUpon>Căile SNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diencefalul.en.resx">
+      <DependentUpon>Diencefalul.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Diencefalul.resx">
       <DependentUpon>Diencefalul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diencefalul.ro.resx">
+      <DependentUpon>Diencefalul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Email.en.resx">
+      <DependentUpon>Email.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Email.resx">
       <DependentUpon>Email.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Email.ro.resx">
+      <DependentUpon>Email.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Emisferele cerebrale.en.resx">
+      <DependentUpon>Emisferele cerebrale.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Emisferele cerebrale.resx">
       <DependentUpon>Emisferele cerebrale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Emisferele cerebrale.ro.resx">
+      <DependentUpon>Emisferele cerebrale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fiziologia encefalului.en.resx">
+      <DependentUpon>Fiziologia encefalului.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Fiziologia encefalului.resx">
       <DependentUpon>Fiziologia encefalului.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Fiziologia encefalului.ro.resx">
+      <DependentUpon>Fiziologia encefalului.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fiziologia maduvei spinarii.en.resx">
+      <DependentUpon>Fiziologia maduvei spinarii.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Fiziologia maduvei spinarii.resx">
+      <DependentUpon>Fiziologia maduvei spinarii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fiziologia maduvei spinarii.ro.resx">
       <DependentUpon>Fiziologia maduvei spinarii.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Fiziologia neuronului.resx">

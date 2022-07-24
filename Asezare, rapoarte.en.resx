@@ -121,12 +121,15 @@
   <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 854</value>
+  </data>
   <data name="label7.Text" xml:space="preserve">
     <value>         The upper limit of the marrow corresponds to the occipital hole through which the vertebral canal communicates upward with the cranial cavity or the emergence of the first spinal nerve (C1), and the lower limit is located at the L2 vertebra.
          The fact that the marrow has its lower limit at the L2 vertebra is explained by the growth rate of the spine faster than that of the marrow. Also because of this, the roots of the spinal, lumbar and sacral nerves have an oblique downward direction The spinal cord doesn't take up all the thickness of the vertebral canal. Between the bone wall of the vertebrae and the marrow are the three membranes of the vertebral meninges that provide protection and nutrition to the marrow.
          Under the L2 vertebra, the marrow is extended with the medullary cone, and this with the terminal filum, which reaches the coccyx on the posterior face of the second coccygeal vertebra. On either side of the medullary cone and the terminal filum, the lumbar and sacral nerves, with almost vertical direction.</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="panel2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABLAAAAZSCAYAAAAnMhhvAAAABGdBTUEAALGPC/xhBQAA/8dJREFUeF7s
@@ -3977,18 +3980,6 @@
         0QAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>         The spinal cord is shaped like a cylindrical cord slightly flattened in the antero-posterior (sagittal) direction, so that the transverse diameter slightly exceeds the anterior-posterior diameter. It is located in the vertebral canal, formed by the overlapping of the vertebral holes, which it does not occupy entirely. The length of the marrow is 43 - 45 cm with individual.</value>
-  </data>
-  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Settlement, reports</value>
-  </data>
   <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -4013,11 +4004,23 @@
   <data name="label6.Text" xml:space="preserve">
     <value>Settlement and reports</value>
   </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>         The spinal cord is shaped like a cylindrical cord slightly flattened in the antero-posterior (sagittal) direction, so that the transverse diameter slightly exceeds the anterior-posterior diameter. It is located in the vertebral canal, formed by the overlapping of the vertebral holes, which it does not occupy entirely. The length of the marrow is 43 - 45 cm with individual.</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Settlement, reports</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1428, 1110</value>
+  </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1485, 873</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Settlement, reports</value>

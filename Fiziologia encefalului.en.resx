@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4396</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1380, 319</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>      The specific role of the brain is to process information. The main headquarters of this process is the brain bark that works in close collaboration with numerous subcortical structures. In order to process information, the brain bark must first receive it. The information enters the nervous system through receptors, from where it is sent through specific pathways to the bark, in specific sensory areas. This information is then compared, at the associative area level, with the information gathered by the other analyzers, as well as with the data in memory. On the basis of the complex synthesis of all information, the state of consciousness is elaborated and automatic and volutional decisions are made.</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4350</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>      Physiology of the cerebral hemispheres:</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1380, 1733</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>      Also called the vegetative brain of the body, the hypothalamus is the nervous organ with the most functions per unit volume.
+      The hypothalamus has connections to all floors of the limbic system. Also, the hypothalamus and its neighboring structures send efferences in three directions: descending, to the brainstem, especially to the reticulated, ascending formation - to the upper floors of the diencephal and cerebral crust, especially to the anterior thalamus and limbic cortex, and to the infundible - to control most of the secretory functions of the anterior and posterior pituitary. Thus, the hypothalamus, which accounts for less than 1% of the brain mass, is one of the most important motor efferent pathways of the limbic system, controlling most of the endocrine and vegetative functions of the body, as well as many aspects of emotional behavior.
+      The hypothalamus integrates all vegetative Regulation in the body. Its anterior portion coordinates the activity of the parasympathetic, and the posterior the sympathetic. Thus, stimulation of the anterior portion of the hypothalamus causes a decrease in blood pressure and heart rate, while stimulation of the posterior portion has reverse effects. The hypothalamus also has the role of integrating cardiovascular activity with respiratory, digestive, excretory activity, etc. for example, during digestion, a large volume of blood is required in the blood vessels of the digestive tract to provide the energy supplement needed for increased secretory activity, increased motility and to take the absorbed substances into the thin intestine. Since the volume of blood is constant, it is necessary to redistribute it to the territories of the digestive tract, with decreased irrigation of other tissues at rest at that time (skin, muscles). This redistribution of circulatory flow is performed by the hypothalamus.
+      The hypothalamus interferes with the Regulation of lipid, carbohydrate, portidine intermediate metabolisms and energy metabolism. The anterior hypothalamus favors anabolic processes, and the posterior the catabolic, energy-generating ones. Damage to the hypothalamus causes obesity or excessive weakening, depending on the location of the lesion.
+      The hypothalamus regulates the secretory activity of the pituitary gland. Neurones of the anterior hypothalamus have endocrine secretory properties. All hormones secreted by the hypothalamus are called neurosecretion products. Neurones in the superoptic and paraventricular nuclei secrete vasopressin and ocytocin (or oxytocin), hormones transported along the axons of these neurones to the posterior pituitary, where they are stored and from where they are released as needed. Other neurones secrete hormones that are released into the pituitary port blood system, reaching the anterior pituitary; these hormones are inhibitors or stimulators and regulate the secretion of adenopituitary. Through the anterior pituitary, the hypothalamus actually coordinates the activity of the entire endocrine system of the body.
+      The hypothalamus also regulates body temperature. The human body, like that of mammals and birds, is homeothermic, meaning it has a constant temperature (37°C) and independent of variations in ambient temperature. Constant temperature maintenance is achieved by the intervention of the hypothalamus, by feedback mechanism. In this feedback circuit, the regulated element is the average temperature of the body surface or the temperature of the blood that irrigates the hypothalamus. The transducers are the cutaneous thermoreceptors and the heat-sensitive neurones.</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 2614</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>      Hypothalamus:</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1387, 570</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>      The thalamus performs four functions:
+• The relay function is performed by the specific thalamic nuclei, in which the third neurone of the conduction pathways of all analyzers, except the olfactory one, is located. At this level there are numerous inhibitory synapses that can regulate the intensity of stimuli that propagate to the cortical areas. Some inhibitory synapses are found at the termination of cortico-talarci axons, through which the intensity of painful sensations can be controlled voluntarily.
+• The association function is achieved by the connections of some thalamic nuclei with the cortical associative areas of the parietal, temporal and occipital lobes. Based on these connections, the thalamus takes part, along with the brain bark, in the development of voluntary commands.
+• The motor function of the thalamus is achieved through the basal ganglia with which it is connected bidirectional, the neocerebellum and the black substance, from which it receives input.
+• Non-specific function is performed by non-specific thalamic nuclei, which are part of the reticular formation.
+</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>      Thalamus:</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>      Physiology of the diencephal:</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>      Although the cerebellum has no direct connections to motor forces, its presence is indispensible for their normal activity. The excitation of the cerebellum causes neither subjective sensations nor movement. However, after its removal, serious disorders of somatic motor functions occur. Especially rapid voluntary movements such as running, playing the piano, writing and speaking are disrupted.
+      The function of the cerebellum is closely related to its structure and the related and efferent connections it makes. On these anatomical bases, he performs the role of supervisor of motor activity, comparing the central command with the way it is executed.
+      In light of the cybernetic conception, the cerebellum appears as a servomechanism arranged in parallel on the paths that connect bidirectional higher motor centers to peripheral effectors and receptors. Any motor command sent to the periphery is sent, "in copy", to the cerebellum, which thus comes into possession of the theoretical model of motion. In turn, peripheral receptors (proprioceptors, exteroceptors, vestibular receptors) inform the cerebellum about the actual movement performed and possible changes in the body’s posture. Based on the information received, the cerebellum calculates the error between the desired and achieved movement and sends corrective pulses to the motor centers.
+      The cerebellum participates both in automatic motor activity (maintaining tone, balance, posture and body recovery) and in intentional, voluntary activity (walking, writing, speaking). Coordination of these two categories of somatic motor activities shall also be ensured.
+      Automatic motor functions are adjusted based on the connections of the vermis and flocculonodular lobe (aricerebel) with vestibular nuclei and extrapyramidal nuclei and the reticulated formation in the brain stem.
+      Intentional motor functions emanating from the motor bark and cortical associative areas are coordinated on the basis of connections of the cerebellar hemispheres (neocerebellum) with the thalamus and motor cortex.
+      Cooperation between voluntary and automatic movements ensures balance, tone and posture appropriate to the most perfect realization of intentional movements; it is based on the connections of the paleocerebellum (the cerebellar crust in the vicinity of the vermis) with the thalamus and the motor cortex, on the one hand, and with mesencephalic and basal extrapyramidal motor nuclei, on the other.
+</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>      Physiology of the cerebellum:</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>      The brain stem is the first component of the brain. Its functions are numerous and of importance.
+Through the brain stem pass all the pathways connecting the spinal cord to the upper floors of the CNS, as well as pathways specific to the brain stem that connect its various floors.
+• At the level of the trunk are the relay nuclei of the ascending and descending pathways, as well as the relay nuclei with the cerebellum.
+ • A series of reflexes are closed in the brain stem, as it contains sensory and motor nuclei that have the same sensory and motor functions for the regions of the face and head, as well as the functions of the medullary gray substance for the regions of the body from the neck down.
+• At the level of the brain stem is the cross-linked formation, with a role in the Regulation of muscle tone, cortical tone and in the control of spinal reflexes, balance and posture.
+• The brain stem contains the regulating centers of vital functions such as cardiovascular, respiratory and digestive activity.
+</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>      Physiology of the brain stem:</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Physiology of the encephal
+</value>
+  </data>
+</root>

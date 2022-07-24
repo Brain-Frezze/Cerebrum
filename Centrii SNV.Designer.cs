@@ -37,45 +37,31 @@
             // 
             // panel1
             // 
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1377, 1553);
-            this.panel1.TabIndex = 0;
             // 
             // label9
             // 
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 20F);
-            this.label9.Location = new System.Drawing.Point(-3, 102);
+            resources.ApplyResources(this.label9, "label9");
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(1377, 1485);
-            this.label9.TabIndex = 15;
-            this.label9.Text = resources.GetString("label9.Text");
             // 
             // label2
             // 
+            resources.ApplyResources(this.label2, "label2");
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Gabriola", 50F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(0, -16);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(1374, 155);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "Centrii SNV";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Centrii_SNV
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1415, 965);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Centrii_SNV";
-            this.Text = "Centrii_SNV";
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

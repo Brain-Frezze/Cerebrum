@@ -30,8 +30,8 @@
             // 
             // Autentificare
             // 
-            this.Autentificare.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.Autentificare, "Autentificare");
+            this.Autentificare.BackColor = System.Drawing.Color.Transparent;
             this.Autentificare.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Autentificare.FlatAppearance.BorderSize = 0;
             this.Autentificare.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -42,8 +42,8 @@
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Window;
             resources.ApplyResources(this.textBox1, "textBox1");
+            this.textBox1.BackColor = System.Drawing.SystemColors.Window;
             this.textBox1.ForeColor = System.Drawing.Color.Black;
             this.textBox1.Name = "textBox1";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -63,10 +63,10 @@
             // 
             // linkLabel1
             // 
+            resources.ApplyResources(this.linkLabel1, "linkLabel1");
             this.linkLabel1.ActiveLinkColor = System.Drawing.Color.DarkSlateGray;
             this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
             this.linkLabel1.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.linkLabel1, "linkLabel1");
             this.linkLabel1.LinkColor = System.Drawing.Color.MidnightBlue;
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.TabStop = true;
@@ -95,10 +95,10 @@
             // 
             // linkLabel2
             // 
+            resources.ApplyResources(this.linkLabel2, "linkLabel2");
             this.linkLabel2.ActiveLinkColor = System.Drawing.Color.DarkSlateGray;
             this.linkLabel2.BackColor = System.Drawing.Color.Transparent;
             this.linkLabel2.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.linkLabel2, "linkLabel2");
             this.linkLabel2.ForeColor = System.Drawing.SystemColors.MenuText;
             this.linkLabel2.LinkColor = System.Drawing.Color.MidnightBlue;
             this.linkLabel2.Name = "linkLabel2";
@@ -107,10 +107,10 @@
             // 
             // linkLabel3
             // 
+            resources.ApplyResources(this.linkLabel3, "linkLabel3");
             this.linkLabel3.ActiveLinkColor = System.Drawing.Color.DarkSlateGray;
             this.linkLabel3.BackColor = System.Drawing.Color.Transparent;
             this.linkLabel3.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.linkLabel3, "linkLabel3");
             this.linkLabel3.LinkColor = System.Drawing.Color.MidnightBlue;
             this.linkLabel3.Name = "linkLabel3";
             this.linkLabel3.TabStop = true;
@@ -126,30 +126,31 @@
             // 
             // toolStripDropDownButton1
             // 
+            resources.ApplyResources(this.toolStripDropDownButton1, "toolStripDropDownButton1");
             this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripDropDownButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.românăToolStripMenuItem,
             this.englishToolStripMenuItem});
-            resources.ApplyResources(this.toolStripDropDownButton1, "toolStripDropDownButton1");
             this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
+            this.toolStripDropDownButton1.Click += new System.EventHandler(this.toolStripDropDownButton1_Click);
             // 
             // românăToolStripMenuItem
             // 
-            this.românăToolStripMenuItem.Name = "românăToolStripMenuItem";
             resources.ApplyResources(this.românăToolStripMenuItem, "românăToolStripMenuItem");
+            this.românăToolStripMenuItem.Name = "românăToolStripMenuItem";
             this.românăToolStripMenuItem.Click += new System.EventHandler(this.românăToolStripMenuItem_Click);
             // 
             // englishToolStripMenuItem
             // 
-            this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
             resources.ApplyResources(this.englishToolStripMenuItem, "englishToolStripMenuItem");
+            this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
             this.englishToolStripMenuItem.Click += new System.EventHandler(this.englishToolStripMenuItem_Click);
             // 
             // Login
             // 
+            resources.ApplyResources(this, "$this");
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            resources.ApplyResources(this, "$this");
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.Controls.Add(this.toolStrip1);
