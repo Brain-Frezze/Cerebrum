@@ -22,6 +22,7 @@ namespace Cerebrum
         }
         private void button1_Click(object sender, EventArgs e)
         {
+            
             /* MailMessage mm = new MailMessage("company.cerebrum@gmail.com");
              mm.Subject = textBox1.Text;
              mm.Body = richTextBox1.Text;
@@ -34,7 +35,7 @@ namespace Cerebrum
              smtp.UseDefaultCredentials = false;
              smtp.Send(mm); 
              MessageBox.Show("E-mailul tău a fost trimis! Îţi mulţumim! "); */
-             System.Diagnostics.Process proc = new System.Diagnostics.Process();
+            System.Diagnostics.Process proc = new System.Diagnostics.Process();
              proc.StartInfo.FileName = "mailto:comapany.cerebrum@gmail.com?subject="+ (textBox1.Text) + "&body="+ (richTextBox1.Text);
             proc.Start();
              proc.Start();
