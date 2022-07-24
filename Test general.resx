@@ -117,7 +117,300 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;checkedListBox5.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="checkedListBox9.Items3" xml:space="preserve">
+    <value>nervii V nu sunt micşti, fiindcă nu au componentă vegetativă;</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>       Verificare</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox3.Name" xml:space="preserve">
+    <value>checkedListBox3</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="checkedListBox2.Items2" xml:space="preserve">
+    <value>calea are o proiecţie corticală precisă;</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="checkedListBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="checkedListBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>942, 205</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox5.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>822, 39</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="checkedListBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 1342</value>
+  </data>
+  <data name="checkedListBox9.Items4" xml:space="preserve">
+    <value>ultimile două variante sunt corecte;</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox5.Name" xml:space="preserve">
+    <value>checkedListBox5</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox4.Name" xml:space="preserve">
+    <value>checkedListBox4</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="checkedListBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="checkedListBox4.Items" xml:space="preserve">
+    <value>doar în epiderm; </value>
+  </data>
+  <data name="&gt;&gt;checkedListBox9.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkedListBox9.Items2" xml:space="preserve">
+    <value>originea aparentă a nervilor VI e aşezată medial de cea a nervilor VII;</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 1299</value>
+  </data>
+  <data name="checkedListBox7.Items4" xml:space="preserve">
+    <value>kinestezic;</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkedListBox2.Items" xml:space="preserve">
+    <value>receptorii se găsesc în lumenul vaselor;</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="checkedListBox6.Items4" xml:space="preserve">
+    <value>ultimile două variante sunt corecte;</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>9. O persoană prezintă abolirea sensibilităţii în treimea inferioară a feţei însoţită de imposibilitatea ridicării mandibulei, cel mai probabil prezintă o leziune a:  </value>
+  </data>
+  <data name="&gt;&gt;checkedListBox6.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="checkedListBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 1091</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 2084</value>
+  </data>
+  <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Gabriola, 20pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkedListBox3.Items1" xml:space="preserve">
+    <value>are ca receptori discurile Meissner;</value>
+  </data>
+  <data name="checkedListBox2.Items3" xml:space="preserve">
+    <value>protoneuronul se găseşte în ganglionii laterovertebrali;</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkedListBox9.Items1" xml:space="preserve">
+    <value>nervii XI au rădăcină dublă: una bulbară şi una pontină;</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>7. Căile sistemului nervos vegetativ: </value>
+  </data>
+  <data name="checkedListBox7.Items" xml:space="preserve">
+    <value>optic;</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>2. Nucleii hipotalamici posteriori: 
+</value>
+  </data>
+  <data name="checkedListBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox16.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>10. Despre nervii cranieni ştim: </value>
+  </data>
+  <data name="checkedListBox8.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox8.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkedListBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>942, 205</value>
+  </data>
+  <data name="checkedListBox9.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="checkedListBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 2439</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 2393</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="checkedListBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 832</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox6.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="checkedListBox6.Items1" xml:space="preserve">
+    <value>arahnoida are o structură epitelială, separată de pia mater printr-un spaţiu cu LCR;</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox2.Name" xml:space="preserve">
+    <value>checkedListBox2</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkedListBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>942, 205</value>
+  </data>
+  <data name="checkedListBox5.Items3" xml:space="preserve">
+    <value>ganglionii parasimpaticului pot fi doar fuxtaviscerali;</value>
+  </data>
+  <data name="checkedListBox3.Items" xml:space="preserve">
+    <value>are ca receptori corpusculii Merkel;</value>
+  </data>
+  <data name="checkedListBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 1604</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox9.Name" xml:space="preserve">
+    <value>checkedListBox9</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox6.Name" xml:space="preserve">
+    <value>checkedListBox6</value>
+  </data>
+  <data name="checkedListBox6.Items2" xml:space="preserve">
+    <value>măduva e formată din substanţă cenuşie aşezată sub formă de coloane;</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 277</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkedListBox8.Items3" xml:space="preserve">
+    <value>ramurilor senzitive ale nervului trigemen şi nucleului motor al nervului facial;</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="checkedListBox5.Items4" xml:space="preserve">
+    <value>parasimpaticul nu trimite eferenţe către muşchii piloerectori;</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 39</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Test_general</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="checkedListBox6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="button2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAncAAAC4CAYAAACB68oqAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -1516,9 +1809,166 @@
         AAAASUVORK5CYII=
 </value>
   </data>
-  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
+  <data name="checkedListBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 569</value>
+  </data>
+  <data name="checkedListBox8.Items4" xml:space="preserve">
+    <value>ramurii mijlocii a nervului trigemen; </value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>5. Protoneuronul căii este şi celula receptoare pentru analizatorul: </value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox16.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="checkedListBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1340, 205</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Test_general</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox7.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>1. Substanţa cenuşie din măduva spinării are următoarea alcătuire:</value>
+  </data>
+  <data name="checkedListBox3.Items2" xml:space="preserve">
+    <value>are tritoneuronul în talamus;</value>
+  </data>
+  <data name="checkedListBox1.Items4" xml:space="preserve">
+    <value>nicio variantă nu este corectă;</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="checkedListBox7.Items2" xml:space="preserve">
+    <value>auditiv;</value>
+  </data>
+  <data name="checkedListBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="checkedListBox9.Items" xml:space="preserve">
+    <value>nervii XII au originea reală în nucleul motor ambiguu;</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox3.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="checkedListBox8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="checkedListBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1285, 205</value>
+  </data>
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkedListBox1.Items3" xml:space="preserve">
+    <value>secretă un hormon de inhibiţie a MSH; </value>
+  </data>
+  <data name="checkedListBox5.Items1" xml:space="preserve">
+    <value>parasimpaticul din nivel medular se manifestă prin intermediul nervului vag;</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox7.Name" xml:space="preserve">
+    <value>checkedListBox7</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="checkedListBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 1867</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkedListBox7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="checkedListBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>942, 205</value>
+  </data>
+  <data name="checkedListBox8.Items1" xml:space="preserve">
+    <value>nucleului motor al nervului trigemen;</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="button2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="checkedListBox16.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 14</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox1.Name" xml:space="preserve">
+    <value>checkedListBox1</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="checkedListBox8.Items2" xml:space="preserve">
+    <value>ramurii mixte ale nervului trigemen;</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="checkedListBox1.Items1" xml:space="preserve">
+    <value>secretă neurohormoni stimulatori ai secreţiei adenohipofzare;</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAYAAAAAAAEAIAAoEwAAZgAAAICAAAABACAAKAgBAI4TAABAQAAAAQAgAChCAAC2GwEAMDAAAAEA
@@ -3267,4 +3717,335 @@
         AADAAwAA4BMAAPkfAAD//wAA
 </value>
   </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>499, 2700</value>
+  </data>
+  <data name="checkedListBox16.Items4" xml:space="preserve">
+    <value>comisura cenuşie nu prezintă neuroni;</value>
+  </data>
+  <data name="checkedListBox16.Items3" xml:space="preserve">
+    <value>în coarnele anterioare găsim motoneuronul gamma;</value>
+  </data>
+  <data name="checkedListBox16.Items2" xml:space="preserve">
+    <value>protoneuronul unor căi se află în coarnele posterioare;</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 1825</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>626, 39</value>
+  </data>
+  <data name="checkedListBox4.Items3" xml:space="preserve">
+    <value>în toate straturile pielii;</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkedListBox9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox16.Name" xml:space="preserve">
+    <value>checkedListBox16</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="checkedListBox16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>942, 205</value>
+  </data>
+  <data name="checkedListBox4.Items4" xml:space="preserve">
+    <value>în derm şi hipoderm;</value>
+  </data>
+  <data name="checkedListBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox8.Name" xml:space="preserve">
+    <value>checkedListBox8</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 1049</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1243, 50</value>
+  </data>
+  <data name="checkedListBox5.Items2" xml:space="preserve">
+    <value>simpaticul sacral se manifestă prin intermediul nervilor pelvini;</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>907, 39</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1534, 1102</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox8.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 1562</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1490, 2939</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkedListBox6.Items" xml:space="preserve">
+    <value>în dreptul regiunii cervicale şi sacrale, măduva prezintă două porţiun mai voluminoase;</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox4.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 39</value>
+  </data>
+  <data name="checkedListBox6.Items3" xml:space="preserve">
+    <value>dura mater are o structură elastică, pentru a rezista la şocuri;</value>
+  </data>
+  <data name="button2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="checkedListBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 527</value>
+  </data>
+  <data name="checkedListBox7.Items3" xml:space="preserve">
+    <value>olfactiv;</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="checkedListBox8.Items" xml:space="preserve">
+    <value>nucleului motor al nervului facial;</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>4. În cadrul căilor sensibilităţii interoceptive: </value>
+  </data>
+  <data name="checkedListBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="checkedListBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>6. În legătură cu măduva spinării, corecte sunt informaţiile: </value>
+  </data>
+  <data name="checkedListBox16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="checkedListBox1.Items" xml:space="preserve">
+    <value>secretă hormonal antidiuretic;</value>
+  </data>
+  <data name="checkedListBox4.Items1" xml:space="preserve">
+    <value>în epiderm şi derm;</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>8. Receptorii pentru durere pot fi situaţi: </value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>570, 39</value>
+  </data>
+  <data name="checkedListBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="checkedListBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>942, 205</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 39</value>
+  </data>
+  <data name="checkedListBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 319</value>
+  </data>
+  <data name="checkedListBox3.Items3" xml:space="preserve">
+    <value>fasciculul spinotalamic anterior are fibre din neuronii de aceaşi parte;</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkedListBox8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 2169</value>
+  </data>
+  <data name="checkedListBox4.Items2" xml:space="preserve">
+    <value>doar în hipoderm; </value>
+  </data>
+  <data name="checkedListBox5.Items" xml:space="preserve">
+    <value>nervul V trimite eferenţe simpatice către glandele salivare;</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="checkedListBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="checkedListBox3.Items4" xml:space="preserve">
+    <value>primele trei variante sunt corecte;</value>
+  </data>
+  <data name="checkedListBox2.Items4" xml:space="preserve">
+    <value>receptorii se pot găsi şi sub formă de corpusculi lamelaţi;</value>
+  </data>
+  <data name="label3.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>3. În cazul sensibilităţii tactile grosiere, afirmaţiile corecte sunt: 
+</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox7.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>908, 39</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="checkedListBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1118, 205</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="checkedListBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>942, 205</value>
+  </data>
+  <data name="checkedListBox1.Items2" xml:space="preserve">
+    <value>prezintă conexiuni nervoase cu neurohipofiza;</value>
+  </data>
+  <data name="checkedListBox16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 56</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>511, 112</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="checkedListBox2.Items1" xml:space="preserve">
+    <value>deutoneuronul se află în ganglionii laterovertebrali;</value>
+  </data>
+  <data name="checkedListBox16.Items1" xml:space="preserve">
+    <value>în regiunea sacrumului, există neuroni simpatomotori;</value>
+  </data>
+  <data name="checkedListBox7.Items1" xml:space="preserve">
+    <value>gustative;</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 790</value>
+  </data>
+  <data name="checkedListBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkedListBox5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1452, 94</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 20pt</value>
+  </data>
+  <data name="checkedListBox16.Items" xml:space="preserve">
+    <value>în regiunea cervicală C2 - C3 găsim 3 tipuri de coarne;</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
 </root>
