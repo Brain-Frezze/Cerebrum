@@ -175,6 +175,12 @@
     <Compile Include="Diencefalul.Designer.cs">
       <DependentUpon>Diencefalul.cs</DependentUpon>
     </Compile>
+    <Compile Include="E-mail folosit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="E-mail folosit.Designer.cs">
+      <DependentUpon>E-mail folosit.cs</DependentUpon>
+    </Compile>
     <Compile Include="Email.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -657,6 +663,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Diencefalul.ro.resx">
       <DependentUpon>Diencefalul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="E-mail folosit.bin.resx">
+      <DependentUpon>E-mail folosit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="E-mail folosit.en.resx">
+      <DependentUpon>E-mail folosit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="E-mail folosit.resx">
+      <DependentUpon>E-mail folosit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="E-mail folosit.ro-MD.resx">
+      <DependentUpon>E-mail folosit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="E-mail folosit.ro.resx">
+      <DependentUpon>E-mail folosit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Email.en.resx">
       <DependentUpon>Email.cs</DependentUpon>

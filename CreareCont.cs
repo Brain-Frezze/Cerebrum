@@ -57,17 +57,28 @@ namespace Cerebrum
                 {
                     con.Open();
                     bool exist = false;
+                    bool email = false;
                     using (OleDbCommand cmd = new OleDbCommand("select count(*) from Utilizator where Nume_utilizator = @Nume", con)) 
                     {
                         cmd.Parameters.AddWithValue("Nume_utilizator", textBox1.Text);
                         exist = (int)cmd.ExecuteScalar() > 0;
+                    }
+                    using (OleDbCommand cmd = new OleDbCommand("select count(*) from Utilizator where Email = @Email", con))
+                    {
+                        cmd.Parameters.AddWithValue("Email", textBox4.Text);
+                        email = (int)cmd.ExecuteScalar() > 0;
                     }
                     if (exist == true)
                     {
                         Folosit log = new Folosit();
                         log.Show();
                     }
-                    else
+                    if(email == true)
+                    {
+                        E_mail_folosit log = new E_mail_folosit();
+                        log.Show();
+                    }
+                    else if(email == false && exist == false)
                     {
                         using (OleDbCommand cmd = new OleDbCommand("INSERT INTO Utilizator VALUES (@Nume, @Parola, @Email)", con))
                         {
