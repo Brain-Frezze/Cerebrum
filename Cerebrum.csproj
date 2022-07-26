@@ -598,6 +598,9 @@
     <EmbeddedResource Include="Comentarii.resx">
       <DependentUpon>Comentarii.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Comentarii.ro-RO.resx">
+      <DependentUpon>Comentarii.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Comentarii.ro.resx">
       <DependentUpon>Comentarii.cs</DependentUpon>
     </EmbeddedResource>
