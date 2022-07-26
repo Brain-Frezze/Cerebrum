@@ -80,6 +80,7 @@ namespace Cerebrum
         }
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            this.Close();
             ParolaUitata log = new ParolaUitata();
             log.Show();
         }

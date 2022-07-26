@@ -22,7 +22,12 @@ namespace Cerebrum
         OleDbCommand cmd = new OleDbCommand();
         OleDbDataAdapter da = new OleDbDataAdapter();
 
-        private void button1_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
         {
             using (OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=BazaDateConturi.mdb"))
             {
@@ -36,11 +41,9 @@ namespace Cerebrum
                 }
                 con.Close();
             }
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
+            this.Close();
+            Login log = new Login();
+            log.Show();
         }
     }
 }
