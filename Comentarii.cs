@@ -36,7 +36,7 @@ namespace Cerebrum
              smtp.Send(mm); 
              MessageBox.Show("E-mailul tău a fost trimis! Îţi mulţumim! "); */
             System.Diagnostics.Process proc = new System.Diagnostics.Process();
-             proc.StartInfo.FileName = "mailto:comapany.cerebrum@gmail.com?subject="+ (textBox1.Text) + "&body="+ (richTextBox1.Text);
+             proc.StartInfo.FileName ="mailto:comapany.cerebrum@gmail.com?subject="+ (textBox1.Text) + "&body="+ (richTextBox1.Text);
             proc.Start();
              proc.Start();
             
@@ -58,6 +58,11 @@ namespace Cerebrum
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
         }
