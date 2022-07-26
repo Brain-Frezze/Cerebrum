@@ -179,11 +179,15 @@
   <data name="linkLabel1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkBox2.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="checkBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 41</value>
+    <value>226, 41</value>
   </data>
   <data name="checkBox2.Text" xml:space="preserve">
     <value>Terms and conditions</value>

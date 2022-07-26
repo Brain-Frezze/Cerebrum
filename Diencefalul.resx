@@ -136,6 +136,9 @@
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 2813</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="label12.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -181,9 +184,6 @@
   </data>
   <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 20pt</value>
-  </data>
-  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>7</value>
   </data>
   <data name="&gt;&gt;panel3.Name" xml:space="preserve">
     <value>panel3</value>
@@ -853,6 +853,9 @@
   <data name="label9.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
+  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 2249</value>
   </data>
@@ -874,8 +877,8 @@
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
-    <value>panel1</value>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
     <value>818, 483</value>
@@ -926,9 +929,6 @@
     <value>         Diencefalul, numit creierul intermediar, este aşezat deasupra mezencefalului, pe care îl depășește în sens anterior, și sub emisferele cerebrale, care îl acoperă. Prezintă o față dorsală, două fețe laterale şi o față bazală care corespunde spațiului interpenducular (optopeduncular). 
          Fața bazală a diecefalului este singura față vizibilă prin simpla răsturnare a encefalului. Ea este limitată anterior de chiasma optică, lateral de tracturile optice și posterior de picioarele pedunculilor cerebrali. Dinainte spre înapoi întâlnim în acest spațiu o serie de formațiuni. Imediat înapoia chiasmei optice se vede tuber cinereum de care, prin intermediul infundibulului, atârnă neurohipofiza.
 </value>
-  </data>
-  <data name="&gt;&gt;label10.Name" xml:space="preserve">
-    <value>label10</value>
   </data>
   <data name="&gt;&gt;label14.Name" xml:space="preserve">
     <value>label14</value>
@@ -1022,8 +1022,14 @@
   <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 20pt</value>
   </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>539, 41</value>
+  </data>
   <data name="&gt;&gt;label18.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 913</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -1039,9 +1045,6 @@
   </data>
   <data name="label16.Text" xml:space="preserve">
     <value>         Este partea din diencefal conectată la reglarea activităţii viscerale, la activitatea sistemului nervos vegetativ şi la funcţii endocrine.</value>
-  </data>
-  <data name="&gt;&gt;label16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label13.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -1179,17 +1182,14 @@
   <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 20pt</value>
   </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 1590</value>
-  </data>
   <data name="&gt;&gt;label5.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 2813</value>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1590</value>
   </data>
   <data name="&gt;&gt;label12.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -1674,8 +1674,8 @@
   <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3464</value>
   </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 913</value>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
   </data>
   <data name="&gt;&gt;label14.Parent" xml:space="preserve">
     <value>panel3</value>
@@ -9308,8 +9308,8 @@
   <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 16pt</value>
   </data>
-  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 20pt, style=Bold</value>
@@ -9392,8 +9392,8 @@
   <data name="&gt;&gt;label9.Name" xml:space="preserve">
     <value>label9</value>
   </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>539, 41</value>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>panel1</value>
   </data>
   <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
     <value>1371, 516</value>
@@ -9414,6 +9414,6 @@
     <value>True</value>
   </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>en</value>
+    <value>ro</value>
   </metadata>
 </root>

@@ -153,6 +153,9 @@
   <data name="checkBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 41</value>
+  </data>
   <data name="linkLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -5411,8 +5414,5 @@
         AAAAAAAAAAAAAAAAAAD//wAA8R8AAMATAACAAwAAgOMAAIADAAAACQAAAAAAAAAAAACACQAAgAMAAIDj
         AADAAwAA4BMAAPkfAAD//wAA
 </value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
 </root>
