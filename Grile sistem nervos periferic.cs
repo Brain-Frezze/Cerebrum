@@ -163,6 +163,7 @@ namespace Cerebrum
         }
         private void button1_Click(object sender, EventArgs e)
         {
+            button1.Enabled = false;
             timer1.Stop();
             CapitoleGrile.nr++;
             CapitoleGrile.ok = true;
